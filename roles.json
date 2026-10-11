@@ -1,0 +1,235 @@
+[
+  {
+    "role": "DJ or live act",
+    "short": "The performer the show is built around.",
+    "does": "Selects, sequences and blends tracks, or performs a live set from clips, stems and hardware. Specifies the booth gear on the technical rider and, for a timecoded show, supplies the playback that lights and video lock to.",
+    "answers_to": "Artist manager (business); the stage manager on show day",
+    "when": "Changeover and set time",
+    "source_url": "https://serato.com/latest/blog/18508/djlife-four-tips-for-smooth-dj-changeovers"
+  },
+  {
+    "role": "Artist manager",
+    "short": "Runs the artist's career and business.",
+    "does": "Handles overall career strategy, often hires the tour manager, and with the business manager approves the tour budget.",
+    "answers_to": "The artist",
+    "when": "Before the tour, when budgets and dates are set",
+    "source_url": "https://en.wikipedia.org/wiki/Tour_manager"
+  },
+  {
+    "role": "Tour manager",
+    "short": "Owns a tour's money, schedule and people.",
+    "does": "Builds the tour budget, advances every show, prepares the day sheet and guest list, handles passes, pays per diems and settles the fee with the promoter after the show. Often hired freelance per tour by the agent or artist manager.",
+    "answers_to": "Artist manager and business manager",
+    "when": "Advance days, arrival, and settlement after the show",
+    "source_url": "https://en.wikipedia.org/wiki/Tour_manager"
+  },
+  {
+    "role": "Road manager",
+    "short": "Handles one act's day-to-day details on the road.",
+    "does": "Looks after a single act's logistics where a tour manager oversees the whole tour; on smaller tours one person does both jobs.",
+    "answers_to": "Tour manager",
+    "when": "All day, from travel to load-out",
+    "source_url": "https://en.wikipedia.org/wiki/Tour_manager"
+  },
+  {
+    "role": "Backline tech",
+    "short": "Looks after the performer's gear.",
+    "does": "At an electronic show, sets up and checks the CDJs, mixer, controllers and any instruments, confirms models and firmware, and keeps spares and backup USBs ready. Practitioner advice: arrive before doors to test.",
+    "answers_to": "Production manager or tour manager",
+    "when": "Setup, line check and every changeover",
+    "source_url": "https://forum.djtechtools.com/t/i-am-a-backline-tech-for-a-sound-production-company-that-does-festivals-clubs-ama/71977"
+  },
+  {
+    "role": "Booking agent",
+    "short": "Sells the artist's dates.",
+    "does": "Represents the artist to promoters and venues, negotiates fees and deal terms, and often hires the tour manager.",
+    "answers_to": "The artist and artist manager",
+    "when": "Months before the show"
+  },
+  {
+    "role": "Promoter",
+    "short": "Takes the financial risk on the show.",
+    "does": "Rents or partners with the venue, pays the artist, markets the show and keeps or splits what is left after costs. Meets the tour manager at the end of the night for settlement.",
+    "answers_to": "Their own company or investors",
+    "when": "On sale, doors and settlement"
+  },
+  {
+    "role": "Talent buyer",
+    "short": "Books artists for a venue or promoter.",
+    "does": "The agent's counterpart on the buying side: chooses acts, makes offers and builds the line-up.",
+    "answers_to": "Promoter or venue owner",
+    "when": "Months before the show"
+  },
+  {
+    "role": "Production manager",
+    "short": "Owns the technical side of the show.",
+    "does": "Runs the technical advance, hires vendors, sets crew calls and writes the production schedule. Coordinates sound, light and backline rental with the tour manager.",
+    "answers_to": "Tour manager (on tour) or promoter (for a festival)",
+    "when": "Advance and load-in",
+    "source_url": "https://en.wikipedia.org/wiki/Tour_manager"
+  },
+  {
+    "role": "Stage manager",
+    "short": "Runs the stage on show day.",
+    "does": "Keeps acts, crew and equipment moving on and off stage to time, and runs the changeovers that beginners routinely underestimate.",
+    "answers_to": "Production manager",
+    "when": "Changeovers and show time",
+    "source_url": "https://www.mi.edu/in-the-know/plan-live-concert-beginners-guide-show-advance-stage-plots-load/"
+  },
+  {
+    "role": "Runner",
+    "short": "Errands and driving.",
+    "does": "Fetches, delivers and drives for the production and artists. Often the first job in the trade.",
+    "answers_to": "Production manager or production coordinator",
+    "when": "All day"
+  },
+  {
+    "role": "FOH engineer",
+    "short": "Runs the audience mix.",
+    "does": "Mixes the sound the crowd hears from the front-of-house position. At a DJ-only show there is often little to mix, so the job is mainly guarding the system limiter and overall level.",
+    "answers_to": "Production manager",
+    "when": "Soundcheck and show",
+    "source_url": "https://www.mi.edu/in-the-know/plan-live-concert-beginners-guide-show-advance-stage-plots-load/"
+  },
+  {
+    "role": "Monitor engineer",
+    "short": "Runs what performers hear on stage.",
+    "does": "Mixes wedges or in-ear monitors for performers. At a DJ show the booth monitors fed from the mixer are effectively the DJ's monitor mix.",
+    "answers_to": "Production manager",
+    "when": "Line check, soundcheck and show",
+    "source_url": "https://www.mi.edu/in-the-know/plan-live-concert-beginners-guide-show-advance-stage-plots-load/"
+  },
+  {
+    "role": "System tech",
+    "short": "Builds and tunes the PA.",
+    "does": "Arrives first, measures the room, assembles and tunes the sound system, and walks the coverage zones during the show.",
+    "answers_to": "FOH engineer or production manager",
+    "when": "Early load-in and tuning, then the show",
+    "source_url": "https://www.prosoundweb.com/?p=129685"
+  },
+  {
+    "role": "Lighting designer",
+    "short": "Creates the lighting look.",
+    "does": "Designs the rig and the looks within the limits of visibility, safety and cost. On smaller tours also programs and runs the console.",
+    "answers_to": "Production manager and the artist's creative team",
+    "when": "Pre-production and programming",
+    "source_url": "https://en.wikipedia.org/wiki/Lighting_designer"
+  },
+  {
+    "role": "Lighting programmer",
+    "short": "Builds the show file.",
+    "does": "Turns the design into console data: palettes, cues and timecode. Often works in previs before the rig exists.",
+    "answers_to": "Lighting designer",
+    "when": "Pre-production and focus",
+    "source_url": "https://cast-soft.com/wysiwyg-lighting-design/"
+  },
+  {
+    "role": "Lighting operator",
+    "short": "Runs the lights each night.",
+    "does": "Plays back a timecoded show or busks the lights live to an unscripted DJ set. Electronic shows sometimes add a lighting director who adapts the design to each festival's house rig.",
+    "answers_to": "Lighting designer",
+    "when": "Show time"
+  },
+  {
+    "role": "Laser operator",
+    "short": "Runs the lasers, in direct control.",
+    "does": "A trained, competent operator who can see every beam path or has a spotter, with emergency stops always in reach. In the US works under the show's FDA variance conditions.",
+    "answers_to": "Laser safety officer or production manager",
+    "when": "Setup, alignment and show",
+    "source_url": "https://www.ilda.com/resources/Safety/Laser_Light_Show_Safety_Overview_One_Page-v7-ILDA-logo.pdf"
+  },
+  {
+    "role": "Laser safety officer",
+    "short": "Sets the controls that keep lasers safe.",
+    "does": "Evaluates laser hazards, sets beam limits and controls, and needs a working grasp of MPE and the law. There is no single US federal certification; some countries require a certified LSO.",
+    "answers_to": "Production manager and the variance holder",
+    "when": "Setup and alignment checks before doors",
+    "source_url": "https://www.lasershowsafety.info/LSO.html"
+  },
+  {
+    "role": "VJ",
+    "short": "Performs the visuals live.",
+    "does": "Mixes and triggers video content to the music, usually in Resolume or TouchDesigner, or runs a timecoded media server show.",
+    "answers_to": "Video director or production manager",
+    "when": "Show time",
+    "source_url": "https://resolume.com/software"
+  },
+  {
+    "role": "Video director",
+    "short": "Runs cameras and IMAG.",
+    "does": "Directs the camera crew and cuts live shots of the performer to the screens and, if there is one, the livestream.",
+    "answers_to": "Production manager",
+    "when": "Show time"
+  },
+  {
+    "role": "Head rigger",
+    "short": "Plans and leads the rigging.",
+    "does": "Marks rigging points on the floor, works out bridle lengths by trigonometry, and leads the riggers who hang hoists, truss, LED walls and scenery. Certified in the US through ETCP and in the UK through the PLASA National Rigging Certificate.",
+    "answers_to": "Production manager; works with the house rigger",
+    "when": "First thing at load-in, and again at load-out",
+    "source_url": "https://en.wikipedia.org/wiki/Entertainment_rigging"
+  },
+  {
+    "role": "Pyro and SFX operator",
+    "short": "Fires the pyro, flame, CO2 and confetti.",
+    "does": "Licensed or certified under state and local rules and working under a local permit, with a separate arm channel and an emergency stop in sight of every device. NFPA 1126's 2026 edition requires pyrotechnic professionals.",
+    "answers_to": "Production manager and the local fire authority",
+    "when": "Setup, test fires and show",
+    "source_url": "https://www.fire-police-ems.com/NFPA1126-2026.shtml"
+  },
+  {
+    "role": "Production electrician",
+    "short": "Distributes and checks show power.",
+    "does": "Connects generators or shore power to the distros, runs feeder to each stage and checks circuits before anything switches on. Three-phase hookups are a licensed-electrician job; ETCP certifies entertainment electricians and portable power technicians.",
+    "answers_to": "Production manager",
+    "when": "Early load-in, then on call",
+    "source_url": "https://etcp.esta.org/"
+  },
+  {
+    "role": "House rigger",
+    "short": "Guards the building's structure.",
+    "does": "Approves the tour's rigging plot against the building's point load limits and oversees what is hung from the roof.",
+    "answers_to": "Venue production manager",
+    "when": "Load-in and load-out"
+  },
+  {
+    "role": "Local stagehands",
+    "short": "The venue's or city's crew.",
+    "does": "Unload, carry, build and strike. Most US stagehands work through IATSE locals, which each negotiate their own contracts.",
+    "answers_to": "Their crew chief and the production manager",
+    "when": "Load-in and load-out",
+    "source_url": "https://www.iatse.net/about-iatse"
+  },
+  {
+    "role": "Safety and security lead",
+    "short": "Owns crowd safety and security on site.",
+    "does": "Plans crowd capacity, density and egress, and coordinates security, police and medical. At Astroworld a separate firm oversaw safety and security alongside promoter and police staff, a structure that shows how many parties share the job.",
+    "answers_to": "Promoter and festival operations director",
+    "when": "Doors and peak crowd",
+    "source_url": "https://houstonlanding.org/astroworld-planners-foresaw-crowding-before-deadly-festival-no-way-we-are-going-to-fit-50k"
+  },
+  {
+    "role": "Crowd manager",
+    "short": "Watches and manages crowd movement.",
+    "does": "Trained staff who monitor crowd conditions and move people safely. NFPA's Life Safety Code began requiring them in nightclubs after The Station fire.",
+    "answers_to": "Safety and security lead",
+    "when": "Doors, peak and egress",
+    "source_url": "https://en.wikipedia.org/wiki/The_Station_nightclub_fire"
+  },
+  {
+    "role": "Fire watch",
+    "short": "A person acting as the smoke detector.",
+    "does": "Posted when a venue isolates its smoke detectors so haze will not set them off, with no other duties, and ensures detectors are re-enabled and tested at the end.",
+    "answers_to": "Venue fire safety manager",
+    "when": "Whenever detectors are isolated",
+    "source_url": "https://www.malmesbury.gov.uk/media/acfupload/haze_machine_hirer_conditions.pdf"
+  },
+  {
+    "role": "Harm reduction team",
+    "short": "Keeps people who use drugs safer.",
+    "does": "Provides drug information, free water, earplugs and, where licensed, drug checking. DanceSafe has worked on site at US festivals, and The Loop received the UK's first Home Office licence in 2024.",
+    "answers_to": "Promoter, with medical and local authorities",
+    "when": "Doors through close",
+    "source_url": "https://drugpolicy.org/?p=4493"
+  }
+]

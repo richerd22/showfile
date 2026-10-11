@@ -1,0 +1,541 @@
+[
+  {
+    "date": "1877-08-12",
+    "label": "Edison's phonograph",
+    "detail": "Edison's tinfoil phonograph is traditionally dated to 12 August 1877, though the Library of Congress notes it was probably built several months later, with the patent filed on 24 December 1877 (date disputed).",
+    "source_url": "https://www.loc.gov/collections/edison-company-motion-pictures-and-sound-recordings/articles-and-essays/history-of-edison-sound-recordings/history-of-the-cylinder-phonograph/",
+    "era": "Recording and amplification"
+  },
+  {
+    "date": "1881-10-10",
+    "label": "Savoy Theatre opens under electric light",
+    "detail": "London's Savoy opens as the first public building lit entirely by electricity, with about 1,200 Swan lamps fed by a 120-horsepower generator.",
+    "source_url": "https://en.wikipedia.org/wiki/Savoy_Theatre",
+    "era": "Before electricity"
+  },
+  {
+    "date": "1881-12-28",
+    "label": "The Savoy's stage goes electric",
+    "detail": "The stage, kept on gas because the first generator was too small, switches to electric light, and Richard D'Oyly Carte breaks a lit bulb onstage to prove it is safe.",
+    "source_url": "https://en.wikipedia.org/wiki/Savoy_Theatre",
+    "era": "Before electricity"
+  },
+  {
+    "date": "1887-11-08",
+    "label": "Berliner patents the gramophone",
+    "detail": "Emile Berliner patents the flat-disc gramophone, the format that eventually displaced Edison's cylinders.",
+    "source_url": "https://www.loc.gov/collections/emile-berliner/articles-and-essays/gramophone/",
+    "era": "Recording and amplification"
+  },
+  {
+    "date": "1906-12-21",
+    "label": "Fessenden's radio demonstration",
+    "detail": "Reginald Fessenden demonstrates radio at Brant Rock, Massachusetts; his famous Christmas Eve 1906 broadcast is disputed and traces to a letter he wrote in 1932 (date disputed).",
+    "source_url": "https://www.radioworld.com/columns-and-views/in-search-of-the-truth-about-fessenden",
+    "era": "Recording and amplification"
+  },
+  {
+    "date": "1915-12-10",
+    "label": "Magnavox loudspeaker demonstrated",
+    "detail": "Jensen and Pridham's moving-coil Magnavox speaker is demonstrated publicly in Golden Gate Park, San Francisco, carrying music and a speech by the governor.",
+    "source_url": "https://www.comsol.com/blogs/the-loudspeaker-celebrates-100-years-of-use-and-influence",
+    "era": "Recording and amplification"
+  },
+  {
+    "date": "1920",
+    "label": "The theremin",
+    "detail": "Leon Theremin's electronic instrument is usually dated to 1920, though the Moog Foundation's timeline lists it as Russia, 1924 (date disputed).",
+    "source_url": "https://moogfoundation.org/timeline/",
+    "era": "Electronic instruments"
+  },
+  {
+    "date": "1920-11-02",
+    "label": "KDKA starts scheduled broadcasting",
+    "detail": "Westinghouse's KDKA in East Pittsburgh reads out election returns at 100 watts, a pioneer of commercial broadcasting, though other stations claim to be older.",
+    "source_url": "https://ethw.org/Milestones:Westinghouse_Radio_Station_KDKA,_1920",
+    "era": "Recording and amplification"
+  },
+  {
+    "date": "1948",
+    "label": "Musique concrète in Paris",
+    "detail": "Pierre Schaeffer and colleagues at French radio's Studio d'Essai develop music assembled from recorded sound on tape.",
+    "source_url": "https://www.britannica.com/art/musique-concrete",
+    "era": "Electronic instruments"
+  },
+  {
+    "date": "1954",
+    "label": "Hanley Sound founded",
+    "detail": "Bill Hanley, later known as the Father of Festival Sound and credited with moving the mixing desk out front, founds Hanley Sound in Medford, Massachusetts.",
+    "source_url": "https://www.mmone.org/?p=8816",
+    "era": "Recording and amplification"
+  },
+  {
+    "date": "1958",
+    "label": "Poème électronique plays through 400 speakers",
+    "detail": "Edgard Varèse's piece plays through 400 loudspeakers at the Brussels World's Fair, an early multi-speaker spatial sound installation.",
+    "source_url": "https://www.britannica.com/art/musique-concrete",
+    "era": "Electronic instruments"
+  },
+  {
+    "date": "1964",
+    "label": "Moog's modular synthesizer",
+    "detail": "Robert Moog's transistorized, voltage-controlled synthesizer, programmed with patch cords, appears in the US, with Don Buchla's 100 series developing in parallel.",
+    "source_url": "https://moogfoundation.org/timeline/",
+    "era": "Electronic instruments"
+  },
+  {
+    "date": "1968",
+    "label": "Joshua Light Show at the Fillmore East",
+    "detail": "Joshua White's liquid light show becomes the house show at Bill Graham's Fillmore East, running until 1970.",
+    "source_url": "https://issueprojectroom.org/event/soundscreen-design-presents-seriously-ecstatic-joshua-white-fillmore-east-1968-70",
+    "era": "Spectacle era"
+  },
+  {
+    "date": "1969-08",
+    "label": "Hanley's Woodstock rig",
+    "detail": "Hanley Sound covers more than 400,000 people at Woodstock with what was described as one of the most expensive, elaborate and powerful sound systems ever built.",
+    "source_url": "https://www.mmone.org/?p=8816",
+    "era": "Recording and amplification"
+  },
+  {
+    "date": "1970-02-14",
+    "label": "The Loft's first party",
+    "detail": "David Mancuso's first Love Saves the Day party at his Broadway home, for about 100 people on an audiophile sound system engineered by Alex Rosner.",
+    "source_url": "https://en.wikipedia.org/wiki/The_Loft_(New_York_City)",
+    "era": "Clubs and DJs"
+  },
+  {
+    "date": "1972-10",
+    "label": "Technics SL-1200 launches",
+    "detail": "The SL-1200 arrives as a hi-fi direct-drive turntable; its DJ career comes later.",
+    "source_url": "https://en.wikipedia.org/wiki/Technics_SL-1200",
+    "era": "Clubs and DJs"
+  },
+  {
+    "date": "1973-02-09",
+    "label": "Wall of Sound's rough debut",
+    "detail": "A preliminary Grateful Dead Wall of Sound debuts at Stanford's Maples Pavilion, and every tweeter blows during the first song.",
+    "source_url": "https://www.mixonline.com/live-sound/grateful-deads-wall-of-sound-pa-to-be-auctioned",
+    "era": "Spectacle era"
+  },
+  {
+    "date": "1973-08-11",
+    "label": "Kool Herc's Sedgwick Avenue party",
+    "detail": "DJ Kool Herc's back-to-school party in the Bronx becomes the conventional birthday of hip-hop, a date Rolling Stone frames as part history and part mystery.",
+    "source_url": "https://www.rollingstone.com/music/music-features/kool-herc-hip-hop-50-august-11-1973-1234802035/",
+    "era": "Clubs and DJs"
+  },
+  {
+    "date": "1974-03-23",
+    "label": "The full Wall of Sound tours",
+    "detail": "The Wall of Sound, about 75 tons of speakers in six separate systems, opens its tour at the Cow Palace; it is retired after Winterland in October 1974 as costs spiral.",
+    "source_url": "https://en.wikipedia.org/wiki/Wall_of_Sound_(Grateful_Dead)",
+    "era": "Spectacle era"
+  },
+  {
+    "date": "1976",
+    "label": "The Mothership lands",
+    "detail": "Parliament-Funkadelic's aluminium Mothership starts delivering Dr. Funkenstein to the stage, used at the end of concerts until 1981.",
+    "source_url": "https://music.si.edu/video/what-mothership-and-why-it-national-museum-african-american-history-and-culture",
+    "era": "Spectacle era"
+  },
+  {
+    "date": "1977",
+    "label": "Paradise Garage and the Warehouse open",
+    "detail": "Michael Brody's Paradise Garage opens in New York with Richard Long's sound system, and Chicago's Warehouse, which gave house music its name, opens the same year.",
+    "source_url": "https://en.wikipedia.org/wiki/Paradise_Garage",
+    "era": "Clubs and DJs"
+  },
+  {
+    "date": "1979",
+    "label": "SL-1200MK2 built for discos",
+    "detail": "Technics releases the MK2, with a vertical pitch fader, which it calls the first turntable developed specifically for discos.",
+    "source_url": "https://www.technics.com/global/home/60th-anniversary/technics-brand-story/history-of-the-sl-1200.html",
+    "era": "Clubs and DJs"
+  },
+  {
+    "date": "1980",
+    "label": "Roland TR-808",
+    "detail": "Roland releases the TR-808 drum machine, a flop new that became a core instrument of house and techno second-hand.",
+    "source_url": "https://www.roland.com/global/company/history/",
+    "era": "Electronic instruments"
+  },
+  {
+    "date": "1980-02-07",
+    "label": "Pink Floyd's The Wall premieres",
+    "detail": "The Wall opens at the LA Memorial Sports Arena with a 160-foot wall of 420 cardboard bricks built and torn down each night, and opening pyro sets a curtain on fire.",
+    "source_url": "https://ultimateclassicrock.com/pink-floyd-the-wall-tour/",
+    "era": "Spectacle era"
+  },
+  {
+    "date": "1981",
+    "label": "Roland TB-303",
+    "detail": "Roland launches the TB-303 bass synthesizer; about 10,000 are sold before it is discontinued in under two years.",
+    "source_url": "https://www.roland.com/au/promos/303day/",
+    "era": "Electronic instruments"
+  },
+  {
+    "date": "1981-09-25",
+    "label": "Vari-Lite debuts with Genesis",
+    "detail": "The first Vari-Lite moving lights premiere at a Barcelona bullring on the opening night of Genesis' Abacab tour.",
+    "source_url": "https://timeless.mydigitalpublication.com/article/Backstage+History/4111881/721065/article.html",
+    "era": "Spectacle era"
+  },
+  {
+    "date": "1982-05-21",
+    "label": "The Haçienda opens",
+    "detail": "Factory Records' Manchester club opens; New Order's Peter Hook later said it lost up to 18 million pounds.",
+    "source_url": "https://en.wikipedia.org/wiki/The_Ha%C3%A7ienda",
+    "era": "Clubs and DJs"
+  },
+  {
+    "date": "1985",
+    "label": "JumboTron at Expo '85",
+    "detail": "Sony's JumboTron debuts in Tsukuba, Japan, with about 450,000 pixels of cathode-ray tube, years before full-colour LED screens were possible.",
+    "source_url": "https://en.wikipedia.org/wiki/Jumbotron",
+    "era": "Spectacle era"
+  },
+  {
+    "date": "1986",
+    "label": "DMX512 created",
+    "detail": "USITT creates DMX512, the 512-channel lighting control standard now maintained by ESTA as ANSI E1.11.",
+    "source_url": "https://en.wikipedia.org/wiki/DMX512",
+    "era": "Spectacle era"
+  },
+  {
+    "date": "1988",
+    "label": "Second Summer of Love",
+    "detail": "UK acid house explodes from clubs like Shoom to orbital raves around the M25, peaking in 1989.",
+    "source_url": "https://en.wikipedia.org/wiki/Second_Summer_of_Love",
+    "era": "Rave and festival"
+  },
+  {
+    "date": "1990",
+    "label": "UK raises fines for unlicensed parties",
+    "detail": "The Entertainments (Increased Penalties) Act raises fines for unlicensed parties from 2,000 to 20,000 pounds, with up to six months in prison.",
+    "source_url": "https://en.wikipedia.org/wiki/Second_Summer_of_Love",
+    "era": "Rules and safety"
+  },
+  {
+    "date": "1991-01",
+    "label": "Denon DN-2000F unveiled",
+    "detail": "Denon shows its rack-mounted dual CD controller at NAMM, reaching booths in 1992; Wikipedia dates a Denon dual-deck to 1993, possibly a different model (date disputed).",
+    "source_url": "https://edmislife.com/?p=45776",
+    "era": "Digital booth"
+  },
+  {
+    "date": "1991-09-21",
+    "label": "Ministry of Sound opens",
+    "detail": "Inspired by the Paradise Garage, the London club opens in a disused bus garage, spending 500,000 pounds each on sound and soundproofing.",
+    "source_url": "https://en.wikipedia.org/wiki/Ministry_of_Sound",
+    "era": "Rave and festival"
+  },
+  {
+    "date": "1992",
+    "label": "L-Acoustics V-DOSC",
+    "detail": "L-Acoustics introduces the V-DOSC line array, built on what it calls Wavefront Sculpture Technology.",
+    "source_url": "https://en.wikipedia.org/wiki/L-Acoustics",
+    "era": "Spectacle era"
+  },
+  {
+    "date": "1992-02-29",
+    "label": "U2's Zoo TV tour begins",
+    "detail": "Zoo TV runs 157 shows synced almost entirely to pre-programmed video and audio, at 125,000 dollars a day.",
+    "source_url": "https://en.wikipedia.org/wiki/Zoo_TV_Tour",
+    "era": "Spectacle era"
+  },
+  {
+    "date": "1994",
+    "label": "Pioneer CDJ-500",
+    "detail": "Pioneer releases what it calls the first flat-top CD DJ player, with live cue, looping and master tempo.",
+    "source_url": "https://www.pioneerdj.com/en-us/news/2020/cdj-3000-professional-dj-multi-player/",
+    "era": "Digital booth"
+  },
+  {
+    "date": "1994-11-03",
+    "label": "Criminal Justice and Public Order Act",
+    "detail": "The UK act, whose section 63 targets outdoor gatherings with music of \"repetitive beats\", receives Royal Assent.",
+    "source_url": "https://en.wikipedia.org/wiki/Criminal_Justice_and_Public_Order_Act_1994",
+    "era": "Rules and safety"
+  },
+  {
+    "date": "1997",
+    "label": "U2 PopMart's LED screen",
+    "detail": "U2's PopMart tour carries an LED screen about 150 to 170 feet wide, built from 150,000 pixels by SACO Technologies.",
+    "source_url": "https://en.wikipedia.org/wiki/PopMart_Tour",
+    "era": "Spectacle era"
+  },
+  {
+    "date": "1997",
+    "label": "Insomniac's first EDC",
+    "detail": "Insomniac's Electric Daisy Carnival debuts at the Shrine Expo Hall in Los Angeles.",
+    "source_url": "https://en.wikipedia.org/wiki/Electric_Daisy_Carnival",
+    "era": "Rave and festival"
+  },
+  {
+    "date": "1999-03-13",
+    "label": "First Ultra Music Festival",
+    "detail": "Ultra debuts on Miami Beach for about 10,000 people.",
+    "source_url": "https://en.wikipedia.org/wiki/Ultra_Music_Festival",
+    "era": "Rave and festival"
+  },
+  {
+    "date": "1999-10-29",
+    "label": "Fabric opens",
+    "detail": "London's Fabric opens with three rooms of independent sound and a bodysonic floor of 400 bass transducers.",
+    "source_url": "https://en.wikipedia.org/wiki/Fabric_(club)",
+    "era": "Rave and festival"
+  },
+  {
+    "date": "2001-10-30",
+    "label": "Ableton Live 1.0",
+    "detail": "Ableton releases Live, whose warping makes beat-matched hybrid laptop sets possible.",
+    "source_url": "https://en.wikipedia.org/wiki/Ableton_Live",
+    "era": "Digital booth"
+  },
+  {
+    "date": "2003-02-20",
+    "label": "The Station nightclub fire",
+    "detail": "Pyrotechnic gerbs ignite acoustic foam at a Rhode Island club, killing 100 people and reshaping nightclub sprinkler and pyro rules.",
+    "source_url": "https://en.wikipedia.org/wiki/The_Station_nightclub_fire",
+    "era": "Rules and safety"
+  },
+  {
+    "date": "2003-04-30",
+    "label": "RAVE Act becomes law",
+    "detail": "The Illicit Drug Anti-Proliferation Act extends the US crack house statute to temporary events, chilling on-site harm reduction.",
+    "source_url": "https://en.wikipedia.org/wiki/RAVE_Act",
+    "era": "Rules and safety"
+  },
+  {
+    "date": "2004-12",
+    "label": "Berghain opens",
+    "detail": "Berghain opens in a former Berlin power plant; its first Funktion-One stack goes in the next year.",
+    "source_url": "https://en.wikipedia.org/wiki/Berghain",
+    "era": "Rave and festival"
+  },
+  {
+    "date": "2005-08",
+    "label": "First Tomorrowland",
+    "detail": "Tomorrowland debuts in Boom, Belgium, for about 10,000 people.",
+    "source_url": "https://en.wikipedia.org/wiki/Tomorrowland_(festival)",
+    "era": "Rave and festival"
+  },
+  {
+    "date": "2006-04-29",
+    "label": "Daft Punk's pyramid",
+    "detail": "Daft Punk debut their LED pyramid, built from off-the-shelf parts, in Coachella's Sahara Tent, sparking an arms race in live-show technology.",
+    "source_url": "https://www.waterandmusic.com/15-years-ago-daft-punks-coachella-set-helped-spark-an-arms-race-for-live-music-technology",
+    "era": "Spectacle era"
+  },
+  {
+    "date": "2008-07-05",
+    "label": "Laser injuries near Moscow",
+    "detail": "Lasers meant for the sky hit the crowd in tents at a rain-hit festival in Kirzhach; Reuters reported 29 people treated, ILDA puts it at 35.",
+    "source_url": "https://mg.co.za/article/2008-07-14-ravers-lose-sight-at-russian-laser-show",
+    "era": "Rules and safety"
+  },
+  {
+    "date": "2009-09-17",
+    "label": "CDJ-2000, PRO DJ LINK and rekordbox",
+    "detail": "Pioneer announces the CDJ-2000, which plays from USB, links up to four players over Ethernet and comes with rekordbox, so DJs can arrive with only a USB stick.",
+    "source_url": "https://www.musicradar.com/news/tech/pioneer-announces-cdj-2000-220336",
+    "era": "Digital booth"
+  },
+  {
+    "date": "2010-04",
+    "label": "deadmau5 unveils the Cube",
+    "detail": "deadmau5 debuts his first LED Cube at Coachella.",
+    "source_url": "https://en.wikipedia.org/wiki/Deadmau5",
+    "era": "Spectacle era"
+  },
+  {
+    "date": "2010-07-24",
+    "label": "Love Parade disaster",
+    "detail": "Twenty-one people die and 652 are injured in a crowd crush at a single entrance ramp in Duisburg; the Love Parade is cancelled for good.",
+    "source_url": "https://en.wikipedia.org/wiki/Love_Parade_disaster",
+    "era": "Rules and safety"
+  },
+  {
+    "date": "2011-06-01",
+    "label": "Amon Tobin's ISAM premieres",
+    "detail": "ISAM Live premieres at MUTEK in Montreal, projection-mapped onto a stack of cubes by a custom TouchDesigner application.",
+    "source_url": "https://derivative.ca/community-post/visualizing-amon-tobins-isam-v-squared-team/60785",
+    "era": "Spectacle era"
+  },
+  {
+    "date": "2011-08-13",
+    "label": "Indiana State Fair stage collapse",
+    "detail": "A gust of about 59 mph brings down a stage roof rated for 68 mph before a Sugarland concert, killing seven.",
+    "source_url": "https://en.wikipedia.org/wiki/Indiana_State_Fair_stage_collapse",
+    "era": "Rules and safety"
+  },
+  {
+    "date": "2011-08-18",
+    "label": "Pukkelpop storm",
+    "detail": "A sudden storm brings down a stage, a tent and screens at the Belgian festival, which is cancelled; five deaths is the commonly cited toll, unverified from an official source.",
+    "source_url": "https://iol.co.za/news/world/2011-08-19-storm-kills-five-at-belgian-rock-fest/",
+    "era": "Rules and safety"
+  },
+  {
+    "date": "2012-04",
+    "label": "Event Safety Alliance debuts",
+    "detail": "Formed in response to Indiana and led by Jim Digby, the ESA debuts at the Indiana Statehouse, modelled on the UK's Purple Guide.",
+    "source_url": "https://eventsafetyalliance.org/about-1",
+    "era": "Rules and safety"
+  },
+  {
+    "date": "2012-06",
+    "label": "\"We all hit play\"",
+    "detail": "deadmau5 posts that he just selects tracks and hits a spacebar, reported on 25 June 2012 and starting the genre's longest argument.",
+    "source_url": "https://archives.boulderweekly.com/?p=9009",
+    "era": "Digital booth"
+  },
+  {
+    "date": "2014-09",
+    "label": "Pioneer sells its DJ business to KKR",
+    "detail": "Pioneer agrees to sell 86% of its DJ business to KKR for about 59 billion yen, creating Pioneer DJ Corporation.",
+    "source_url": "https://www.reuters.com/article/us-pioneer-asset/pioneer-to-spin-off-dj-audio-unit-to-kkr-in-550-million-deal-idUSKBN0HB0G820140916",
+    "era": "Digital booth"
+  },
+  {
+    "date": "2020-01-01",
+    "label": "Pioneer DJ becomes AlphaTheta",
+    "detail": "Pioneer DJ Corporation renames itself AlphaTheta Corporation; Noritsu buys it later in 2020.",
+    "source_url": "https://alphatheta.com/fr/information/alphatheta-corporation-parent-company-change/",
+    "era": "Digital booth"
+  },
+  {
+    "date": "2020-09",
+    "label": "CDJ-3000 announced",
+    "detail": "Pioneer DJ announces the CDJ-3000, with a 9-inch touchscreen, eight hot cues, gigabit link for six players and no disc drive.",
+    "source_url": "https://www.pioneerdj.com/en-us/news/2020/cdj-3000-professional-dj-multi-player/",
+    "era": "Digital booth"
+  },
+  {
+    "date": "2021-11-05",
+    "label": "Astroworld crowd crush",
+    "detail": "Ten people die of compression asphyxia at the Houston festival; about half an hour passes between the mass-casualty declaration and the end of the show.",
+    "source_url": "https://abc13.com/astroworld-festival-victims-of-travis-scott-live-nation/11211623/",
+    "era": "Rules and safety"
+  },
+  {
+    "date": "2022-03-02",
+    "label": "WHO safe listening standard",
+    "detail": "The World Health Organization recommends no more than 100 dB LAeq over 15 minutes at venues and events.",
+    "source_url": "https://www.who.int/publications/i/item/9789240043114",
+    "era": "Rules and safety"
+  },
+  {
+    "date": "2022-12-05",
+    "label": "Serato adds real-time stems",
+    "detail": "Serato DJ Pro and Lite 3.0 add four real-time stems, part of stem separation going mainstream.",
+    "source_url": "https://www.digitaldjtips.com/2022/12/serato-dj-pro-lite-3-0-with-stems-launched-today/",
+    "era": "Digital booth"
+  },
+  {
+    "date": "2023-02",
+    "label": "FDA Laser Notice 56",
+    "detail": "FDA says it will not enforce certain US laser requirements for products meeting IEC 60825-1 Edition 3; show variances are unaffected.",
+    "source_url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/laser-products-conformance-iec-60825-1-ed-3-and-iec-60601-2-22-ed-31-laser-notice-no-56",
+    "era": "Rules and safety"
+  },
+  {
+    "date": "2023-09-29",
+    "label": "Sphere opens",
+    "detail": "The 2.3 billion dollar Las Vegas venue opens with U2, wrapping the audience in a 16K by 16K LED screen.",
+    "source_url": "https://en.wikipedia.org/wiki/Sphere_(venue)",
+    "era": "Spectacle era"
+  },
+  {
+    "date": "2024-05",
+    "label": "UK drug checking licensed",
+    "detail": "The Loop receives the first Home Office licence for on-site drug checking after a 2023 licensing requirement halted it.",
+    "source_url": "https://djmag.com/news/uk-festival-drug-testing-resume-summer-following-home-office-licence-debacle",
+    "era": "Rules and safety"
+  },
+  {
+    "date": "2024-06",
+    "label": "Twitch DJ Program announced",
+    "detail": "Twitch announces a label-licensed program for live DJ streaming; the DJ category launches on 8 August 2024.",
+    "source_url": "https://blog.twitch.tv/en/2024/06/06/introducing-the-twitch-dj-program/",
+    "era": "Digital booth"
+  },
+  {
+    "date": "2024-12-27",
+    "label": "Anyma at Sphere",
+    "detail": "Anyma's The End of Genesys opens as the first electronic music residency at Sphere, running into March 2025.",
+    "source_url": "https://www.sphereentertainmentco.com/afterlife-presents-anyma-the-end-of-genesys-residency",
+    "era": "Spectacle era"
+  },
+  {
+    "date": "2025-03-16",
+    "label": "Club Pulse fire, Kočani",
+    "detail": "Stage pyrotechnics ignite a flammable ceiling at a North Macedonian club, killing at least 59.",
+    "source_url": "https://www.channelstv.com/2025/03/17/what-we-know-about-north-macedonias-fatal-nightclub-fire/",
+    "era": "Rules and safety"
+  },
+  {
+    "date": "2025-07-16",
+    "label": "Tomorrowland mainstage burns",
+    "detail": "The Orbyz mainstage burns during a final pyro rehearsal less than 48 hours before opening; a smaller replacement, partly built from Metallica's touring rig, goes up within roughly 24 to 48 hours, depending on the source.",
+    "source_url": "https://www.tpimagazine.com/?p=82176",
+    "era": "Spectacle era"
+  },
+  {
+    "date": "2025-09-09",
+    "label": "CDJ-3000X announced",
+    "detail": "AlphaTheta announces the CDJ-3000X with Wi-Fi, cloud and streaming playback and no SD slot.",
+    "source_url": "https://alphatheta.com/ja/information/alphathetas-next-generation-professional-dj-player-cdj-3000x/",
+    "era": "Digital booth"
+  },
+  {
+    "date": "2026",
+    "label": "NFPA 1126 and 160, 2026 editions",
+    "detail": "The 2026 NFPA 1126 requires every proximate pyro operator to be a pyrotechnic professional, and NFPA 160 makes flame operators responsible for safe removal timing.",
+    "source_url": "https://www.fire-police-ems.com/NFPA1126-2026.shtml",
+    "era": "Rules and safety"
+  },
+  {
+    "date": "2026-01",
+    "label": "Le Constellation fire, Crans-Montana",
+    "detail": "A New Year's fire at a Swiss bar kills 40; the preliminary cause is sparklers on champagne bottles held too close to the ceiling.",
+    "source_url": "https://www.thefpa.co.uk/fire-and-risk-management-journal/news/40-dead-and-119-injured-in-swiss-new-year-party-fire",
+    "era": "Rules and safety"
+  },
+  {
+    "date": "2026-05",
+    "label": "inMusic agrees to buy Native Instruments",
+    "detail": "inMusic, owner of Denon DJ and Rane, agrees to buy Traktor's maker after it entered preliminary insolvency; completion was not confirmed as of June 2026.",
+    "source_url": "https://create.routenote.com/blog/inmusic-acquires-native-instruments/",
+    "era": "Digital booth"
+  },
+  {
+    "date": "2026-05-21",
+    "label": "AlphaTheta acquires DJ Monitor technology",
+    "detail": "AlphaTheta buys DJ Monitor's technology and assets to make KUVO a hub for club performance data for rights organisations.",
+    "source_url": "https://alphatheta.com/en/information/kuvo-technology-b-v/",
+    "era": "Digital booth"
+  },
+  {
+    "date": "2026-07-05",
+    "label": "A new Mothership lands",
+    "detail": "A lighter third version of Parliament-Funkadelic's Mothership lands at ESSENCE Fest in New Orleans.",
+    "source_url": "http://news.pollstar.com/2026/06/29/george-clinton-on-landing-a-new-mothership-at-this-weekends-essence-fest-were-going-to-keep-funking/",
+    "era": "Spectacle era"
+  },
+  {
+    "date": "2026-08",
+    "label": "Event Safety Alliance at 15",
+    "detail": "The ESA marks 15 years since Indiana and is developing a second Event Safety Guide and an OSHA 10 course for live events.",
+    "source_url": "https://www.livedesignonline.com/news/event-safety-alliance-marks-15-years-new-initiatives-advancing-future-event-safety",
+    "era": "Rules and safety"
+  },
+  {
+    "date": "2026-09",
+    "label": "rekordbox adds official SoundSwitch support",
+    "detail": "rekordbox and PRO DJ LINK Bridge add official SoundSwitch lighting support, replacing an older Ableton Link tempo-sync integration.",
+    "source_url": "https://rekordbox.com/en/2026/09/rekordbox-for-mac-windows-and-pro-dj-link-bridge-support-soundswitch/",
+    "era": "Digital booth"
+  }
+]
