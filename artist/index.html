@@ -1,0 +1,734 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Live Electronic Sets, Streaming and Music Rights | The Show File</title>
+<meta name="description" content="&quot;DJ set&quot; and &quot;live set&quot; sit on a spectrum, from improvised clip-launching to shows locked to timecode, and each point on it needs different production....">
+<link rel="canonical" href="https://showfile.cold.fyi/artist/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#0f1012">
+<meta property="og:type" content="article"><meta property="og:site_name" content="cold.fyi">
+<meta property="og:title" content="Live Electronic Sets, Streaming and Music Rights | The Show File"><meta property="og:description" content="&quot;DJ set&quot; and &quot;live set&quot; sit on a spectrum, from improvised clip-launching to shows locked to timecode, and each point on it needs different production....">
+<meta property="og:url" content="https://showfile.cold.fyi/artist/"><meta property="og:image" content="https://showfile.cold.fyi/og.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preload" href="/fonts/big-shoulders-stencil-display-latin-900-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/source-serif-4-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Live Electronic Sets, Streaming and Music Rights", "description": "\"DJ set\" and \"live set\" sit on a spectrum, from improvised clip-launching to shows locked to timecode, and each point on it needs different production....", "url": "https://showfile.cold.fyi/artist/", "image": "https://showfile.cold.fyi/og.png", "datePublished": "2026-10-11", "dateModified": "2026-10-11", "inLanguage": "en", "author": {"@type": "Organization", "name": "Third Polar Arch", "url": "https://thirdpolararch.com"}, "publisher": {"@type": "Organization", "name": "Third Polar Arch", "url": "https://thirdpolararch.com"}, "isPartOf": {"@type": "CreativeWork", "name": "The Show File", "url": "https://showfile.cold.fyi/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "The Show File", "item": "https://showfile.cold.fyi/"}, {"@type": "ListItem", "position": 2, "name": "The artist's rig, the stream and the rights", "item": "https://showfile.cold.fyi/artist/"}]}]}</script>
+<style>
+:root{padding:env(safe-area-inset-top,0px) 0 env(safe-area-inset-bottom,0px)}
+@font-face{font-family:'Big Shoulders Stencil Display';font-style:normal;font-weight:800;font-display:swap;src:url(/fonts/big-shoulders-stencil-display-latin-800-normal.woff2) format('woff2')}
+@font-face{font-family:'Big Shoulders Stencil Display';font-style:normal;font-weight:900;font-display:swap;src:url(/fonts/big-shoulders-stencil-display-latin-900-normal.woff2) format('woff2')}
+@font-face{font-family:'Source Serif 4';font-style:normal;font-weight:400;font-display:swap;src:url(/fonts/source-serif-4-latin-400-normal.woff2) format('woff2')}
+@font-face{font-family:'Source Serif 4';font-style:italic;font-weight:400;font-display:swap;src:url(/fonts/source-serif-4-latin-400-italic.woff2) format('woff2')}
+@font-face{font-family:'Source Serif 4';font-style:normal;font-weight:600;font-display:swap;src:url(/fonts/source-serif-4-latin-600-normal.woff2) format('woff2')}
+@font-face{font-family:'JetBrains Mono';font-style:normal;font-weight:400;font-display:swap;src:url(/fonts/jetbrains-mono-latin-400-normal.woff2) format('woff2')}
+@font-face{font-family:'JetBrains Mono';font-style:normal;font-weight:600;font-display:swap;src:url(/fonts/jetbrains-mono-latin-600-normal.woff2) format('woff2')}
+@font-face{font-family:'Permanent Marker';font-style:normal;font-weight:400;font-display:swap;src:url(/fonts/permanent-marker-latin-400-normal.woff2) format('woff2')}
+/* Layout: a road case and its paperwork - stencilled case lettering, gaffer-tape labels, spike-tape colour per section, one 68ch reading column with wide breakouts and a contents rail on big screens */
+:root{
+  color-scheme:dark;
+  --bg:#0f1012; --panel:#17191c; --panel2:#1e2125; --ink:#ebe7de; --muted:#a19d93; --line:#2e3136;
+  --tape:#f2c230; --tape-ink:#16150f; --hot:#ff6a45; --cue:#59c2ff;
+  --s1:#f2c230; --s2:#59c2ff; --s3:#ff6fae; --s4:#7ee07a; --s5:#ff9a3d; --s6:#e9e6df;
+  --f-display:"Big Shoulders Stencil Display","Arial Narrow",Impact,sans-serif;
+  --f-body:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --f-mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+  --f-hand:"Permanent Marker","Comic Sans MS","Bradley Hand",cursive;
+  --measure:68ch; --wide:980px;
+}
+@media (prefers-color-scheme: light){:root:not([data-theme="dark"]){
+  color-scheme:light;
+  --bg:#f3f1eb; --panel:#fffdf8; --panel2:#f7f4ec; --ink:#16171a; --muted:#5d5a53; --line:#d9d4c8;
+  --tape:#e7b414; --tape-ink:#16150f; --hot:#c33a1c; --cue:#0b6fb8;
+  --s1:#f2c230; --s2:#59c2ff; --s3:#ff8cc0; --s4:#86e082; --s5:#ffad5f; --s6:#ffffff }}
+:root[data-theme="light"]{
+  color-scheme:light;
+  --bg:#f3f1eb; --panel:#fffdf8; --panel2:#f7f4ec; --ink:#16171a; --muted:#5d5a53; --line:#d9d4c8;
+  --tape:#e7b414; --tape-ink:#16150f; --hot:#c33a1c; --cue:#0b6fb8;
+  --s1:#f2c230; --s2:#59c2ff; --s3:#ff8cc0; --s4:#86e082; --s5:#ffad5f; --s6:#ffffff }
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:1.125rem;line-height:1.62;margin:0}
+a{color:var(--cue);text-underline-offset:.16em;text-decoration-thickness:1px}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:2px solid var(--tape);outline-offset:2px}
+.skip{position:absolute;left:-999px}.skip:focus{left:1rem;top:1rem;background:var(--panel);padding:.5rem;z-index:20}
+::selection{background:var(--tape);color:var(--tape-ink)}
+
+.wrap{max-width:calc(var(--wide) + 2rem);margin:0 auto;padding-inline:1rem;padding-block:1rem 4rem}
+.col{max-width:var(--measure);margin-inline:auto}
+
+/* masthead */
+.mast{display:flex;justify-content:space-between;align-items:center;gap:.75rem;flex-wrap:wrap;font-family:var(--f-mono);font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding-block:.4rem;border-bottom:1px solid var(--line)}
+.mast a{color:var(--ink);text-decoration:none}
+.theme-btn{font:600 .72rem var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);background:none;border:1px solid var(--line);border-radius:3px;padding:.25rem .5rem;cursor:pointer}
+
+/* hero */
+.hero{padding-block:2.2rem 1.5rem}
+.case-id{font-family:var(--f-mono);font-size:.78rem;color:var(--muted);letter-spacing:.08em;text-transform:uppercase}
+h1{font-family:var(--f-display);font-weight:900;font-size:clamp(3.6rem,15vw,9.5rem);line-height:.84;letter-spacing:.01em;text-transform:uppercase;margin:.4rem 0 .9rem;text-wrap:balance}
+h1 span{display:block}
+h1 .file{color:var(--tape)}
+.dek{font-size:clamp(1.12rem,2.6vw,1.35rem);line-height:1.45;color:var(--muted);max-width:44rem;margin:0 0 1.4rem;text-wrap:pretty}
+.labels{display:flex;flex-wrap:wrap;gap:.55rem;margin:0 0 1.6rem;padding:0;list-style:none}
+.labels li{background:var(--tape);color:var(--tape-ink);font-family:var(--f-hand);font-size:1.02rem;line-height:1;padding:.5rem .7rem .45rem;transform:rotate(var(--r,-1deg));box-shadow:0 1px 0 rgba(0,0,0,.25);clip-path:polygon(2% 0,98% 4%,100% 92%,1% 100%)}
+.labels li:nth-child(2){--r:.8deg}.labels li:nth-child(3){--r:-.4deg}.labels li:nth-child(4){--r:1.2deg}.labels li:nth-child(5){--r:-1.4deg}
+.labels b{font-family:var(--f-mono);font-weight:600;font-size:.9rem;margin-right:.25rem}
+
+.paths{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding-block:.9rem;display:grid;gap:.6rem}
+.paths h2{margin:0;font-family:var(--f-mono);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.path-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(13.5rem,1fr));gap:.6rem}
+.path{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:.7rem .8rem;min-width:0}
+.path b{display:block;font-family:var(--f-display);font-weight:800;font-size:1.25rem;letter-spacing:.02em;text-transform:uppercase;line-height:1.05}
+.path p{margin:.25rem 0 .4rem;font-size:.9rem;line-height:1.35;color:var(--muted)}
+.path a{font-family:var(--f-mono);font-size:.74rem;margin-right:.55rem;display:inline-block;line-height:1.7}
+
+/* layout with rail */
+.layout{display:block}
+.rail{display:none}
+@media (min-width:1260px){
+  .layout{display:grid;grid-template-columns:15rem minmax(0,1fr);gap:2.5rem;max-width:calc(var(--wide) + 17.5rem);margin:0 auto}
+  .rail{display:block;position:sticky;top:calc(env(safe-area-inset-top,0px) + 1rem);align-self:start;max-height:calc(100vh - 2rem);overflow:auto;padding-right:.5rem;font-family:var(--f-mono);font-size:.74rem;line-height:1.3}
+  .rail a{display:flex;gap:.5rem;padding:.28rem .3rem;color:var(--muted);text-decoration:none;border-left:3px solid transparent}
+  .rail a.on{color:var(--ink);border-left-color:var(--tape);background:var(--panel)}
+  .rail .n{min-width:1.6rem;color:var(--muted)}
+  .rail h2{font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 .5rem}
+  .wrap.has-rail{max-width:none}
+}
+
+/* lede + toc */
+.lede{font-size:1.22rem;line-height:1.6;margin-top:1.8rem}
+.lede > p:first-of-type::first-letter{font-family:var(--f-display);font-weight:900;float:left;font-size:4.4em;line-height:.8;padding:.06em .1em 0 0;color:var(--tape)}
+nav.toc{margin:2.2rem 0;border:1px solid var(--line);border-radius:8px;background:var(--panel);padding:1rem 1.1rem}
+nav.toc h2{margin:0 0 .6rem;font-family:var(--f-mono);font-size:.74rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+nav.toc ol{list-style:none;margin:0;padding:0;columns:2 17rem;column-gap:2rem}
+nav.toc li{break-inside:avoid;padding:.18rem 0;font-size:1rem;line-height:1.3}
+nav.toc a{color:var(--ink);text-decoration:none;display:flex;gap:.55rem}
+nav.toc a:hover{color:var(--tape)}
+.chip-n{font-family:var(--f-mono);font-size:.72rem;font-weight:600;color:var(--tape-ink);background:var(--sc,var(--tape));min-width:1.9rem;text-align:center;padding:.12rem .25rem;border-radius:2px;height:fit-content;margin-top:.15rem}
+
+/* article */
+article h2{font-family:var(--f-display);font-weight:900;font-size:clamp(2.1rem,6vw,3.3rem);line-height:.95;letter-spacing:.01em;text-transform:uppercase;margin:4.2rem 0 1rem;text-wrap:balance;scroll-margin-top:1rem}
+article h2 .tape{display:inline-block;vertical-align:.5em;margin-right:.55rem;font-family:var(--f-hand);font-weight:400;font-size:.36em;letter-spacing:0;text-transform:none;color:var(--tape-ink);background:var(--sc,var(--tape));padding:.3em .5em .22em;transform:rotate(-2deg);clip-path:polygon(3% 0,97% 6%,100% 94%,0 100%)}
+article h3{font-family:var(--f-body);font-weight:600;font-size:1.32rem;line-height:1.25;margin:2.2rem 0 .55rem;text-wrap:balance}
+article p{margin:0 0 1.05rem;text-wrap:pretty}
+article strong{font-weight:600}
+article ul,article ol{padding-left:1.25rem;margin:0 0 1.05rem}
+article li{margin-bottom:.35rem}
+article p strong:first-child:is(:only-child,:first-child){}
+.short{border-left:4px solid var(--sc,var(--tape));background:var(--panel);padding:.85rem 1rem;border-radius:0 6px 6px 0;font-size:1.06rem}
+article code{font-family:var(--f-mono);font-size:.84em;background:var(--panel2);padding:.05em .3em;border-radius:3px}
+.tbl{overflow-x:auto;margin:1.2rem 0;border:1px solid var(--line);border-radius:6px}
+.tbl table{border-collapse:collapse;width:100%;font-size:.92rem;line-height:1.35}
+.tbl th,.tbl td{text-align:left;padding:.5rem .65rem;border-bottom:1px solid var(--line);vertical-align:top}
+.tbl th{font-family:var(--f-mono);font-size:.72rem;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);background:var(--panel)}
+.tbl tr:last-child td{border-bottom:0}
+.tbl td{font-variant-numeric:tabular-nums}
+sup{line-height:0}
+a.footnote-ref{font-family:var(--f-mono);font-size:.66rem;text-decoration:none;padding:0 .08em;color:var(--muted)}
+a.footnote-ref:hover{color:var(--tape)}
+a.footnote-ref::before{content:"["}a.footnote-ref::after{content:"]"}
+
+/* breakouts */
+.wide{max-width:var(--wide);margin-inline:auto}
+.fig{margin:2rem auto;display:grid;gap:.8rem}
+.fig.pair{grid-template-columns:repeat(auto-fit,minmax(16rem,1fr))}
+.fig figure{margin:0;min-width:0}
+.fig .frame{display:block;background:var(--panel);border:1px solid var(--line);border-radius:6px;overflow:hidden;position:relative;aspect-ratio:4/3}
+.fig img{display:block;width:100%;height:100%;object-fit:cover}
+.fig .fallback{display:none;position:absolute;inset:0;padding:1rem;font-family:var(--f-mono);font-size:.8rem;color:var(--muted);align-content:center;justify-items:start;gap:.3rem}
+.fig .frame.broken img{display:none}
+.fig .frame.broken .fallback{display:grid}
+.fig figcaption{font-size:.86rem;line-height:1.4;color:var(--muted);margin-top:.45rem}
+.fig figcaption b{color:var(--ink);font-weight:600}
+.fig .credit{display:block;font-family:var(--f-mono);font-size:.68rem;margin-top:.2rem}
+.fig .credit a{color:var(--muted)}
+
+.diagram{margin:2rem auto;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:.9rem .9rem .6rem}
+.diagram .dhead{font-family:var(--f-mono);font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--tape);margin-bottom:.4rem}
+.dscroll{overflow-x:auto}
+.dg{display:block;width:100%;min-width:560px;height:auto}
+.dg .bx{fill:var(--panel2);stroke:var(--line);stroke-width:1.5}
+.dg .bx.acc{stroke:var(--tape);stroke-width:2}
+.dg .bx.hot{stroke:var(--hot);stroke-width:2}
+.dg .bx.panel{fill:var(--bg);stroke:var(--tape);stroke-width:1}
+.dg .t{fill:var(--ink);font-family:var(--f-mono);font-weight:600;font-size:13px}
+.dg .t.sm{font-size:11.5px}
+.dg .s{fill:var(--muted);font-family:var(--f-mono);font-size:11px}
+.dg .s.xs{font-size:10.5px}
+.dg .s.cap{fill:var(--tape);font-size:11px;letter-spacing:.08em;text-transform:uppercase}
+.dg .s.lbl{font-size:10px}
+.dg .s.hot{fill:var(--hot)}
+.dg .w{stroke:var(--muted);stroke-width:1.8;fill:none}
+.dg .w.acc{stroke:var(--tape)}
+.dg .ah{fill:var(--muted)}.dg .aha{fill:var(--tape)}
+.dg .grid{stroke:var(--line);stroke-width:1}
+.dg .head{fill:var(--muted);opacity:.55}
+.dg .sep{stroke:var(--hot);stroke-width:1.5;stroke-dasharray:6 5}
+.dg .beam{stroke:var(--s4);stroke-width:2.2;fill:none;opacity:.9}
+.dg .beam.scan{stroke:var(--hot);stroke-dasharray:4 4}
+
+/* modules */
+.mod{margin:2.2rem auto;border:1px solid var(--line);border-radius:8px;background:var(--panel);overflow:hidden}
+.mod-head{padding:.9rem 1rem .8rem;border-bottom:1px solid var(--line)}
+.mod-head .kicker{font-family:var(--f-mono);font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--tape)}
+.mod-head h3{margin:.15rem 0 0;font-family:var(--f-display);font-weight:800;font-size:1.65rem;letter-spacing:.02em;text-transform:uppercase;line-height:1}
+.mod-head p{margin:.35rem 0 0;font-size:.94rem;color:var(--muted);line-height:1.4}
+.mod-body{padding:1rem}
+.mod-foot{padding:.55rem 1rem;border-top:1px solid var(--line);font-family:var(--f-mono);font-size:.7rem;color:var(--muted);line-height:1.5;overflow-wrap:anywhere}
+.mod-foot a{color:var(--muted)}
+.seg{display:flex;flex-wrap:wrap;gap:.35rem}
+.seg button{font:600 .78rem var(--f-mono);color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:999px;padding:.3rem .65rem;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--tape);color:var(--tape-ink);border-color:var(--tape)}
+.field{display:flex;flex-direction:column;gap:.25rem;font-family:var(--f-mono);font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);min-width:0}
+.field input,.field select{font:500 1rem var(--f-mono);color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:4px;padding:.5rem .55rem;width:100%;min-width:0;letter-spacing:0;text-transform:none}
+.btn{font:600 .85rem var(--f-mono);color:var(--tape-ink);background:var(--tape);border:0;border-radius:4px;padding:.55rem .9rem;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.count{font-family:var(--f-mono);font-size:.74rem;color:var(--muted)}
+
+/* timeline */
+.tl{list-style:none;margin:.9rem 0 0;padding:0;position:relative}
+.tl::before{content:"";position:absolute;left:5.6rem;top:.4rem;bottom:.4rem;width:2px;background:var(--line)}
+.tl li{display:grid;grid-template-columns:5rem minmax(0,1fr);gap:1.4rem;padding:.5rem 0;position:relative}
+.tl li::before{content:"";position:absolute;left:5.35rem;top:.95rem;width:10px;height:10px;border-radius:50%;background:var(--ec,var(--tape))}
+.tl .d{font-family:var(--f-mono);font-size:.76rem;color:var(--muted);padding-top:.25rem;text-align:right;font-variant-numeric:tabular-nums}
+.tl .l{font-weight:600;font-size:1.02rem;line-height:1.3}
+.tl .x{font-size:.92rem;line-height:1.42;color:var(--muted)}
+.tl .x a{font-family:var(--f-mono);font-size:.68rem;margin-left:.2rem;white-space:nowrap}
+.tl-box{max-height:30rem;overflow:hidden;position:relative}
+.tl-box.open{max-height:none}
+.tl-box:not(.open)::after{content:"";position:absolute;inset:auto 0 0 0;height:5rem;background:linear-gradient(transparent,var(--panel))}
+
+/* glossary */
+.gl-tools{display:grid;gap:.7rem}
+.gl-list{list-style:none;margin:.9rem 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(17rem,1fr));gap:.6rem}
+.gl-list li{background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:.65rem .75rem;min-width:0}
+.gl-list dfn{font-style:normal;font-weight:600;font-size:1.04rem}
+.gl-list .aka{font-family:var(--f-mono);font-size:.72rem;color:var(--muted);margin-left:.3rem}
+.gl-list .cat{display:inline-block;font-family:var(--f-mono);font-size:.64rem;letter-spacing:.06em;text-transform:uppercase;color:var(--tape-ink);background:var(--gc,var(--tape));padding:.05rem .35rem;border-radius:2px;margin-bottom:.3rem}
+.gl-list p{margin:.25rem 0 0;font-size:.92rem;line-height:1.42;color:var(--muted)}
+.gl-list .more{font-family:var(--f-mono);font-size:.68rem;margin-top:.35rem;display:inline-block}
+
+/* roles */
+.roles{display:grid;grid-template-columns:repeat(auto-fill,minmax(15.5rem,1fr));gap:.6rem}
+.roles details{background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:.6rem .75rem;min-width:0}
+.roles summary{cursor:pointer;list-style:none}
+.roles summary::-webkit-details-marker{display:none}
+.roles summary b{display:block;font-size:1.02rem}
+.roles summary span{font-size:.88rem;color:var(--muted);line-height:1.35;display:block}
+.roles .rd{font-size:.92rem;line-height:1.45;margin-top:.5rem}
+.roles .rd dl{margin:.4rem 0 0;font-family:var(--f-mono);font-size:.72rem;color:var(--muted)}
+.roles .rd dt{text-transform:uppercase;letter-spacing:.06em}
+.roles .rd dd{margin:0 0 .35rem;color:var(--ink);font-family:var(--f-body);font-size:.88rem}
+
+/* toolbox */
+.tools{display:grid;grid-template-columns:repeat(auto-fit,minmax(18rem,1fr));gap:.8rem}
+.tool{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:.85rem;display:grid;gap:.65rem;align-content:start;min-width:0}
+.tool h4{margin:0;font-family:var(--f-display);font-weight:800;font-size:1.3rem;letter-spacing:.02em;text-transform:uppercase;line-height:1}
+.tool .row{display:grid;grid-template-columns:1fr 1fr;gap:.5rem}
+.out{border-top:1px dashed var(--line);padding-top:.6rem;display:grid;gap:.3rem}
+.out .big{font-family:var(--f-mono);font-weight:600;font-size:1.5rem;color:var(--tape);line-height:1.1;font-variant-numeric:tabular-nums}
+.out p{margin:0;font-size:.86rem;line-height:1.4;color:var(--muted)}
+.out .warn{color:var(--hot)}
+.tool .src{font-family:var(--f-mono);font-size:.66rem;color:var(--muted)}
+.tool .src a{color:var(--muted)}
+
+/* checklist */
+.check{list-style:none;margin:0;padding:0;display:grid;gap:.15rem}
+.check li{display:flex;gap:.6rem;align-items:flex-start;padding:.35rem 0;border-bottom:1px solid var(--line)}
+.check input{width:1.15rem;height:1.15rem;margin-top:.2rem;accent-color:var(--tape);flex:none}
+.check label{font-size:.98rem;line-height:1.4;cursor:pointer}
+.check h4{margin:.8rem 0 .2rem;font-family:var(--f-mono);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--tape)}
+.check li.done label{color:var(--muted);text-decoration:line-through;text-decoration-color:var(--tape)}
+
+/* resources */
+.res{list-style:none;margin:.8rem 0 0;padding:0;display:grid;gap:.45rem}
+.res li{display:grid;grid-template-columns:5.5rem minmax(0,1fr);gap:.7rem;padding:.45rem 0;border-bottom:1px solid var(--line)}
+.res .ty{font-family:var(--f-mono);font-size:.66rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding-top:.2rem}
+.res a{font-weight:600}
+.res p{margin:.1rem 0 0;font-size:.9rem;color:var(--muted);line-height:1.4}
+
+/* faq, refs, footer */
+.faq details{border-bottom:1px solid var(--line);padding:.7rem 0}
+.faq summary{cursor:pointer;font-weight:600;font-size:1.06rem;line-height:1.35}
+.faq details p{margin:.45rem 0 0;font-size:1rem;color:var(--muted)}
+.cite{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:.85rem 1rem;margin:1.4rem 0;font-size:.95rem}
+.cite code{display:block;font-family:var(--f-mono);font-size:.78rem;white-space:pre-wrap;overflow-wrap:anywhere;margin:.4rem 0 .6rem}
+.refs{margin-top:3.5rem;border-top:2px solid var(--line);padding-top:1rem}
+.refs hr{display:none}
+.refs ol{padding-left:2.6rem;margin:0;font-size:.88rem;line-height:1.45;color:var(--muted)}
+.refs li{margin-bottom:.4rem;overflow-wrap:anywhere}
+.refs li::marker{font-family:var(--f-mono);font-size:.74rem;color:var(--tape)}
+.refs li p{margin:0;display:inline}
+.refs a.footnote-backref{text-decoration:none;margin-left:.25rem}
+.sisters{margin-top:3rem;border:1px solid var(--line);border-radius:8px;padding:.9rem 1rem;display:grid;gap:.4rem;background:var(--panel)}
+.sisters h2{margin:0;font-family:var(--f-mono);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.sisters ul{list-style:none;margin:0;padding:0;display:grid;gap:.35rem}
+.sisters a{font-weight:600}
+.sisters span{font-size:.92rem;color:var(--muted)}
+footer{margin-top:2rem;border-top:1px solid var(--line);padding-top:.8rem;font-family:var(--f-mono);font-size:.72rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:.5rem 1.25rem;justify-content:space-between}
+footer a{color:var(--muted)}
+.in-frame .site-only{display:none!important}
+
+/* breakouts: diagrams, figures, tables and tools widen past the text column, measured against the content column */
+.main{container-type:inline-size;min-width:0}
+.col .wide{width:min(var(--wide),100cqw);max-width:none;position:relative;left:50%;transform:translateX(-50%)}
+article h2{scroll-margin-top:1.6rem}
+
+.dscroll{position:relative}
+@media (max-width:620px){.diagram .dhead::after{content:" · swipe to see all";color:var(--muted)}}
+.roles summary b::after{content:" +";color:var(--tape);font-family:var(--f-mono);font-weight:600}
+.roles details[open] summary b::after{content:" -"}
+
+/* scene grid */
+.scenes{display:grid;grid-template-columns:repeat(auto-fill,minmax(17rem,1fr));gap:.6rem}
+.scene{background:var(--bg);border:1px solid var(--line);border-left:4px solid var(--tape);border-radius:6px;padding:.7rem .8rem;min-width:0}
+.scene:nth-child(6n+2){border-left-color:var(--s2)}.scene:nth-child(6n+3){border-left-color:var(--s3)}.scene:nth-child(6n+4){border-left-color:var(--s4)}.scene:nth-child(6n+5){border-left-color:var(--s5)}.scene:nth-child(6n+6){border-left-color:var(--s6)}
+.sc-top b{display:block;font-family:var(--f-display);font-weight:800;font-size:1.3rem;letter-spacing:.02em;text-transform:uppercase;line-height:1.05}
+.sc-top span{font-family:var(--f-mono);font-size:.72rem;color:var(--muted)}
+.scene p{margin:.4rem 0 0;font-size:.9rem;line-height:1.4}
+.scene .lab{display:block;font-family:var(--f-mono);font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+/* corrections */
+.corr{display:grid;grid-template-columns:repeat(auto-fit,minmax(17rem,1fr));gap:1rem}
+.corr h4{margin:0 0 .4rem;font-family:var(--f-mono);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--tape)}
+.corr p{margin:0 0 .6rem;font-size:.95rem}
+.report{margin:1.6rem 0 0;font-family:var(--f-mono);font-size:.72rem}
+.report a{color:var(--muted)}
+.legend{display:flex;flex-wrap:wrap;gap:.4rem 1.1rem;margin-top:.6rem;font-family:var(--f-mono);font-size:.76rem;color:var(--muted)}
+.legend i{display:inline-block;width:.8rem;height:.8rem;border-radius:2px;margin-right:.35rem;vertical-align:-1px}
+.sc-top span{display:block;line-height:1.4;margin-top:.15rem}
+
+/* multi-page: progress, section h1, meta, prev/next, hub cards, phone contents drawer */
+.progress{position:fixed;top:0;left:0;height:3px;width:0;background:var(--tape);z-index:30;transition:width .1s linear}
+article h1.sec-h1{font-family:var(--f-display);font-weight:900;font-size:clamp(2.4rem,7vw,3.8rem);line-height:.95;letter-spacing:.01em;text-transform:uppercase;margin:.6rem 0 1.1rem;text-wrap:balance}
+article h1.sec-h1 .tape{display:inline-block;vertical-align:.5em;margin-right:.55rem;font-family:var(--f-hand);font-weight:400;font-size:.34em;letter-spacing:0;text-transform:none;color:var(--tape-ink);background:var(--sc,var(--tape));padding:.3em .5em .22em;transform:rotate(-2deg);clip-path:polygon(3% 0,97% 6%,100% 94%,0 100%)}
+.readmeta{font-family:var(--f-mono);font-size:.74rem;color:var(--muted);margin:1.6rem 0 0}
+.pn{display:grid;grid-template-columns:1fr 1fr;gap:.7rem;margin:3rem 0 0}
+.pn a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:.8rem .9rem;text-decoration:none;color:var(--ink);font-weight:600;line-height:1.3;min-width:0}
+.pn a:hover{border-color:var(--tape)}
+.pn span{display:block;font-family:var(--f-mono);font-size:.68rem;font-weight:400;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:.2rem}
+.pn .next{text-align:right}
+.hubtoc{max-width:var(--wide);margin:2.6rem auto 0}
+.hubtoc h2{font-family:var(--f-display);font-weight:900;font-size:clamp(1.9rem,5vw,2.8rem);text-transform:uppercase;line-height:.95;margin:0}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(17rem,1fr));gap:.65rem;margin-top:1rem}
+.card{display:grid;grid-template-rows:auto auto 1fr auto;gap:.35rem;background:var(--panel);border:1px solid var(--line);border-top:4px solid var(--sc,var(--tape));border-radius:8px;padding:.8rem .9rem;text-decoration:none;color:var(--ink);min-width:0}
+.card:hover{border-color:var(--sc,var(--tape))}
+.card .chip-n{width:fit-content;margin:0}
+.card b{font-size:1.1rem;line-height:1.25}
+.card p{margin:0;font-size:.9rem;line-height:1.42;color:var(--muted)}
+.mtoc{position:fixed;right:1rem;bottom:calc(1rem + env(safe-area-inset-bottom,0px));z-index:25;max-width:calc(100vw - 2rem)}
+.mtoc summary{list-style:none;cursor:pointer;font:600 .8rem var(--f-mono);letter-spacing:.06em;text-transform:uppercase;background:var(--tape);color:var(--tape-ink);padding:.6rem .9rem;border-radius:999px;box-shadow:0 2px 10px rgba(0,0,0,.35);width:fit-content;margin-left:auto}
+.mtoc summary::-webkit-details-marker{display:none}
+.mtoc nav{margin-bottom:.5rem;background:var(--panel);border:1px solid var(--line);border-radius:10px;max-height:65vh;overflow:auto;padding:.4rem;width:min(22rem,calc(100vw - 2rem));font-family:var(--f-mono);font-size:.8rem}
+.mtoc[open]{display:flex;flex-direction:column-reverse}
+.mtoc a{display:flex;gap:.55rem;padding:.45rem .5rem;color:var(--ink);text-decoration:none;border-radius:6px}
+.mtoc a.on{background:var(--bg);color:var(--tape)}
+.mtoc .n{color:var(--muted);min-width:1.5rem}
+@media (min-width:1260px){.mtoc{display:none}}
+
+</style>
+</head>
+<body><a class="skip" href="#sec-artist">Skip to the section</a><div class="wrap has-rail"><div class="progress" id="progress" aria-hidden="true"></div><div class="mast"><span><a href="https://cold.fyi">cold.fyi</a> / <a href="/">The Show File</a> / The artist&#x27;s rig, the stream and the rights</span><button class="theme-btn" id="theme-btn" type="button">Lights up</button></div><div class="layout"><nav class="rail" aria-label="Sections"><h2><a href="/" style="color:inherit;text-decoration:none">The Show File</a></h2><a href="/primer/"><span class="n">01</span>How music came to need production</a><a href="/scenes/"><span class="n">02</span>The scenes that built it</a><a href="/lineage/"><span class="n">03</span>The lineage of excess</a><a href="/booth/"><span class="n">04</span>The booth</a><a href="/technique/"><span class="n">05</span>What you&#x27;re watching in the booth</a><a href="/network/"><span class="n">06</span>Why your CDJs are on a network</a><a href="/light/"><span class="n">07</span>Light</a><a href="/lasers/"><span class="n">08</span>Lasers</a><a href="/video/"><span class="n">09</span>Video and LED walls</a><a href="/showcontrol/"><span class="n">10</span>Who presses go: show control and timecode</a><a href="/sound/"><span class="n">11</span>Sound</a><a href="/power/"><span class="n">12</span>Power</a><a href="/sfx/"><span class="n">13</span>Fire, air and confetti</a><a href="/stage/"><span class="n">14</span>The stage itself</a><a href="/newtech/"><span class="n">15</span>New toys: drones, spatial audio, wristbands and holograms</a><a href="/venues/"><span class="n">16</span>Clubs, festivals and the rooms that shaped the gear</a><a href="/artist/" class=on aria-current=page><span class="n">17</span>The artist&#x27;s rig, the stream and the rights</a><a href="/crew/"><span class="n">18</span>Who does what</a><a href="/paperwork/"><span class="n">19</span>The paperwork</a><a href="/rigging/"><span class="n">20</span>Rigging</a><a href="/safety/"><span class="n">21</span>Safety, and what it cost to learn it</a><a href="/money/"><span class="n">22</span>The money</a><a href="/access/"><span class="n">23</span>Access, health and harm reduction</a><a href="/green/"><span class="n">24</span>Greener shows</a><a href="/careers/"><span class="n">25</span>Getting into the work, and lasting in it</a><a href="/toolbox/"><span class="n">26</span>The toolbox</a><a href="/glossary/"><span class="n">27</span>The glossary</a><a href="/next/"><span class="n">28</span>Where to go next</a><a href="/open/"><span class="n">29</span>Open questions and known gaps</a><a href="/corrections/"><span class="n">30</span>Corrections and updates</a><a href="/all/"><span class="n">··</span>Everything on one page</a></nav><div class="main"><article class="col"><p class="readmeta">Section 17 of 30 · about 5 min read · updated October 2026</p><section class="sec" style="--sc:var(--s5)"><h1 class="sec-h1" id="sec-artist" style="--sc:var(--s5)"><span class="tape">17</span>The artist's rig, the stream and the rights</h1>
+<p class="short"><strong>The short version:</strong> "DJ set" and "live set" sit on a spectrum, from improvised clip-launching to shows locked to timecode, and each point on it needs different production. Recording and streaming a set is easy technically and complicated legally: Twitch has a label license for live DJ streams, YouTube scans everything, and royalties for the tracks a DJ plays still depend on recognition technology that is being rebuilt as of 2026.</p>
+<h3>Beyond two decks</h3>
+<p>Ableton Live's <strong>Session View</strong> is the backbone of many live electronic sets: a grid of clips in tracks and scenes, where "clips can be played at any time and in any order", each track plays one clip at a time, and a scene launch fires a whole row<sup id="fnref-403"><a class="footnote-ref" href="#fn-403">403</a></sup>. Ableton's Push 3 controller can run Live standalone, without a laptop<sup id="fnref-404"><a class="footnote-ref" href="#fn-404">404</a></sup>.</p>
+<p><strong>Stem separation</strong> - splitting a finished track into drums, bass, vocals and the rest in real time - became a standard feature on the major DJ platforms in about four years:</p>
+<div class="tbl wide"><table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Stems arrived</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Algoriddim djay</td>
+<td>2020</td>
+<td>Neural Mix, 3 parts<sup id="fnref-405"><a class="footnote-ref" href="#fn-405">405</a></sup></td>
+</tr>
+<tr>
+<td>Serato DJ Pro/Lite 3.0</td>
+<td>5 December 2022</td>
+<td>4 real-time stems<sup id="fnref-406"><a class="footnote-ref" href="#fn-406">406</a></sup></td>
+</tr>
+<tr>
+<td>rekordbox</td>
+<td>version 6.7 (by early 2023)</td>
+<td>3 stems; 4-stem mode added in v7.2.8<sup id="fnref-407"><a class="footnote-ref" href="#fn-407">407</a></sup><sup id="fnref-408"><a class="footnote-ref" href="#fn-408">408</a></sup></td>
+</tr>
+<tr>
+<td>Traktor Pro 4</td>
+<td>July 2024</td>
+<td>4 stems, machine-learning engine based on iZotope RX<sup id="fnref-409"><a class="footnote-ref" href="#fn-409">409</a></sup></td>
+</tr>
+</tbody>
+</table></div>
+<p>As of 2026, stems DJing is mainstream rather than experimental (our reading). What the production needs depends on where on the spectrum a set sits. A timecoded show needs an SMPTE or TCNet feed to lighting and video; an improvised set needs operators who react.</p>
+<p>The bridges between them keep improving. In 2017 Pioneer announced that CDJs would send real-time waveforms and track data over PRO DJ LINK to ShowKontrol, which can generate SMPTE timecode synced to the decks and trigger Art-Net, TCNet and MIDI cues<sup id="fnref3-188"><a class="footnote-ref" href="#fn-188">188</a></sup>. CDJ-3000 firmware added support for ShowKontrol and PRO DJ LINK Bridge in May 2021<sup id="fnref-410"><a class="footnote-ref" href="#fn-410">410</a></sup>.</p>
+<h3>"We all hit play"</h3>
+<p>One of the scene's longest-running arguments has a date. In June 2012, deadmau5 posted "we all hit play" on Tumblr: "i just roll up with a laptop and a midi controller and 'select' tracks n hit a spacebar", and "anyone with minimal knowledge of ableton and music tech in general could DO what im doing"<sup id="fnref-411"><a class="footnote-ref" href="#fn-411">411</a></sup>. It was reported on 25 June 2012 as a reply to the reaction to his comments about button-pushing DJs<sup id="fnref-412"><a class="footnote-ref" href="#fn-412">412</a></sup>. Read with this guide's thesis in mind, it explains why the production exists for this kind of show: if the music is played back, much of the show has to be built from everything else. Plenty of DJs and live performers disagree with his framing of what they do.</p>
+<h3>Recording and streaming</h3>
+<p>Pioneer's flagship mixers record and stream directly through the DJM-REC app; the DJM-A9 (2023) can keep the microphone off the recording, and its two USB ports let two DJs swap computers during back-to-back sets<sup id="fnref-413"><a class="footnote-ref" href="#fn-413">413</a></sup>. The DJM-V10 (2020) is likewise DJM-REC compatible<sup id="fnref-414"><a class="footnote-ref" href="#fn-414">414</a></sup>.</p>
+<p>The curated livestream format came from two brands. <strong>Boiler Room</strong> was founded in London in March 2010 as a weekly webcast; ticketing company DICE bought it in 2021 and sold it to Superstruct Entertainment in January 2025, which drew artist cancellations over the parent company KKR's investments<sup id="fnref-415"><a class="footnote-ref" href="#fn-415">415</a></sup>. <strong>Cercle</strong>, founded in 2016, streams sets from heritage sites, beginning at the Eiffel Tower<sup id="fnref-416"><a class="footnote-ref" href="#fn-416">416</a></sup>.</p>
+<p><strong>The rules, as of October 2026:</strong></p>
+<ul>
+<li><strong>Twitch.</strong> In June 2020 a wave of copyright takedown notices hit streamers, and Twitch moved from muting clips to removing them and issuing strikes; DJ sets were listed as not allowed<sup id="fnref-417"><a class="footnote-ref" href="#fn-417">417</a></sup><sup id="fnref-418"><a class="footnote-ref" href="#fn-418">418</a></sup>. In June 2024 Twitch announced its DJ Program, licensed by Universal, Warner, Sony, independents and Merlin. It covers live DJ streaming only; Twitch splits the music cost with most streamers 50/50 out of channel revenue; non-monetizing DJs pay nothing; and the opt-in applies to the whole channel, so Twitch suggests a separate DJ channel<sup id="fnref-419"><a class="footnote-ref" href="#fn-419">419</a></sup>. The DJ category launched on 8 August 2024<sup id="fnref-420"><a class="footnote-ref" href="#fn-420">420</a></sup>. Archived VODs are not covered and can still be muted<sup id="fnref-421"><a class="footnote-ref" href="#fn-421">421</a></sup>. Those are the 2024 launch terms; we could not confirm whether they have changed since.</li>
+<li><strong>YouTube.</strong> Every live stream is scanned for third-party content, and a match can replace the picture, pause or end the stream. A license alone does not prevent this; the rights owner has to add your channel to their Content ID allowlist<sup id="fnref-422"><a class="footnote-ref" href="#fn-422">422</a></sup>. Content ID itself lets rights owners block, monetize or track matched material, country by country<sup id="fnref-423"><a class="footnote-ref" href="#fn-423">423</a></sup>.</li>
+<li><strong>Mixcloud Live.</strong> Licensed through direct deals with the three majors and more than 250 independents; it needs a Pro subscription, pays artists through audio fingerprinting, and archives audio only, with no video<sup id="fnref-424"><a class="footnote-ref" href="#fn-424">424</a></sup>.</li>
+</ul>
+<p>Production advice that follows (ours): plan the archive separately from the live stream, and remember that a simulcast to a platform without a license carries the same unlicensed audio.</p>
+<h3>Booth etiquette</h3>
+<p>The norms are consistent across sources:</p>
+<ul>
+<li>Arrive two or three songs before the previous DJ finishes, and know the club's equipment<sup id="fnref-425"><a class="footnote-ref" href="#fn-425">425</a></sup>.</li>
+<li>End on a long, loopy track the next DJ can mix out of, and do not close with a big hit before the headliner<sup id="fnref2-425"><a class="footnote-ref" href="#fn-425">425</a></sup>.</li>
+<li>Carry a backup on USB, because PRO DJ LINK can fail; turn the booth monitors down at handover so the incoming DJ sets their own level<sup id="fnref3-425"><a class="footnote-ref" href="#fn-425">425</a></sup><sup id="fnref2-307"><a class="footnote-ref" href="#fn-307">307</a></sup>.</li>
+<li>In a back-to-back, do not coach, do not hog the mixer, and do not EQ your partner's track while they are mixing in<sup id="fnref-426"><a class="footnote-ref" href="#fn-426">426</a></sup>.</li>
+<li>Keep headroom; redlining does not make the room louder<sup id="fnref4-147"><a class="footnote-ref" href="#fn-147">147</a></sup>.</li>
+</ul>
+<p>Firmware is part of etiquette now. The CDJ-3000 has had a steady stream of updates since 2020, and in December 2024 Pioneer posted a notice asking owners to update<sup id="fnref2-410"><a class="footnote-ref" href="#fn-410">410</a></sup>. Advancing a show should confirm the exact player model and firmware, and whether a booth mixing CDJ-3000s and 3000Xs links properly; we found no primary source on that compatibility.</p>
+<h3>Getting the music paid</h3>
+<p>Live performance royalties are paid from setlists. The UK collecting society PRS collects fees from venues and promoters and pays four times a year, but cannot allocate royalties without a setlist; PRS paid £68.5 million in live royalties in 2024<sup id="fnref-427"><a class="footnote-ref" href="#fn-427">427</a></sup>. In the US, ASCAP OnStage and BMI Live let writers report their own performances<sup id="fnref-428"><a class="footnote-ref" href="#fn-428">428</a></sup>. Nobody writes a setlist for a two-hour DJ mix, so recognition technology fills the gap: PRS works with DJ Monitor, which "tracks when and where electronic music is played"<sup id="fnref-429"><a class="footnote-ref" href="#fn-429">429</a></sup>.</p>
+<p>Pioneer's KUVO platform is the other route. It partnered with Canada's SOCAN in 2017 to supply club play data<sup id="fnref-430"><a class="footnote-ref" href="#fn-430">430</a></sup>, closed its consumer features in 2022<sup id="fnref-431"><a class="footnote-ref" href="#fn-431">431</a></sup>, and pivoted to rights data after AlphaTheta invested in DJ Monitor in 2023<sup id="fnref-432"><a class="footnote-ref" href="#fn-432">432</a></sup>. On 21 May 2026 AlphaTheta acquired DJ Monitor's technology and assets to make KUVO a hub for club performance data and music recognition for rights organizations<sup id="fnref-433"><a class="footnote-ref" href="#fn-433">433</a></sup><sup id="fnref-434"><a class="footnote-ref" href="#fn-434">434</a></sup>. As of October 2026 that platform is consolidating, not finished. The practical advice for producers (our reading): register your works, upload them to the recognition services, and do not rely on DJs filing setlists.</p>
+<p class="report site-only"><a href="mailto:hello@thirdpolararch.com?subject=Show%20File%20correction%3A%20The%20artist%27s%20rig%2C%20the%20stream%20and%20the%20rights">Report an error in this section</a></p></section><nav class="pn" aria-label="Previous and next"><a class="prev" href="/venues/"><span>Previous · 16</span>Clubs, festivals and the rooms that shaped the gear</a><a class="next" href="/crew/"><span>Next · 18</span>Who does what</a></nav><section class="refs" id="refs"><h2 style="font-family:var(--f-display);font-weight:900;text-transform:uppercase;font-size:2rem;margin:0 0 .4rem">Sources for this section</h2><p style="font-size:.9rem;color:var(--muted);margin:0 0 1rem">35 of the guide's 555 sources. Numbers match the <a href="/all/#refs">full reference list</a>.</p><div class="footnote"><ol><li id="fn-147" value="147">
+<p>Digital DJ Tips: Gain Staging and Redlining - <a href="https://www.digitaldjtips.com/?p=2005266" rel="noopener" target="_blank">digitaldjtips.com</a>&#160;<a class="footnote-backref" href="#fnref-147" title="Jump back to footnote 147 in the text">↩</a><a class="footnote-backref" href="#fnref2-147" title="Jump back to footnote 147 in the text">↩</a><a class="footnote-backref" href="#fnref3-147" title="Jump back to footnote 147 in the text">↩</a><a class="footnote-backref" href="#fnref4-147" title="Jump back to footnote 147 in the text">↩</a></p>
+</li><li id="fn-188" value="188">
+<p>DJ TechTools: CDJs Will Send Track Data to ShowKontrol (2017) - <a href="https://djtechtools.com/2017/10/12/cdjs-will-send-track-data-visualslighting-techs-showkontrol/" rel="noopener" target="_blank">djtechtools.com</a>&#160;<a class="footnote-backref" href="#fnref-188" title="Jump back to footnote 188 in the text">↩</a><a class="footnote-backref" href="#fnref2-188" title="Jump back to footnote 188 in the text">↩</a><a class="footnote-backref" href="#fnref3-188" title="Jump back to footnote 188 in the text">↩</a></p>
+</li><li id="fn-307" value="307">
+<p>DJ TechTools Forum: Backline Tech AMA (2015) - <a href="https://forum.djtechtools.com/t/i-am-a-backline-tech-for-a-sound-production-company-that-does-festivals-clubs-ama/71977" rel="noopener" target="_blank">forum.djtechtools.com</a>&#160;<a class="footnote-backref" href="#fnref-307" title="Jump back to footnote 307 in the text">↩</a><a class="footnote-backref" href="#fnref2-307" title="Jump back to footnote 307 in the text">↩</a></p>
+</li><li id="fn-403" value="403">
+<p>Ableton Live 12 Manual: Session View - <a href="https://www.ableton.com/en/live-manual/12/session-view/" rel="noopener" target="_blank">ableton.com</a>&#160;<a class="footnote-backref" href="#fnref-403" title="Jump back to footnote 403 in the text">↩</a><a class="footnote-backref" href="#fnref2-403" title="Jump back to footnote 403 in the text">↩</a></p>
+</li><li id="fn-404" value="404">
+<p>Ableton: Push - <a href="https://www.ableton.com/en/push/" rel="noopener" target="_blank">ableton.com</a>&#160;<a class="footnote-backref" href="#fnref-404" title="Jump back to footnote 404 in the text">↩</a></p>
+</li><li id="fn-405" value="405">
+<p>Algoriddim: Neural Mix - <a href="https://www.algoriddim.com/neural-mix" rel="noopener" target="_blank">algoriddim.com</a>&#160;<a class="footnote-backref" href="#fnref-405" title="Jump back to footnote 405 in the text">↩</a></p>
+</li><li id="fn-406" value="406">
+<p>Digital DJ Tips: Serato DJ Pro/Lite 3.0 with Stems Launched (2022) - <a href="https://www.digitaldjtips.com/2022/12/serato-dj-pro-lite-3-0-with-stems-launched-today/" rel="noopener" target="_blank">digitaldjtips.com</a>&#160;<a class="footnote-backref" href="#fnref-406" title="Jump back to footnote 406 in the text">↩</a></p>
+</li><li id="fn-407" value="407">
+<p>Digital DJ Tips: rekordbox Stems on Any Controller (2023) - <a href="https://www.digitaldjtips.com/rekordbox-stems-on-any-controller/" rel="noopener" target="_blank">digitaldjtips.com</a>&#160;<a class="footnote-backref" href="#fnref-407" title="Jump back to footnote 407 in the text">↩</a></p>
+</li><li id="fn-408" value="408">
+<p>Digital DJ Tips: rekordbox v7.2.8 Adds 4-Stem Separation - <a href="https://www.digitaldjtips.com/rekordbox-v7-2-8-adds-4-stem-separation/" rel="noopener" target="_blank">digitaldjtips.com</a>&#160;<a class="footnote-backref" href="#fnref-408" title="Jump back to footnote 408 in the text">↩</a></p>
+</li><li id="fn-409" value="409">
+<p>Resident Advisor: Native Instruments Announces Traktor Pro 4 (2024) - <a href="https://ra.co/news/80977" rel="noopener" target="_blank">ra.co</a>&#160;<a class="footnote-backref" href="#fnref-409" title="Jump back to footnote 409 in the text">↩</a></p>
+</li><li id="fn-410" value="410">
+<p>Pioneer DJ: CDJ-3000 Product Page and Firmware History - <a href="https://www.pioneerdj.com/en/product/player/cdj-3000/black/overview/" rel="noopener" target="_blank">pioneerdj.com</a>&#160;<a class="footnote-backref" href="#fnref-410" title="Jump back to footnote 410 in the text">↩</a><a class="footnote-backref" href="#fnref2-410" title="Jump back to footnote 410 in the text">↩</a><a class="footnote-backref" href="#fnref3-410" title="Jump back to footnote 410 in the text">↩</a></p>
+</li><li id="fn-411" value="411">
+<p>deadmau5 Tumblr: we all hit play - <a href="https://deadmau5.tumblr.com/post/25690507284/we-all-hit-play" rel="noopener" target="_blank">deadmau5.tumblr.com</a>&#160;<a class="footnote-backref" href="#fnref-411" title="Jump back to footnote 411 in the text">↩</a></p>
+</li><li id="fn-412" value="412">
+<p>Boulder Weekly: deadmau5&#x27;s &quot;We All Hit Play&quot; (2012) - <a href="https://archives.boulderweekly.com/?p=9009" rel="noopener" target="_blank">archives.boulderweekly.com</a>&#160;<a class="footnote-backref" href="#fnref-412" title="Jump back to footnote 412 in the text">↩</a></p>
+</li><li id="fn-413" value="413">
+<p>Pioneer DJ: DJM-A9 Product Page - <a href="https://www.pioneerdj.com/en/product/mixer/djm-a9/black/overview/" rel="noopener" target="_blank">pioneerdj.com</a>&#160;<a class="footnote-backref" href="#fnref-413" title="Jump back to footnote 413 in the text">↩</a></p>
+</li><li id="fn-414" value="414">
+<p>Pioneer DJ: DJM-V10 Product Page - <a href="https://www.pioneerdj.com/en/product/mixer/djm-v10/black/overview/" rel="noopener" target="_blank">pioneerdj.com</a>&#160;<a class="footnote-backref" href="#fnref-414" title="Jump back to footnote 414 in the text">↩</a></p>
+</li><li id="fn-415" value="415">
+<p>Wikipedia: Boiler Room (music broadcaster) - <a href="https://en.wikipedia.org/wiki/Boiler_Room_(music_broadcaster)" rel="noopener" target="_blank">en.wikipedia.org</a>&#160;<a class="footnote-backref" href="#fnref-415" title="Jump back to footnote 415 in the text">↩</a></p>
+</li><li id="fn-416" value="416">
+<p>Wikipedia: Cercle (company) - <a href="https://en.wikipedia.org/wiki/Cercle_(company)" rel="noopener" target="_blank">en.wikipedia.org</a>&#160;<a class="footnote-backref" href="#fnref-416" title="Jump back to footnote 416 in the text">↩</a></p>
+</li><li id="fn-417" value="417">
+<p>Digital Music News: Twitch DMCA Takedowns and TOS Changes (2020) - <a href="https://www.digitalmusicnews.com/2020/06/08/twitch-dmca-takedowns-tos-changes/" rel="noopener" target="_blank">digitalmusicnews.com</a>&#160;<a class="footnote-backref" href="#fnref-417" title="Jump back to footnote 417 in the text">↩</a></p>
+</li><li id="fn-418" value="418">
+<p>DJ Mag: Twitch Channels Face Fresh Ban over Music Copyright Takedowns (2020) - <a href="https://djmag.com/news/twitch-channels-face-fresh-ban-over-music-copyright-takedowns" rel="noopener" target="_blank">djmag.com</a>&#160;<a class="footnote-backref" href="#fnref-418" title="Jump back to footnote 418 in the text">↩</a></p>
+</li><li id="fn-419" value="419">
+<p>Twitch Blog: Introducing the Twitch DJ Program (2024) - <a href="https://blog.twitch.tv/en/2024/06/06/introducing-the-twitch-dj-program/" rel="noopener" target="_blank">blog.twitch.tv</a>&#160;<a class="footnote-backref" href="#fnref-419" title="Jump back to footnote 419 in the text">↩</a><a class="footnote-backref" href="#fnref2-419" title="Jump back to footnote 419 in the text">↩</a></p>
+</li><li id="fn-420" value="420">
+<p>Digital Music News: Twitch DJ Category Launches (2024) - <a href="https://www.digitalmusicnews.com/2024/08/08/twitch-dj-celebration-launches-after-inking-major-labels/" rel="noopener" target="_blank">digitalmusicnews.com</a>&#160;<a class="footnote-backref" href="#fnref-420" title="Jump back to footnote 420 in the text">↩</a></p>
+</li><li id="fn-421" value="421">
+<p>Digital DJ Tips: Livestreaming to Go Legal on Twitch (2024) - <a href="https://www.digitaldjtips.com/livestreaming-to-go-legal-on-twitch/" rel="noopener" target="_blank">digitaldjtips.com</a>&#160;<a class="footnote-backref" href="#fnref-421" title="Jump back to footnote 421 in the text">↩</a></p>
+</li><li id="fn-422" value="422">
+<p>YouTube Help: Copyright Issues with Live Streams - <a href="https://support.google.com/youtube/answer/3367684" rel="noopener" target="_blank">support.google.com</a>&#160;<a class="footnote-backref" href="#fnref-422" title="Jump back to footnote 422 in the text">↩</a><a class="footnote-backref" href="#fnref2-422" title="Jump back to footnote 422 in the text">↩</a></p>
+</li><li id="fn-423" value="423">
+<p>YouTube Help: How Content ID Works - <a href="https://support.google.com/youtube/answer/2797370" rel="noopener" target="_blank">support.google.com</a>&#160;<a class="footnote-backref" href="#fnref-423" title="Jump back to footnote 423 in the text">↩</a></p>
+</li><li id="fn-424" value="424">
+<p>Mixcloud Blog: How to Live Stream Music Without Copyright Takedown Issues (2024) - <a href="https://www.mixcloud.com/blog/2024/03/28/how-to-live-stream-music-without-copyright-takedown-issues" rel="noopener" target="_blank">mixcloud.com</a>&#160;<a class="footnote-backref" href="#fnref-424" title="Jump back to footnote 424 in the text">↩</a></p>
+</li><li id="fn-425" value="425">
+<p>Serato Blog: Four Tips for Smooth DJ Changeovers (2016) - <a href="https://serato.com/latest/blog/18508/djlife-four-tips-for-smooth-dj-changeovers" rel="noopener" target="_blank">serato.com</a>&#160;<a class="footnote-backref" href="#fnref-425" title="Jump back to footnote 425 in the text">↩</a><a class="footnote-backref" href="#fnref2-425" title="Jump back to footnote 425 in the text">↩</a><a class="footnote-backref" href="#fnref3-425" title="Jump back to footnote 425 in the text">↩</a></p>
+</li><li id="fn-426" value="426">
+<p>Mixmag Asia: B2B Etiquette (2022) - <a href="https://mixmag.asia/feature/b2b-etiquette-a-guide-to-the-subtle-art-of-sharing-a-dj-booth" rel="noopener" target="_blank">mixmag.asia</a>&#160;<a class="footnote-backref" href="#fnref-426" title="Jump back to footnote 426 in the text">↩</a></p>
+</li><li id="fn-427" value="427">
+<p>Music Business Worldwide: Setlist Reporting Isn&#x27;t an Optional Extra (2025) - <a href="https://www.musicbusinessworldwide.com/setlist-reporting-isnt-an-optional-extra-its-a-fundamental-part-of-the-live-music-economy" rel="noopener" target="_blank">musicbusinessworldwide.com</a>&#160;<a class="footnote-backref" href="#fnref-427" title="Jump back to footnote 427 in the text">↩</a><a class="footnote-backref" href="#fnref2-427" title="Jump back to footnote 427 in the text">↩</a></p>
+</li><li id="fn-428" value="428">
+<p>Hypebot: How to Report Setlists to PROs After Performing Live (2025) - <a href="https://www.hypebot.com/hypebot/2025/08/how-to-report-setlists-to-pros-after-performing-live.html" rel="noopener" target="_blank">hypebot.com</a>&#160;<a class="footnote-backref" href="#fnref-428" title="Jump back to footnote 428 in the text">↩</a></p>
+</li><li id="fn-429" value="429">
+<p>PRS for Music: DJ Monitor - <a href="https://prsformusic.com/what-we-do/who-we-work-with/dj-monitor" rel="noopener" target="_blank">prsformusic.com</a>&#160;<a class="footnote-backref" href="#fnref-429" title="Jump back to footnote 429 in the text">↩</a></p>
+</li><li id="fn-430" value="430">
+<p>Pioneer DJ: KUVO Partners with SOCAN (2017) - <a href="https://www.pioneerdj.com/ja/news/2017/pioneer-dj-service-kuvo-partners-with-canadian-pro-socan/" rel="noopener" target="_blank">pioneerdj.com</a>&#160;<a class="footnote-backref" href="#fnref-430" title="Jump back to footnote 430 in the text">↩</a></p>
+</li><li id="fn-431" value="431">
+<p>rekordbox: KUVO Function Terminated (2022) - <a href="https://rekordbox.com/fr/2022/06/kuvo-function-terminated/" rel="noopener" target="_blank">rekordbox.com</a>&#160;<a class="footnote-backref" href="#fnref-431" title="Jump back to footnote 431 in the text">↩</a></p>
+</li><li id="fn-432" value="432">
+<p>Pioneer DJ: KUVO Is Evolving (2023) - <a href="https://www.pioneerdj.com/pt/news/2023/kuvo-is-evolving/" rel="noopener" target="_blank">pioneerdj.com</a>&#160;<a class="footnote-backref" href="#fnref-432" title="Jump back to footnote 432 in the text">↩</a></p>
+</li><li id="fn-433" value="433">
+<p>AlphaTheta: KUVO Technology B.V. (2026) - <a href="https://alphatheta.com/en/information/kuvo-technology-b-v/" rel="noopener" target="_blank">alphatheta.com</a>&#160;<a class="footnote-backref" href="#fnref-433" title="Jump back to footnote 433 in the text">↩</a><a class="footnote-backref" href="#fnref2-433" title="Jump back to footnote 433 in the text">↩</a></p>
+</li><li id="fn-434" value="434">
+<p>Mixmag DE: AlphaTheta Acquires DJ Monitor (2026) - <a href="https://mixmagde.com/read/alphatheta-acquires-dj-monitor-kuvo-becomes-the-new-hub-for-club-data-news" rel="noopener" target="_blank">mixmagde.com</a>&#160;<a class="footnote-backref" href="#fnref-434" title="Jump back to footnote 434 in the text">↩</a></p>
+</li></ol></div></section><aside class="sisters" aria-labelledby="sis-h"><h2 id="sis-h">Also at cold.fyi</h2><ul><li><a href="https://penamnesty.cold.fyi">The Pens Went Away</a> <span>- deep dive No. 1, on pharma swag</span></li><li><a href="https://permit.cold.fyi">Bureau of Effects Regulation</a> <span>- the RMX-1000 operator's permit</span></li><li><a href="https://citations.cold.fyi">Department of Public Courtesy</a> <span>- citations for sidewalk crimes</span></li></ul></aside><footer><span>made with &lt;3 in boston</span><span>Corrections: <span style="user-select:all">hello@thirdpolararch.com</span> · <a href="/corrections/">corrections log</a> · <a href="https://thirdpolararch.com/terms">terms</a> · <a href="https://thirdpolararch.com/privacy">privacy</a></span></footer></article></div></div><details class="mtoc"><summary>Contents</summary><nav aria-label="Sections"><a href="/"><span class="n">00</span>Start here</a><a href="/primer/"><span class="n">01</span>How music came to need production</a><a href="/scenes/"><span class="n">02</span>The scenes that built it</a><a href="/lineage/"><span class="n">03</span>The lineage of excess</a><a href="/booth/"><span class="n">04</span>The booth</a><a href="/technique/"><span class="n">05</span>What you&#x27;re watching in the booth</a><a href="/network/"><span class="n">06</span>Why your CDJs are on a network</a><a href="/light/"><span class="n">07</span>Light</a><a href="/lasers/"><span class="n">08</span>Lasers</a><a href="/video/"><span class="n">09</span>Video and LED walls</a><a href="/showcontrol/"><span class="n">10</span>Who presses go: show control and timecode</a><a href="/sound/"><span class="n">11</span>Sound</a><a href="/power/"><span class="n">12</span>Power</a><a href="/sfx/"><span class="n">13</span>Fire, air and confetti</a><a href="/stage/"><span class="n">14</span>The stage itself</a><a href="/newtech/"><span class="n">15</span>New toys: drones, spatial audio, wristbands and holograms</a><a href="/venues/"><span class="n">16</span>Clubs, festivals and the rooms that shaped the gear</a><a href="/artist/" class=on><span class="n">17</span>The artist&#x27;s rig, the stream and the rights</a><a href="/crew/"><span class="n">18</span>Who does what</a><a href="/paperwork/"><span class="n">19</span>The paperwork</a><a href="/rigging/"><span class="n">20</span>Rigging</a><a href="/safety/"><span class="n">21</span>Safety, and what it cost to learn it</a><a href="/money/"><span class="n">22</span>The money</a><a href="/access/"><span class="n">23</span>Access, health and harm reduction</a><a href="/green/"><span class="n">24</span>Greener shows</a><a href="/careers/"><span class="n">25</span>Getting into the work, and lasting in it</a><a href="/toolbox/"><span class="n">26</span>The toolbox</a><a href="/glossary/"><span class="n">27</span>The glossary</a><a href="/next/"><span class="n">28</span>Where to go next</a><a href="/open/"><span class="n">29</span>Open questions and known gaps</a><a href="/corrections/"><span class="n">30</span>Corrections and updates</a><a href="/all/"><span class="n">··</span>Everything on one page</a></nav></details></div><script>(function () {
+  "use strict";
+  var $ = function (id) { return document.getElementById(id); };
+  var inFrame = false;
+  try { inFrame = window.self !== window.top; } catch (e) { inFrame = true; }
+  if (inFrame) document.documentElement.classList.add("in-frame");
+  function esc(s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+  function readJSON(id) { try { return JSON.parse($(id).textContent); } catch (e) { return []; } }
+  function store(k, v) { try { if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); } catch (e) { return null; } }
+
+  /* theme toggle: system by default, remembered per viewer */
+  var root = document.documentElement, tb = $("theme-btn");
+  var saved = store("sf-theme"); if (saved) root.setAttribute("data-theme", saved);
+  function label() {
+    var t = root.getAttribute("data-theme");
+    var dark = t ? t === "dark" : !window.matchMedia("(prefers-color-scheme: light)").matches;
+    if (tb) tb.textContent = dark ? "Lights up" : "Lights down";
+  }
+  if (tb) tb.addEventListener("click", function () {
+    var t = root.getAttribute("data-theme");
+    var dark = t ? t === "dark" : !window.matchMedia("(prefers-color-scheme: light)").matches;
+    var next = dark ? "light" : "dark"; root.setAttribute("data-theme", next); store("sf-theme", next); label();
+  });
+  label();
+
+  /* reading progress */
+  var bar = $("progress");
+  if (bar) {
+    var tick = false;
+    window.addEventListener("scroll", function () {
+      if (tick) return; tick = true;
+      requestAnimationFrame(function () {
+        var h = document.documentElement.scrollHeight - innerHeight;
+        bar.style.width = (h > 0 ? Math.min(100, scrollY / h * 100) : 0) + "%"; tick = false;
+      });
+    }, { passive: true });
+  }
+
+  /* figures: credit card when a remote image will not load */
+  Array.prototype.forEach.call(document.querySelectorAll(".fig .frame img"), function (img) {
+    function broke() { img.parentNode.classList.add("broken"); }
+    img.addEventListener("error", broke);
+    if (img.complete && img.naturalWidth === 0) broke();
+  });
+
+  /* footnote previews: hover or focus shows the source title */
+  var notes = {};
+  Array.prototype.forEach.call(document.querySelectorAll(".refs li[id]"), function (li) {
+    notes[li.id] = li.textContent.replace("↩", "").replace(/\s+/g, " ").trim();
+  });
+  Array.prototype.forEach.call(document.querySelectorAll("a.footnote-ref"), function (a) {
+    var id = (a.getAttribute("href") || "").slice(1);
+    if (notes[id]) a.title = notes[id];
+  });
+
+  /* contents rail: highlight the section in view */
+  var railLinks = document.querySelectorAll(".rail a[href^='#']");
+  if (railLinks.length && "IntersectionObserver" in window) {
+    var map = {};
+    Array.prototype.forEach.call(railLinks, function (a) { map[a.getAttribute("href").slice(1)] = a; });
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting && map[en.target.id]) {
+          Array.prototype.forEach.call(railLinks, function (a) { a.classList.remove("on"); });
+          map[en.target.id].classList.add("on");
+        }
+      });
+    }, { rootMargin: "-10% 0px -80% 0px" });
+    Object.keys(map).forEach(function (id) { var el = $(id); if (el) io.observe(el); });
+  }
+
+  /* timeline */
+  (function () {
+    var data = readJSON("tl-data"), list = $("tl-list"); if (!list) return;
+    var eraColor = { "Before electricity": "var(--s6)", "Recording and amplification": "var(--s5)", "Electronic instruments": "var(--s3)",
+      "Clubs and DJs": "var(--s1)", "Rave and festival": "var(--s4)", "Digital booth": "var(--s2)", "Spectacle era": "var(--s3)", "Rules and safety": "var(--hot)" };
+    var era = "";
+    function fmt(d) {
+      var m = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"], p = String(d).split("-");
+      if (p.length === 3) return m[+p[1] - 1] + " " + (+p[2]) + ", " + p[0];
+      if (p.length === 2) return m[+p[1] - 1] + " " + p[0];
+      return p[0];
+    }
+    function render() {
+      var rows = data.filter(function (e) { return !era || e.era === era; });
+      list.innerHTML = rows.map(function (e) {
+        var u = /^https?:/.test(e.source_url || "") ? e.source_url : "";
+        return '<li style="--ec:' + (eraColor[e.era] || "var(--tape)") + '"><div class="d">' + esc(fmt(e.date)) + '</div><div><div class="l">' + esc(e.label) +
+          '</div><div class="x">' + esc(e.detail) + (u ? ' <a href="' + esc(u) + '" target="_blank" rel="noopener">source</a>' : "") + "</div></div></li>";
+      }).join("");
+      $("tl-count").textContent = rows.length + " of " + data.length + " events";
+    }
+    var seg = $("tl-eras");
+    var ORDER = ["Before electricity","Recording and amplification","Electronic instruments","Clubs and DJs","Rave and festival","Digital booth","Spectacle era","Rules and safety"];
+    var eras = ORDER.filter(function (o) { return data.some(function (e) { return e.era === o; }); });
+    data.forEach(function (e) { if (eras.indexOf(e.era) < 0) eras.push(e.era); });
+    seg.innerHTML = '<button type="button" aria-pressed="true" data-e="">All</button>' + eras.map(function (e) { return '<button type="button" aria-pressed="false" data-e="' + esc(e) + '">' + esc(e) + "</button>"; }).join("");
+    seg.addEventListener("click", function (ev) {
+      var b = ev.target.closest("button"); if (!b) return; era = b.getAttribute("data-e");
+      Array.prototype.forEach.call(seg.querySelectorAll("button"), function (x) { x.setAttribute("aria-pressed", x === b ? "true" : "false"); });
+      render();
+    });
+    var tg = $("tl-toggle");
+    tg.addEventListener("click", function () { var open = $("tl-box").classList.toggle("open"); tg.textContent = open ? "Collapse" : "Show every event"; tg.setAttribute("aria-expanded", open); });
+    render();
+  })();
+
+  /* glossary */
+  (function () {
+    var data = readJSON("gl-data"), list = $("gl-list"); if (!list) return;
+    var catColor = { Booth: "var(--s1)", Network: "var(--s2)", Lighting: "var(--s3)", Laser: "var(--s4)", Video: "var(--s5)", Sound: "var(--s6)", Power: "var(--s1)",
+      SFX: "var(--s5)", Staging: "var(--s2)", Rigging: "var(--s6)", Crew: "var(--s4)", Paperwork: "var(--s3)", Safety: "var(--s5)", Venue: "var(--s2)", History: "var(--s6)", Broadcast: "var(--s3)", Scenes: "var(--s1)", Money: "var(--s4)", Access: "var(--s2)", Sustainability: "var(--s4)", Careers: "var(--s5)" };
+    var cat = "", q = $("gl-q"), shown = 18, more = $("gl-more");
+    var cats = []; data.forEach(function (d) { if (cats.indexOf(d.category) < 0) cats.push(d.category); }); cats.sort();
+    var seg = $("gl-cats");
+    seg.innerHTML = '<button type="button" aria-pressed="true" data-c="">All</button>' + cats.map(function (c) { return '<button type="button" aria-pressed="false" data-c="' + esc(c) + '">' + esc(c) + "</button>"; }).join("");
+    function render() {
+      var s = q.value.trim().toLowerCase();
+      var rows = data.filter(function (d) {
+        if (cat && d.category !== cat) return false;
+        if (s) return (d.term + " " + (d.aka || "") + " " + d.definition).toLowerCase().indexOf(s) >= 0;
+        return true;
+      });
+      if (s) rows.sort(function (a, b) { var at = a.term.toLowerCase().indexOf(s) === 0 ? 0 : 1, bt = b.term.toLowerCase().indexOf(s) === 0 ? 0 : 1; return at - bt || a.term.localeCompare(b.term); });
+      $("gl-count").textContent = rows.length + " of " + data.length + " terms";
+      if (!rows.length) { list.innerHTML = '<li><p>No match. Try a shorter word, or clear the category.</p></li>'; more.hidden = true; return; }
+      var all = rows.length; rows = rows.slice(0, shown);
+      more.hidden = all <= shown; more.textContent = "Show " + Math.min(36, all - shown) + " more (" + (all - shown) + " left)";
+      list.innerHTML = rows.map(function (d) {
+        var u = /^https?:/.test(d.source_url || "") ? d.source_url : "";
+        return '<li id="term-' + esc(d.term.toLowerCase().replace(/[^a-z0-9]+/g, "-")) + '"><span class="cat" style="--gc:' + (catColor[d.category] || "var(--tape)") + '">' + esc(d.category) + "</span><br><dfn>" + esc(d.term) + "</dfn>" +
+          (d.aka ? '<span class="aka">' + esc(d.aka) + "</span>" : "") + "<p>" + esc(d.definition) + "</p>" +
+          (d.section ? '<a class="more" href="' + (document.getElementById("sec-" + d.section) ? "#sec-" + esc(d.section) : "/" + esc(d.section) + "/") + '">read the section</a> ' : "") +
+          (u ? '<a class="more" href="' + esc(u) + '" target="_blank" rel="noopener">source</a>' : "") + "</li>";
+      }).join("");
+    }
+    more.addEventListener("click", function () { shown += 36; render(); });
+    seg.addEventListener("click", function (ev) {
+      var b = ev.target.closest("button"); if (!b) return; cat = b.getAttribute("data-c"); shown = 18;
+      Array.prototype.forEach.call(seg.querySelectorAll("button"), function (x) { x.setAttribute("aria-pressed", x === b ? "true" : "false"); });
+      render();
+    });
+    q.addEventListener("input", function () { shown = 18; render(); });
+    var h = (location.hash || "").replace("#", "");
+    if (h.indexOf("term-") === 0) { q.value = h.slice(5).replace(/-/g, " "); }
+    if (list.getAttribute("data-all") === "1") shown = 9999;
+    render();
+  })();
+
+  /* resources */
+  (function () {
+    var data = readJSON("res-data"), list = $("res-list"); if (!list) return;
+    var topic = "", seg = $("res-topics"), rshown = 10, rmore = $("res-more");
+    var topics = []; data.forEach(function (d) { if (topics.indexOf(d.topic) < 0) topics.push(d.topic); });
+    seg.innerHTML = '<button type="button" aria-pressed="true" data-t="">All</button>' + topics.map(function (t) { return '<button type="button" aria-pressed="false" data-t="' + esc(t) + '">' + esc(t) + "</button>"; }).join("");
+    function render() {
+      var rows = data.filter(function (d) { return !topic || d.topic === topic; });
+      var all = rows.length; $("res-count").textContent = all + " of " + data.length;
+      rmore.hidden = all <= rshown; rmore.textContent = "Show all " + all;
+      rows = rows.slice(0, rshown);
+      list.innerHTML = rows.map(function (d) {
+        var u = /^https?:/.test(d.url || "") ? d.url : "#";
+        return '<li><div class="ty">' + esc(d.type) + '</div><div><a href="' + esc(u) + '" target="_blank" rel="noopener">' + esc(d.title) + "</a><p>" + esc(d.why) + "</p></div></li>";
+      }).join("");
+    }
+    rmore.addEventListener("click", function () { rshown = 9999; render(); });
+    seg.addEventListener("click", function (ev) {
+      var b = ev.target.closest("button"); if (!b) return; topic = b.getAttribute("data-t"); rshown = 10;
+      Array.prototype.forEach.call(seg.querySelectorAll("button"), function (x) { x.setAttribute("aria-pressed", x === b ? "true" : "false"); });
+      render();
+    });
+    render();
+  })();
+
+  /* toolbox */
+  function num(id) { var v = parseFloat($(id).value); return isFinite(v) ? v : NaN; }
+  function fmtH(h) { if (!isFinite(h)) return "-"; if (h >= 1) return (Math.round(h * 10) / 10) + " h"; var m = h * 60; if (m >= 1) return Math.round(m) + " min"; return Math.round(m * 60) + " s"; }
+  (function pitch() {
+    if (!$("px-p")) return;
+    function run() {
+      var p = num("px-p");
+      if (!(p > 0)) { $("px-out").innerHTML = '<p class="warn">Enter a pixel pitch in millimetres, like 3.9.</p>'; return; }
+      var ft = p * 10, m = ft * 0.3048, acuity = p * 3.438;
+      $("px-out").innerHTML = '<div class="big">' + (Math.round(m * 10) / 10) + " m <small>(" + Math.round(ft) + " ft)</small></div>" +
+        "<p>Comfortable closest viewing by the common 10x rule of thumb.</p>" +
+        "<p>Beyond about <b>" + (Math.round(acuity * 10) / 10) + " m</b>, a viewer with 20/20 vision cannot resolve individual pixels.</p>" +
+        "<p>Vendors' rules disagree by several metres for the same pitch; treat these as a starting point.</p>";
+    }
+    ["px-p"].forEach(function (id) { $(id).addEventListener("input", run); }); run();
+  })();
+  (function dmx() {
+    if (!$("dmx-n")) return;
+    function run() {
+      var n = Math.floor(num("dmx-n")), c = Math.floor(num("dmx-c")), start = Math.floor(num("dmx-s")) || 1;
+      if (!(n > 0) || !(c > 0) || c > 512 || start < 1 || start > 512) { $("dmx-out").innerHTML = '<p class="warn">Fixtures and channels must be positive; a footprint can\'t exceed 512 channels.</p>'; return; }
+      var firstFit = Math.floor((512 - start + 1) / c), per = Math.floor(512 / c);
+      var uni = n <= firstFit ? 1 : 1 + Math.ceil((n - firstFit) / per);
+      var addrs = []; for (var i = 0; i < Math.min(n, firstFit, 6); i++) addrs.push(start + i * c);
+      $("dmx-out").innerHTML = '<div class="big">' + uni + " universe" + (uni > 1 ? "s" : "") + "</div>" +
+        "<p>" + per + " fixtures fit per universe at " + c + " channels each, without splitting a fixture across universes.</p>" +
+        "<p>Start addresses: " + addrs.join(", ") + (n > addrs.length ? ", ..." : "") + "</p>";
+    }
+    ["dmx-n", "dmx-c", "dmx-s"].forEach(function (id) { $(id).addEventListener("input", run); }); run();
+  })();
+  (function noise() {
+    if (!$("nz-l")) return;
+    function run() {
+      var L = num("nz-l");
+      if (!(L > 0)) { $("nz-out").innerHTML = '<p class="warn">Enter a level in dBA, like 100.</p>'; return; }
+      var osha = 8 / Math.pow(2, (L - 90) / 5), niosh = 8 / Math.pow(2, (L - 85) / 3);
+      $("nz-out").innerHTML = '<div class="big">' + fmtH(niosh) + "</div>" +
+        "<p>Daily exposure before NIOSH's recommended limit (85 dBA over 8 h, 3 dB exchange).</p>" +
+        "<p>OSHA's legal limit for workers allows " + fmtH(osha) + " (90 dBA, 5 dB exchange).</p>" +
+        "<p>" + (L > 100 ? '<span class="warn">Above WHO\'s 100 dB LAeq (15 min) guideline for venues and events.</span>' : "At or under WHO's 100 dB LAeq (15 min) venue guideline, if that's a 15-minute average.") + "</p>";
+    }
+    $("nz-l").addEventListener("input", run); run();
+  })();
+  (function power() {
+    if (!$("pw-w")) return;
+    function run() {
+      var W = num("pw-w"), V = num("pw-v"), ph = $("pw-ph").value, cb = num("pw-cb");
+      if (!(W > 0) || !(V > 0)) { $("pw-out").innerHTML = '<p class="warn">Enter total watts and the supply voltage.</p>'; return; }
+      var A = ph === "3" ? W / (Math.sqrt(3) * V) : W / V;
+      var usable = cb > 0 ? cb * 0.8 : NaN;
+      var circuits = ph === "3" ? NaN : (usable > 0 ? Math.ceil(A / usable) : NaN);
+      $("pw-out").innerHTML = '<div class="big">' + (Math.round(A * 10) / 10) + " A" + (ph === "3" ? " per phase" : "") + "</div>" +
+        (ph === "3" ? "<p>Balanced three-phase load at " + V + " V line-to-line.</p>" :
+          (isFinite(circuits) ? "<p>About <b>" + circuits + "</b> × " + cb + " A circuit" + (circuits > 1 ? "s" : "") + " if each is kept to 80% (" + (Math.round(usable * 10) / 10) + " A).</p>" : "")) +
+        "<p>Add 20-30% headroom for peaks and inrush. A licensed electrician makes the real connections.</p>";
+    }
+    ["pw-w", "pw-v", "pw-cb"].forEach(function (id) { $(id).addEventListener("input", run); });
+    $("pw-ph").addEventListener("change", run); run();
+  })();
+
+  /* advance checklist, remembered in this browser only */
+  (function () {
+    var box = $("adv-list"); if (!box) return;
+    var key = "sf-advance", state = {};
+    try { state = JSON.parse(store(key) || "{}") || {}; } catch (e) { state = {}; }
+    Array.prototype.forEach.call(box.querySelectorAll("input[type=checkbox]"), function (cb) {
+      if (state[cb.id]) { cb.checked = true; cb.closest("li").classList.add("done"); }
+      cb.addEventListener("change", function () {
+        state[cb.id] = cb.checked; cb.closest("li").classList.toggle("done", cb.checked); store(key, JSON.stringify(state)); tally();
+      });
+    });
+    function tally() {
+      var all = box.querySelectorAll("input[type=checkbox]"), d = box.querySelectorAll("input:checked");
+      $("adv-count").textContent = d.length + " of " + all.length + " confirmed";
+    }
+    $("adv-reset").addEventListener("click", function () {
+      state = {}; store(key, "{}");
+      Array.prototype.forEach.call(box.querySelectorAll("input[type=checkbox]"), function (cb) { cb.checked = false; cb.closest("li").classList.remove("done"); });
+      tally();
+    });
+    tally();
+  })();
+
+  /* copy citation */
+  var cbtn = $("cite-copy");
+  if (cbtn) cbtn.addEventListener("click", function () {
+    var t = $("cite-text").textContent;
+    function sel() { var r = document.createRange(); r.selectNodeContents($("cite-text")); var w = window.getSelection(); w.removeAllRanges(); w.addRange(r); }
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(t).then(function () { cbtn.textContent = "Copied"; }, sel); else sel();
+  });
+})();
+</script></body></html>

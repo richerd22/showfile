@@ -1,0 +1,682 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Stage Effects Explained: CO2, Confetti, Flame, Pyro, Cold Spark | The Show File</title>
+<meta name="description" content="The effects that mark the drop - CO2 jets, confetti, flames, sparks, pyro and kabuki drops - are all governed by fire codes and local permits, and in the...">
+<link rel="canonical" href="https://showfile.cold.fyi/sfx/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#0f1012">
+<meta property="og:type" content="article"><meta property="og:site_name" content="cold.fyi">
+<meta property="og:title" content="Stage Effects Explained: CO2, Confetti, Flame, Pyro, Cold Spark | The Show File"><meta property="og:description" content="The effects that mark the drop - CO2 jets, confetti, flames, sparks, pyro and kabuki drops - are all governed by fire codes and local permits, and in the...">
+<meta property="og:url" content="https://showfile.cold.fyi/sfx/"><meta property="og:image" content="https://showfile.cold.fyi/og.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preload" href="/fonts/big-shoulders-stencil-display-latin-900-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/source-serif-4-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Stage Effects Explained: CO2, Confetti, Flame, Pyro, Cold Spark", "description": "The effects that mark the drop - CO2 jets, confetti, flames, sparks, pyro and kabuki drops - are all governed by fire codes and local permits, and in the...", "url": "https://showfile.cold.fyi/sfx/", "image": "https://showfile.cold.fyi/og.png", "datePublished": "2026-10-11", "dateModified": "2026-10-11", "inLanguage": "en", "author": {"@type": "Organization", "name": "Third Polar Arch", "url": "https://thirdpolararch.com"}, "publisher": {"@type": "Organization", "name": "Third Polar Arch", "url": "https://thirdpolararch.com"}, "isPartOf": {"@type": "CreativeWork", "name": "The Show File", "url": "https://showfile.cold.fyi/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "The Show File", "item": "https://showfile.cold.fyi/"}, {"@type": "ListItem", "position": 2, "name": "Fire, air and confetti", "item": "https://showfile.cold.fyi/sfx/"}]}]}</script>
+<style>
+:root{padding:env(safe-area-inset-top,0px) 0 env(safe-area-inset-bottom,0px)}
+@font-face{font-family:'Big Shoulders Stencil Display';font-style:normal;font-weight:800;font-display:swap;src:url(/fonts/big-shoulders-stencil-display-latin-800-normal.woff2) format('woff2')}
+@font-face{font-family:'Big Shoulders Stencil Display';font-style:normal;font-weight:900;font-display:swap;src:url(/fonts/big-shoulders-stencil-display-latin-900-normal.woff2) format('woff2')}
+@font-face{font-family:'Source Serif 4';font-style:normal;font-weight:400;font-display:swap;src:url(/fonts/source-serif-4-latin-400-normal.woff2) format('woff2')}
+@font-face{font-family:'Source Serif 4';font-style:italic;font-weight:400;font-display:swap;src:url(/fonts/source-serif-4-latin-400-italic.woff2) format('woff2')}
+@font-face{font-family:'Source Serif 4';font-style:normal;font-weight:600;font-display:swap;src:url(/fonts/source-serif-4-latin-600-normal.woff2) format('woff2')}
+@font-face{font-family:'JetBrains Mono';font-style:normal;font-weight:400;font-display:swap;src:url(/fonts/jetbrains-mono-latin-400-normal.woff2) format('woff2')}
+@font-face{font-family:'JetBrains Mono';font-style:normal;font-weight:600;font-display:swap;src:url(/fonts/jetbrains-mono-latin-600-normal.woff2) format('woff2')}
+@font-face{font-family:'Permanent Marker';font-style:normal;font-weight:400;font-display:swap;src:url(/fonts/permanent-marker-latin-400-normal.woff2) format('woff2')}
+/* Layout: a road case and its paperwork - stencilled case lettering, gaffer-tape labels, spike-tape colour per section, one 68ch reading column with wide breakouts and a contents rail on big screens */
+:root{
+  color-scheme:dark;
+  --bg:#0f1012; --panel:#17191c; --panel2:#1e2125; --ink:#ebe7de; --muted:#a19d93; --line:#2e3136;
+  --tape:#f2c230; --tape-ink:#16150f; --hot:#ff6a45; --cue:#59c2ff;
+  --s1:#f2c230; --s2:#59c2ff; --s3:#ff6fae; --s4:#7ee07a; --s5:#ff9a3d; --s6:#e9e6df;
+  --f-display:"Big Shoulders Stencil Display","Arial Narrow",Impact,sans-serif;
+  --f-body:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --f-mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+  --f-hand:"Permanent Marker","Comic Sans MS","Bradley Hand",cursive;
+  --measure:68ch; --wide:980px;
+}
+@media (prefers-color-scheme: light){:root:not([data-theme="dark"]){
+  color-scheme:light;
+  --bg:#f3f1eb; --panel:#fffdf8; --panel2:#f7f4ec; --ink:#16171a; --muted:#5d5a53; --line:#d9d4c8;
+  --tape:#e7b414; --tape-ink:#16150f; --hot:#c33a1c; --cue:#0b6fb8;
+  --s1:#f2c230; --s2:#59c2ff; --s3:#ff8cc0; --s4:#86e082; --s5:#ffad5f; --s6:#ffffff }}
+:root[data-theme="light"]{
+  color-scheme:light;
+  --bg:#f3f1eb; --panel:#fffdf8; --panel2:#f7f4ec; --ink:#16171a; --muted:#5d5a53; --line:#d9d4c8;
+  --tape:#e7b414; --tape-ink:#16150f; --hot:#c33a1c; --cue:#0b6fb8;
+  --s1:#f2c230; --s2:#59c2ff; --s3:#ff8cc0; --s4:#86e082; --s5:#ffad5f; --s6:#ffffff }
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:1.125rem;line-height:1.62;margin:0}
+a{color:var(--cue);text-underline-offset:.16em;text-decoration-thickness:1px}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:2px solid var(--tape);outline-offset:2px}
+.skip{position:absolute;left:-999px}.skip:focus{left:1rem;top:1rem;background:var(--panel);padding:.5rem;z-index:20}
+::selection{background:var(--tape);color:var(--tape-ink)}
+
+.wrap{max-width:calc(var(--wide) + 2rem);margin:0 auto;padding-inline:1rem;padding-block:1rem 4rem}
+.col{max-width:var(--measure);margin-inline:auto}
+
+/* masthead */
+.mast{display:flex;justify-content:space-between;align-items:center;gap:.75rem;flex-wrap:wrap;font-family:var(--f-mono);font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding-block:.4rem;border-bottom:1px solid var(--line)}
+.mast a{color:var(--ink);text-decoration:none}
+.theme-btn{font:600 .72rem var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);background:none;border:1px solid var(--line);border-radius:3px;padding:.25rem .5rem;cursor:pointer}
+
+/* hero */
+.hero{padding-block:2.2rem 1.5rem}
+.case-id{font-family:var(--f-mono);font-size:.78rem;color:var(--muted);letter-spacing:.08em;text-transform:uppercase}
+h1{font-family:var(--f-display);font-weight:900;font-size:clamp(3.6rem,15vw,9.5rem);line-height:.84;letter-spacing:.01em;text-transform:uppercase;margin:.4rem 0 .9rem;text-wrap:balance}
+h1 span{display:block}
+h1 .file{color:var(--tape)}
+.dek{font-size:clamp(1.12rem,2.6vw,1.35rem);line-height:1.45;color:var(--muted);max-width:44rem;margin:0 0 1.4rem;text-wrap:pretty}
+.labels{display:flex;flex-wrap:wrap;gap:.55rem;margin:0 0 1.6rem;padding:0;list-style:none}
+.labels li{background:var(--tape);color:var(--tape-ink);font-family:var(--f-hand);font-size:1.02rem;line-height:1;padding:.5rem .7rem .45rem;transform:rotate(var(--r,-1deg));box-shadow:0 1px 0 rgba(0,0,0,.25);clip-path:polygon(2% 0,98% 4%,100% 92%,1% 100%)}
+.labels li:nth-child(2){--r:.8deg}.labels li:nth-child(3){--r:-.4deg}.labels li:nth-child(4){--r:1.2deg}.labels li:nth-child(5){--r:-1.4deg}
+.labels b{font-family:var(--f-mono);font-weight:600;font-size:.9rem;margin-right:.25rem}
+
+.paths{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding-block:.9rem;display:grid;gap:.6rem}
+.paths h2{margin:0;font-family:var(--f-mono);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.path-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(13.5rem,1fr));gap:.6rem}
+.path{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:.7rem .8rem;min-width:0}
+.path b{display:block;font-family:var(--f-display);font-weight:800;font-size:1.25rem;letter-spacing:.02em;text-transform:uppercase;line-height:1.05}
+.path p{margin:.25rem 0 .4rem;font-size:.9rem;line-height:1.35;color:var(--muted)}
+.path a{font-family:var(--f-mono);font-size:.74rem;margin-right:.55rem;display:inline-block;line-height:1.7}
+
+/* layout with rail */
+.layout{display:block}
+.rail{display:none}
+@media (min-width:1260px){
+  .layout{display:grid;grid-template-columns:15rem minmax(0,1fr);gap:2.5rem;max-width:calc(var(--wide) + 17.5rem);margin:0 auto}
+  .rail{display:block;position:sticky;top:calc(env(safe-area-inset-top,0px) + 1rem);align-self:start;max-height:calc(100vh - 2rem);overflow:auto;padding-right:.5rem;font-family:var(--f-mono);font-size:.74rem;line-height:1.3}
+  .rail a{display:flex;gap:.5rem;padding:.28rem .3rem;color:var(--muted);text-decoration:none;border-left:3px solid transparent}
+  .rail a.on{color:var(--ink);border-left-color:var(--tape);background:var(--panel)}
+  .rail .n{min-width:1.6rem;color:var(--muted)}
+  .rail h2{font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 .5rem}
+  .wrap.has-rail{max-width:none}
+}
+
+/* lede + toc */
+.lede{font-size:1.22rem;line-height:1.6;margin-top:1.8rem}
+.lede > p:first-of-type::first-letter{font-family:var(--f-display);font-weight:900;float:left;font-size:4.4em;line-height:.8;padding:.06em .1em 0 0;color:var(--tape)}
+nav.toc{margin:2.2rem 0;border:1px solid var(--line);border-radius:8px;background:var(--panel);padding:1rem 1.1rem}
+nav.toc h2{margin:0 0 .6rem;font-family:var(--f-mono);font-size:.74rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+nav.toc ol{list-style:none;margin:0;padding:0;columns:2 17rem;column-gap:2rem}
+nav.toc li{break-inside:avoid;padding:.18rem 0;font-size:1rem;line-height:1.3}
+nav.toc a{color:var(--ink);text-decoration:none;display:flex;gap:.55rem}
+nav.toc a:hover{color:var(--tape)}
+.chip-n{font-family:var(--f-mono);font-size:.72rem;font-weight:600;color:var(--tape-ink);background:var(--sc,var(--tape));min-width:1.9rem;text-align:center;padding:.12rem .25rem;border-radius:2px;height:fit-content;margin-top:.15rem}
+
+/* article */
+article h2{font-family:var(--f-display);font-weight:900;font-size:clamp(2.1rem,6vw,3.3rem);line-height:.95;letter-spacing:.01em;text-transform:uppercase;margin:4.2rem 0 1rem;text-wrap:balance;scroll-margin-top:1rem}
+article h2 .tape{display:inline-block;vertical-align:.5em;margin-right:.55rem;font-family:var(--f-hand);font-weight:400;font-size:.36em;letter-spacing:0;text-transform:none;color:var(--tape-ink);background:var(--sc,var(--tape));padding:.3em .5em .22em;transform:rotate(-2deg);clip-path:polygon(3% 0,97% 6%,100% 94%,0 100%)}
+article h3{font-family:var(--f-body);font-weight:600;font-size:1.32rem;line-height:1.25;margin:2.2rem 0 .55rem;text-wrap:balance}
+article p{margin:0 0 1.05rem;text-wrap:pretty}
+article strong{font-weight:600}
+article ul,article ol{padding-left:1.25rem;margin:0 0 1.05rem}
+article li{margin-bottom:.35rem}
+article p strong:first-child:is(:only-child,:first-child){}
+.short{border-left:4px solid var(--sc,var(--tape));background:var(--panel);padding:.85rem 1rem;border-radius:0 6px 6px 0;font-size:1.06rem}
+article code{font-family:var(--f-mono);font-size:.84em;background:var(--panel2);padding:.05em .3em;border-radius:3px}
+.tbl{overflow-x:auto;margin:1.2rem 0;border:1px solid var(--line);border-radius:6px}
+.tbl table{border-collapse:collapse;width:100%;font-size:.92rem;line-height:1.35}
+.tbl th,.tbl td{text-align:left;padding:.5rem .65rem;border-bottom:1px solid var(--line);vertical-align:top}
+.tbl th{font-family:var(--f-mono);font-size:.72rem;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);background:var(--panel)}
+.tbl tr:last-child td{border-bottom:0}
+.tbl td{font-variant-numeric:tabular-nums}
+sup{line-height:0}
+a.footnote-ref{font-family:var(--f-mono);font-size:.66rem;text-decoration:none;padding:0 .08em;color:var(--muted)}
+a.footnote-ref:hover{color:var(--tape)}
+a.footnote-ref::before{content:"["}a.footnote-ref::after{content:"]"}
+
+/* breakouts */
+.wide{max-width:var(--wide);margin-inline:auto}
+.fig{margin:2rem auto;display:grid;gap:.8rem}
+.fig.pair{grid-template-columns:repeat(auto-fit,minmax(16rem,1fr))}
+.fig figure{margin:0;min-width:0}
+.fig .frame{display:block;background:var(--panel);border:1px solid var(--line);border-radius:6px;overflow:hidden;position:relative;aspect-ratio:4/3}
+.fig img{display:block;width:100%;height:100%;object-fit:cover}
+.fig .fallback{display:none;position:absolute;inset:0;padding:1rem;font-family:var(--f-mono);font-size:.8rem;color:var(--muted);align-content:center;justify-items:start;gap:.3rem}
+.fig .frame.broken img{display:none}
+.fig .frame.broken .fallback{display:grid}
+.fig figcaption{font-size:.86rem;line-height:1.4;color:var(--muted);margin-top:.45rem}
+.fig figcaption b{color:var(--ink);font-weight:600}
+.fig .credit{display:block;font-family:var(--f-mono);font-size:.68rem;margin-top:.2rem}
+.fig .credit a{color:var(--muted)}
+
+.diagram{margin:2rem auto;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:.9rem .9rem .6rem}
+.diagram .dhead{font-family:var(--f-mono);font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--tape);margin-bottom:.4rem}
+.dscroll{overflow-x:auto}
+.dg{display:block;width:100%;min-width:560px;height:auto}
+.dg .bx{fill:var(--panel2);stroke:var(--line);stroke-width:1.5}
+.dg .bx.acc{stroke:var(--tape);stroke-width:2}
+.dg .bx.hot{stroke:var(--hot);stroke-width:2}
+.dg .bx.panel{fill:var(--bg);stroke:var(--tape);stroke-width:1}
+.dg .t{fill:var(--ink);font-family:var(--f-mono);font-weight:600;font-size:13px}
+.dg .t.sm{font-size:11.5px}
+.dg .s{fill:var(--muted);font-family:var(--f-mono);font-size:11px}
+.dg .s.xs{font-size:10.5px}
+.dg .s.cap{fill:var(--tape);font-size:11px;letter-spacing:.08em;text-transform:uppercase}
+.dg .s.lbl{font-size:10px}
+.dg .s.hot{fill:var(--hot)}
+.dg .w{stroke:var(--muted);stroke-width:1.8;fill:none}
+.dg .w.acc{stroke:var(--tape)}
+.dg .ah{fill:var(--muted)}.dg .aha{fill:var(--tape)}
+.dg .grid{stroke:var(--line);stroke-width:1}
+.dg .head{fill:var(--muted);opacity:.55}
+.dg .sep{stroke:var(--hot);stroke-width:1.5;stroke-dasharray:6 5}
+.dg .beam{stroke:var(--s4);stroke-width:2.2;fill:none;opacity:.9}
+.dg .beam.scan{stroke:var(--hot);stroke-dasharray:4 4}
+
+/* modules */
+.mod{margin:2.2rem auto;border:1px solid var(--line);border-radius:8px;background:var(--panel);overflow:hidden}
+.mod-head{padding:.9rem 1rem .8rem;border-bottom:1px solid var(--line)}
+.mod-head .kicker{font-family:var(--f-mono);font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--tape)}
+.mod-head h3{margin:.15rem 0 0;font-family:var(--f-display);font-weight:800;font-size:1.65rem;letter-spacing:.02em;text-transform:uppercase;line-height:1}
+.mod-head p{margin:.35rem 0 0;font-size:.94rem;color:var(--muted);line-height:1.4}
+.mod-body{padding:1rem}
+.mod-foot{padding:.55rem 1rem;border-top:1px solid var(--line);font-family:var(--f-mono);font-size:.7rem;color:var(--muted);line-height:1.5;overflow-wrap:anywhere}
+.mod-foot a{color:var(--muted)}
+.seg{display:flex;flex-wrap:wrap;gap:.35rem}
+.seg button{font:600 .78rem var(--f-mono);color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:999px;padding:.3rem .65rem;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--tape);color:var(--tape-ink);border-color:var(--tape)}
+.field{display:flex;flex-direction:column;gap:.25rem;font-family:var(--f-mono);font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);min-width:0}
+.field input,.field select{font:500 1rem var(--f-mono);color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:4px;padding:.5rem .55rem;width:100%;min-width:0;letter-spacing:0;text-transform:none}
+.btn{font:600 .85rem var(--f-mono);color:var(--tape-ink);background:var(--tape);border:0;border-radius:4px;padding:.55rem .9rem;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.count{font-family:var(--f-mono);font-size:.74rem;color:var(--muted)}
+
+/* timeline */
+.tl{list-style:none;margin:.9rem 0 0;padding:0;position:relative}
+.tl::before{content:"";position:absolute;left:5.6rem;top:.4rem;bottom:.4rem;width:2px;background:var(--line)}
+.tl li{display:grid;grid-template-columns:5rem minmax(0,1fr);gap:1.4rem;padding:.5rem 0;position:relative}
+.tl li::before{content:"";position:absolute;left:5.35rem;top:.95rem;width:10px;height:10px;border-radius:50%;background:var(--ec,var(--tape))}
+.tl .d{font-family:var(--f-mono);font-size:.76rem;color:var(--muted);padding-top:.25rem;text-align:right;font-variant-numeric:tabular-nums}
+.tl .l{font-weight:600;font-size:1.02rem;line-height:1.3}
+.tl .x{font-size:.92rem;line-height:1.42;color:var(--muted)}
+.tl .x a{font-family:var(--f-mono);font-size:.68rem;margin-left:.2rem;white-space:nowrap}
+.tl-box{max-height:30rem;overflow:hidden;position:relative}
+.tl-box.open{max-height:none}
+.tl-box:not(.open)::after{content:"";position:absolute;inset:auto 0 0 0;height:5rem;background:linear-gradient(transparent,var(--panel))}
+
+/* glossary */
+.gl-tools{display:grid;gap:.7rem}
+.gl-list{list-style:none;margin:.9rem 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(17rem,1fr));gap:.6rem}
+.gl-list li{background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:.65rem .75rem;min-width:0}
+.gl-list dfn{font-style:normal;font-weight:600;font-size:1.04rem}
+.gl-list .aka{font-family:var(--f-mono);font-size:.72rem;color:var(--muted);margin-left:.3rem}
+.gl-list .cat{display:inline-block;font-family:var(--f-mono);font-size:.64rem;letter-spacing:.06em;text-transform:uppercase;color:var(--tape-ink);background:var(--gc,var(--tape));padding:.05rem .35rem;border-radius:2px;margin-bottom:.3rem}
+.gl-list p{margin:.25rem 0 0;font-size:.92rem;line-height:1.42;color:var(--muted)}
+.gl-list .more{font-family:var(--f-mono);font-size:.68rem;margin-top:.35rem;display:inline-block}
+
+/* roles */
+.roles{display:grid;grid-template-columns:repeat(auto-fill,minmax(15.5rem,1fr));gap:.6rem}
+.roles details{background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:.6rem .75rem;min-width:0}
+.roles summary{cursor:pointer;list-style:none}
+.roles summary::-webkit-details-marker{display:none}
+.roles summary b{display:block;font-size:1.02rem}
+.roles summary span{font-size:.88rem;color:var(--muted);line-height:1.35;display:block}
+.roles .rd{font-size:.92rem;line-height:1.45;margin-top:.5rem}
+.roles .rd dl{margin:.4rem 0 0;font-family:var(--f-mono);font-size:.72rem;color:var(--muted)}
+.roles .rd dt{text-transform:uppercase;letter-spacing:.06em}
+.roles .rd dd{margin:0 0 .35rem;color:var(--ink);font-family:var(--f-body);font-size:.88rem}
+
+/* toolbox */
+.tools{display:grid;grid-template-columns:repeat(auto-fit,minmax(18rem,1fr));gap:.8rem}
+.tool{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:.85rem;display:grid;gap:.65rem;align-content:start;min-width:0}
+.tool h4{margin:0;font-family:var(--f-display);font-weight:800;font-size:1.3rem;letter-spacing:.02em;text-transform:uppercase;line-height:1}
+.tool .row{display:grid;grid-template-columns:1fr 1fr;gap:.5rem}
+.out{border-top:1px dashed var(--line);padding-top:.6rem;display:grid;gap:.3rem}
+.out .big{font-family:var(--f-mono);font-weight:600;font-size:1.5rem;color:var(--tape);line-height:1.1;font-variant-numeric:tabular-nums}
+.out p{margin:0;font-size:.86rem;line-height:1.4;color:var(--muted)}
+.out .warn{color:var(--hot)}
+.tool .src{font-family:var(--f-mono);font-size:.66rem;color:var(--muted)}
+.tool .src a{color:var(--muted)}
+
+/* checklist */
+.check{list-style:none;margin:0;padding:0;display:grid;gap:.15rem}
+.check li{display:flex;gap:.6rem;align-items:flex-start;padding:.35rem 0;border-bottom:1px solid var(--line)}
+.check input{width:1.15rem;height:1.15rem;margin-top:.2rem;accent-color:var(--tape);flex:none}
+.check label{font-size:.98rem;line-height:1.4;cursor:pointer}
+.check h4{margin:.8rem 0 .2rem;font-family:var(--f-mono);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--tape)}
+.check li.done label{color:var(--muted);text-decoration:line-through;text-decoration-color:var(--tape)}
+
+/* resources */
+.res{list-style:none;margin:.8rem 0 0;padding:0;display:grid;gap:.45rem}
+.res li{display:grid;grid-template-columns:5.5rem minmax(0,1fr);gap:.7rem;padding:.45rem 0;border-bottom:1px solid var(--line)}
+.res .ty{font-family:var(--f-mono);font-size:.66rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding-top:.2rem}
+.res a{font-weight:600}
+.res p{margin:.1rem 0 0;font-size:.9rem;color:var(--muted);line-height:1.4}
+
+/* faq, refs, footer */
+.faq details{border-bottom:1px solid var(--line);padding:.7rem 0}
+.faq summary{cursor:pointer;font-weight:600;font-size:1.06rem;line-height:1.35}
+.faq details p{margin:.45rem 0 0;font-size:1rem;color:var(--muted)}
+.cite{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:.85rem 1rem;margin:1.4rem 0;font-size:.95rem}
+.cite code{display:block;font-family:var(--f-mono);font-size:.78rem;white-space:pre-wrap;overflow-wrap:anywhere;margin:.4rem 0 .6rem}
+.refs{margin-top:3.5rem;border-top:2px solid var(--line);padding-top:1rem}
+.refs hr{display:none}
+.refs ol{padding-left:2.6rem;margin:0;font-size:.88rem;line-height:1.45;color:var(--muted)}
+.refs li{margin-bottom:.4rem;overflow-wrap:anywhere}
+.refs li::marker{font-family:var(--f-mono);font-size:.74rem;color:var(--tape)}
+.refs li p{margin:0;display:inline}
+.refs a.footnote-backref{text-decoration:none;margin-left:.25rem}
+.sisters{margin-top:3rem;border:1px solid var(--line);border-radius:8px;padding:.9rem 1rem;display:grid;gap:.4rem;background:var(--panel)}
+.sisters h2{margin:0;font-family:var(--f-mono);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.sisters ul{list-style:none;margin:0;padding:0;display:grid;gap:.35rem}
+.sisters a{font-weight:600}
+.sisters span{font-size:.92rem;color:var(--muted)}
+footer{margin-top:2rem;border-top:1px solid var(--line);padding-top:.8rem;font-family:var(--f-mono);font-size:.72rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:.5rem 1.25rem;justify-content:space-between}
+footer a{color:var(--muted)}
+.in-frame .site-only{display:none!important}
+
+/* breakouts: diagrams, figures, tables and tools widen past the text column, measured against the content column */
+.main{container-type:inline-size;min-width:0}
+.col .wide{width:min(var(--wide),100cqw);max-width:none;position:relative;left:50%;transform:translateX(-50%)}
+article h2{scroll-margin-top:1.6rem}
+
+.dscroll{position:relative}
+@media (max-width:620px){.diagram .dhead::after{content:" · swipe to see all";color:var(--muted)}}
+.roles summary b::after{content:" +";color:var(--tape);font-family:var(--f-mono);font-weight:600}
+.roles details[open] summary b::after{content:" -"}
+
+/* scene grid */
+.scenes{display:grid;grid-template-columns:repeat(auto-fill,minmax(17rem,1fr));gap:.6rem}
+.scene{background:var(--bg);border:1px solid var(--line);border-left:4px solid var(--tape);border-radius:6px;padding:.7rem .8rem;min-width:0}
+.scene:nth-child(6n+2){border-left-color:var(--s2)}.scene:nth-child(6n+3){border-left-color:var(--s3)}.scene:nth-child(6n+4){border-left-color:var(--s4)}.scene:nth-child(6n+5){border-left-color:var(--s5)}.scene:nth-child(6n+6){border-left-color:var(--s6)}
+.sc-top b{display:block;font-family:var(--f-display);font-weight:800;font-size:1.3rem;letter-spacing:.02em;text-transform:uppercase;line-height:1.05}
+.sc-top span{font-family:var(--f-mono);font-size:.72rem;color:var(--muted)}
+.scene p{margin:.4rem 0 0;font-size:.9rem;line-height:1.4}
+.scene .lab{display:block;font-family:var(--f-mono);font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+/* corrections */
+.corr{display:grid;grid-template-columns:repeat(auto-fit,minmax(17rem,1fr));gap:1rem}
+.corr h4{margin:0 0 .4rem;font-family:var(--f-mono);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--tape)}
+.corr p{margin:0 0 .6rem;font-size:.95rem}
+.report{margin:1.6rem 0 0;font-family:var(--f-mono);font-size:.72rem}
+.report a{color:var(--muted)}
+.legend{display:flex;flex-wrap:wrap;gap:.4rem 1.1rem;margin-top:.6rem;font-family:var(--f-mono);font-size:.76rem;color:var(--muted)}
+.legend i{display:inline-block;width:.8rem;height:.8rem;border-radius:2px;margin-right:.35rem;vertical-align:-1px}
+.sc-top span{display:block;line-height:1.4;margin-top:.15rem}
+
+/* multi-page: progress, section h1, meta, prev/next, hub cards, phone contents drawer */
+.progress{position:fixed;top:0;left:0;height:3px;width:0;background:var(--tape);z-index:30;transition:width .1s linear}
+article h1.sec-h1{font-family:var(--f-display);font-weight:900;font-size:clamp(2.4rem,7vw,3.8rem);line-height:.95;letter-spacing:.01em;text-transform:uppercase;margin:.6rem 0 1.1rem;text-wrap:balance}
+article h1.sec-h1 .tape{display:inline-block;vertical-align:.5em;margin-right:.55rem;font-family:var(--f-hand);font-weight:400;font-size:.34em;letter-spacing:0;text-transform:none;color:var(--tape-ink);background:var(--sc,var(--tape));padding:.3em .5em .22em;transform:rotate(-2deg);clip-path:polygon(3% 0,97% 6%,100% 94%,0 100%)}
+.readmeta{font-family:var(--f-mono);font-size:.74rem;color:var(--muted);margin:1.6rem 0 0}
+.pn{display:grid;grid-template-columns:1fr 1fr;gap:.7rem;margin:3rem 0 0}
+.pn a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:.8rem .9rem;text-decoration:none;color:var(--ink);font-weight:600;line-height:1.3;min-width:0}
+.pn a:hover{border-color:var(--tape)}
+.pn span{display:block;font-family:var(--f-mono);font-size:.68rem;font-weight:400;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:.2rem}
+.pn .next{text-align:right}
+.hubtoc{max-width:var(--wide);margin:2.6rem auto 0}
+.hubtoc h2{font-family:var(--f-display);font-weight:900;font-size:clamp(1.9rem,5vw,2.8rem);text-transform:uppercase;line-height:.95;margin:0}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(17rem,1fr));gap:.65rem;margin-top:1rem}
+.card{display:grid;grid-template-rows:auto auto 1fr auto;gap:.35rem;background:var(--panel);border:1px solid var(--line);border-top:4px solid var(--sc,var(--tape));border-radius:8px;padding:.8rem .9rem;text-decoration:none;color:var(--ink);min-width:0}
+.card:hover{border-color:var(--sc,var(--tape))}
+.card .chip-n{width:fit-content;margin:0}
+.card b{font-size:1.1rem;line-height:1.25}
+.card p{margin:0;font-size:.9rem;line-height:1.42;color:var(--muted)}
+.mtoc{position:fixed;right:1rem;bottom:calc(1rem + env(safe-area-inset-bottom,0px));z-index:25;max-width:calc(100vw - 2rem)}
+.mtoc summary{list-style:none;cursor:pointer;font:600 .8rem var(--f-mono);letter-spacing:.06em;text-transform:uppercase;background:var(--tape);color:var(--tape-ink);padding:.6rem .9rem;border-radius:999px;box-shadow:0 2px 10px rgba(0,0,0,.35);width:fit-content;margin-left:auto}
+.mtoc summary::-webkit-details-marker{display:none}
+.mtoc nav{margin-bottom:.5rem;background:var(--panel);border:1px solid var(--line);border-radius:10px;max-height:65vh;overflow:auto;padding:.4rem;width:min(22rem,calc(100vw - 2rem));font-family:var(--f-mono);font-size:.8rem}
+.mtoc[open]{display:flex;flex-direction:column-reverse}
+.mtoc a{display:flex;gap:.55rem;padding:.45rem .5rem;color:var(--ink);text-decoration:none;border-radius:6px}
+.mtoc a.on{background:var(--bg);color:var(--tape)}
+.mtoc .n{color:var(--muted);min-width:1.5rem}
+@media (min-width:1260px){.mtoc{display:none}}
+
+</style>
+</head>
+<body><a class="skip" href="#sec-sfx">Skip to the section</a><div class="wrap has-rail"><div class="progress" id="progress" aria-hidden="true"></div><div class="mast"><span><a href="https://cold.fyi">cold.fyi</a> / <a href="/">The Show File</a> / Fire, air and confetti</span><button class="theme-btn" id="theme-btn" type="button">Lights up</button></div><div class="layout"><nav class="rail" aria-label="Sections"><h2><a href="/" style="color:inherit;text-decoration:none">The Show File</a></h2><a href="/primer/"><span class="n">01</span>How music came to need production</a><a href="/scenes/"><span class="n">02</span>The scenes that built it</a><a href="/lineage/"><span class="n">03</span>The lineage of excess</a><a href="/booth/"><span class="n">04</span>The booth</a><a href="/technique/"><span class="n">05</span>What you&#x27;re watching in the booth</a><a href="/network/"><span class="n">06</span>Why your CDJs are on a network</a><a href="/light/"><span class="n">07</span>Light</a><a href="/lasers/"><span class="n">08</span>Lasers</a><a href="/video/"><span class="n">09</span>Video and LED walls</a><a href="/showcontrol/"><span class="n">10</span>Who presses go: show control and timecode</a><a href="/sound/"><span class="n">11</span>Sound</a><a href="/power/"><span class="n">12</span>Power</a><a href="/sfx/" class=on aria-current=page><span class="n">13</span>Fire, air and confetti</a><a href="/stage/"><span class="n">14</span>The stage itself</a><a href="/newtech/"><span class="n">15</span>New toys: drones, spatial audio, wristbands and holograms</a><a href="/venues/"><span class="n">16</span>Clubs, festivals and the rooms that shaped the gear</a><a href="/artist/"><span class="n">17</span>The artist&#x27;s rig, the stream and the rights</a><a href="/crew/"><span class="n">18</span>Who does what</a><a href="/paperwork/"><span class="n">19</span>The paperwork</a><a href="/rigging/"><span class="n">20</span>Rigging</a><a href="/safety/"><span class="n">21</span>Safety, and what it cost to learn it</a><a href="/money/"><span class="n">22</span>The money</a><a href="/access/"><span class="n">23</span>Access, health and harm reduction</a><a href="/green/"><span class="n">24</span>Greener shows</a><a href="/careers/"><span class="n">25</span>Getting into the work, and lasting in it</a><a href="/toolbox/"><span class="n">26</span>The toolbox</a><a href="/glossary/"><span class="n">27</span>The glossary</a><a href="/next/"><span class="n">28</span>Where to go next</a><a href="/open/"><span class="n">29</span>Open questions and known gaps</a><a href="/corrections/"><span class="n">30</span>Corrections and updates</a><a href="/all/"><span class="n">··</span>Everything on one page</a></nav><div class="main"><article class="col"><p class="readmeta">Section 13 of 30 · about 6 min read · updated October 2026</p><section class="sec" style="--sc:var(--s1)"><h1 class="sec-h1" id="sec-sfx" style="--sc:var(--s1)"><span class="tape">13</span>Fire, air and confetti</h1>
+<p class="short"><strong>The short version:</strong> The effects that mark the drop - CO2 jets, confetti, flames, sparks, pyro and kabuki drops - are all governed by fire codes and local permits, and in the US by two NFPA standards in particular. Most fatal incidents follow one pattern: sparks indoors, near a flammable ceiling or acoustic foam. And "cold spark" machines are not cold; at least some fire departments, and NFPA 1126's definitions, treat them as pyrotechnics.</p>
+<h3>CO2 jets and cryo</h3>
+<p>A CO2 jet does one thing: it opens a valve, fires a column of liquid carbon dioxide, and closes again. The white plume is "frozen humidity", gone within seconds, leaving nothing on the floor<sup id="fnref-326"><a class="footnote-ref" href="#fn-326">326</a></sup>. The usual setup is one siphon tank, one hose and one jet; valves are rated to at least 1,450 psi, and plumes reach about 8-20 feet on small jets, 35-55 feet on DMX valve jets and 75-90 feet on multi-valve units, shorter in heat and dry air<sup id="fnref2-326"><a class="footnote-ref" href="#fn-326">326</a></sup>. One supplier lists 15-20 feet of audience clearance, notes that every type of CO2 effect needs a permit in Las Vegas, and recommends giving effects their own DMX universe so noise on a shared line cannot cause a misfire<sup id="fnref3-326"><a class="footnote-ref" href="#fn-326">326</a></sup>.</p>
+<p>The hazard is the gas, not the cold. CO2 is about 1.5 times as dense as air and collects in low spots. NIOSH and OSHA set a shift-average limit of 5,000 ppm, and NIOSH lists 40,000 ppm as immediately dangerous to life or health; symptoms run from headache and dizziness to convulsions and asphyxia, plus frostbite from the liquid<sup id="fnref-327"><a class="footnote-ref" href="#fn-327">327</a></sup>. Industrial gas guidance puts alarm thresholds at below 19.5% oxygen or above 0.5% CO2, and stresses that CO2 is a health hazard in itself, not only an oxygen displacer<sup id="fnref-328"><a class="footnote-ref" href="#fn-328">328</a></sup>. The body's urge to breathe is driven by CO2 rather than by low oxygen, so a person in an oxygen-poor pit can pass out with little warning, and readings can be fine at chest height and unsafe at floor level<sup id="fnref-329"><a class="footnote-ref" href="#fn-329">329</a></sup>. The highest-risk scenario, in our reading, is CO2 released into a low, enclosed, poorly ventilated space: an orchestra pit, a sunken stage, a basement club.</p>
+<h3>Confetti and streamers</h3>
+<p>Electric confetti cannons fire on a button or trigger, with ranges of up to 12 meters (about 40 feet); one major maker's tissue confetti is listed as certified biodegradable (in named colors) and flameproof to the German B1 standard<sup id="fnref-330"><a class="footnote-ref" href="#fn-330">330</a></sup>. Not every "biodegradable" claim carries a certificate, and water-soluble confetti only dissolves when soaked and agitated; if it dries first, it can stick to floors and become a slip hazard<sup id="fnref-331"><a class="footnote-ref" href="#fn-331">331</a></sup>.</p>
+<h3>Flame effects</h3>
+<p>A stage flame unit's safety logic is layered. On one widely used design, one DMX channel arms it and a second fires it; it arms only when the safety channel sits between 40% and 60%, then counts down for three seconds while it self-checks, and any other value drops it back to safe mode<sup id="fnref-332"><a class="footnote-ref" href="#fn-332">332</a></sup>. A tilt sensor shuts it down if it is knocked, there is a latching emergency stop, and the operator must be able to see every unit; the manufacturer specifies a 3-meter danger radius with 6 to 10 meters clear overhead, and the flames reach 3 to 6 meters<sup id="fnref2-332"><a class="footnote-ref" href="#fn-332">332</a></sup>. Practitioners add their own redundancy: flame units on their own universe, a manned emergency stop on the power, and a dead-man handle that enables the effect while DMX only handles the timing - because DMX is one-way and has no error checking<sup id="fnref-333"><a class="footnote-ref" href="#fn-333">333</a></sup>.</p>
+<h3>Pyro, and the standards that govern it</h3>
+<p>In the US, <strong>NFPA 1126</strong> covers pyrotechnics before a proximate audience - musical, theatrical and similar productions, indoors and out - and, according to a published summary of its 2026 edition, now requires every operator to be a "pyrotechnic professional"<sup id="fnref-334"><a class="footnote-ref" href="#fn-334">334</a></sup>. <strong>NFPA 160</strong> covers flame effects before an audience, from design to defueling; the same kind of summary says its 2026 edition makes the operator, not production management, responsible for deciding how long safe removal takes<sup id="fnref-335"><a class="footnote-ref" href="#fn-335">335</a></sup>. States and cities adopt NFPA 1126 into their own law<sup id="fnref-336"><a class="footnote-ref" href="#fn-336">336</a></sup>, and local fire departments issue specific permits for proximate pyro<sup id="fnref-337"><a class="footnote-ref" href="#fn-337">337</a></sup>. Federal rules define categories such as display fireworks and "theatrical flash powder" in kits of an ounce or less<sup id="fnref-338"><a class="footnote-ref" href="#fn-338">338</a></sup>. State licenses vary; North Carolina's 1.4G operator license, for example, requires the holder to be 21 or older, complete 8 hours of training, have lead-operator experience on three shows and pass an exam<sup id="fnref-339"><a class="footnote-ref" href="#fn-339">339</a></sup>.</p>
+<h3>"Cold spark" machines are not cold</h3>
+<p>The machines sold as "cold spark" feed a powder of roughly 95% titanium and 5% zirconium into a tube heated to around 560 C until it glows, then blow it out through a nozzle; the patent claims the falling sparks cool to a touch-safe temperature<sup id="fnref-340"><a class="footnote-ref" href="#fn-340">340</a></sup>. Fire officials disagree with the framing. Mesa, Arizona's fire department says "there is no such thing as 'cold sparks' or pyrotechnic effects that are safer than others", notes that titanium powder can self-ignite in air as low as 482 F, and says NFPA 1126's definitions include cold spark technology<sup id="fnref-341"><a class="footnote-ref" href="#fn-341">341</a></sup>. West Milford, New Jersey, requires a permit, operator certification, insurance, 10 feet of clearance from combustibles, a Class D metal-fire extinguisher and possibly a paid fire watch<sup id="fnref-342"><a class="footnote-ref" href="#fn-342">342</a></sup>. A more accurate description, in our view, is "a lower-temperature spark effect, still regulated as pyrotechnics".</p>
+<h3>Kabuki drops</h3>
+<p>A kabuki drop releases a curtain or banner on cue so it falls away to reveal what is behind it. Electromagnetic release units can hold loads up to about 50 kg and are triggered remotely<sup id="fnref-343"><a class="footnote-ref" href="#fn-343">343</a></sup>.</p>
+<h3>Who fires the effects, and how</h3>
+<p>Pyro and flame are run by licensed or certified operators under a local permit<sup id="fnref2-334"><a class="footnote-ref" href="#fn-334">334</a></sup><sup id="fnref2-339"><a class="footnote-ref" href="#fn-339">339</a></sup>. Effects are usually cued over DMX on a dedicated universe, with a separate arm or safety channel and a manual enable held by a person who can see the device<sup id="fnref3-332"><a class="footnote-ref" href="#fn-332">332</a></sup><sup id="fnref4-326"><a class="footnote-ref" href="#fn-326">326</a></sup><sup id="fnref2-333"><a class="footnote-ref" href="#fn-333">333</a></sup>. Some crews put a second operator with a better view on the safety while the main desk handles timing<sup id="fnref3-333"><a class="footnote-ref" href="#fn-333">333</a></sup>. For DJ shows, where the track structure is not fixed, the drop is usually fired by hand, or armed in advance and released by hand; full timecode suits pre-built show files. That last point is our inference.</p>
+<h3>The fires that wrote the rules</h3>
+<p>On 20 February 2003, at The Station nightclub in West Warwick, Rhode Island, pyrotechnic gerbs set off by a touring band's manager ignited polyurethane acoustic foam around the stage. One hundred people died and 230 were injured; the club had no sprinklers and was over its licensed capacity of 404<sup id="fnref-344"><a class="footnote-ref" href="#fn-344">344</a></sup>. The US National Institute of Standards and Technology found conditions at head height in the middle of the room became lethal "in less than 90 seconds after ignition of foam", and recommended sprinklers in all new nightclubs and existing ones over 100 occupants, a ban on indoor pyro in nightclubs without sprinklers, a ban on non-fire-retarded foam as a finish, and designing on the assumption that the main exit is blocked<sup id="fnref-345"><a class="footnote-ref" href="#fn-345">345</a></sup>. The NFPA amended its Life Safety Code within months to require sprinklers in existing nightclubs over 100 occupants and crowd managers<sup id="fnref2-344"><a class="footnote-ref" href="#fn-344">344</a></sup>.</p>
+<p>The pattern repeats:</p>
+<ul>
+<li><strong>Club Pulse, Kočani, North Macedonia, 16 March 2025</strong> - 59 dead in the first reports, rising to 63 by October 2025 as the injured died. Sparks from stage pyrotechnics ignited acoustic foam on the ceiling, and investigators later found the club's operating license was forged<sup id="fnref2-346"><a class="footnote-ref" href="#fn-346">346</a></sup><sup id="fnref-347"><a class="footnote-ref" href="#fn-347">347</a></sup>.</li>
+<li><strong>Le Constellation, Crans-Montana, Switzerland, New Year's 2026</strong> - 40 dead in the first counts and 41 by February 2026, with about 115 to 119 injured; the preliminary cause is sparklers on champagne bottles held too close to the ceiling, with acoustic foam under examination<sup id="fnref2-348"><a class="footnote-ref" href="#fn-348">348</a></sup><sup id="fnref-349"><a class="footnote-ref" href="#fn-349">349</a></sup>.</li>
+<li><strong>Formosa Fun Coast, Taiwan, 27 June 2015</strong> - 15 dead and about 500 burned when colored cornstarch powder sprayed over a crowd at a party with DJs ignited. Not pyro, but an effect aimed at an audience<sup id="fnref-350"><a class="footnote-ref" href="#fn-350">350</a></sup>.</li>
+<li><strong>Tomorrowland, July 2025</strong> - the Orbyz mainstage caught fire during a final pyrotechnic rehearsal two days before the festival, and no one was hurt<sup id="fnref2-99"><a class="footnote-ref" href="#fn-99">99</a></sup>. A Belgian newspaper later reported, citing sources close to the investigation, that an accidental ethanol spill during subcontractors' testing of the stage's fire bowls may have caused it; that is unconfirmed, and Tomorrowland has not addressed the cause<sup id="fnref-351"><a class="footnote-ref" href="#fn-351">351</a></sup>.</li>
+</ul>
+<p>The lesson (ours, from the pattern): the device is only half of it. Finishes, sprinklers and exits decide whether a spark becomes a disaster.</p>
+<p class="report site-only"><a href="mailto:hello@thirdpolararch.com?subject=Show%20File%20correction%3A%20Fire%2C%20air%20and%20confetti">Report an error in this section</a></p></section><nav class="pn" aria-label="Previous and next"><a class="prev" href="/power/"><span>Previous · 12</span>Power</a><a class="next" href="/stage/"><span>Next · 14</span>The stage itself</a></nav><section class="refs" id="refs"><h2 style="font-family:var(--f-display);font-weight:900;text-transform:uppercase;font-size:2rem;margin:0 0 .4rem">Sources for this section</h2><p style="font-size:.9rem;color:var(--muted);margin:0 0 1rem">27 of the guide's 555 sources. Numbers match the <a href="/all/#refs">full reference list</a>.</p><div class="footnote"><ol><li id="fn-99" value="99">
+<p>TPi: Tomorrowland 2025 Mainstage Rebuild - <a href="https://www.tpimagazine.com/?p=82176" rel="noopener" target="_blank">tpimagazine.com</a>&#160;<a class="footnote-backref" href="#fnref-99" title="Jump back to footnote 99 in the text">↩</a><a class="footnote-backref" href="#fnref2-99" title="Jump back to footnote 99 in the text">↩</a><a class="footnote-backref" href="#fnref3-99" title="Jump back to footnote 99 in the text">↩</a><a class="footnote-backref" href="#fnref4-99" title="Jump back to footnote 99 in the text">↩</a></p>
+</li><li id="fn-326" value="326">
+<p>CryoFX: CO2 Jets - <a href="https://www.cryofx.com/co2-jets" rel="noopener" target="_blank">cryofx.com</a>&#160;<a class="footnote-backref" href="#fnref-326" title="Jump back to footnote 326 in the text">↩</a><a class="footnote-backref" href="#fnref2-326" title="Jump back to footnote 326 in the text">↩</a><a class="footnote-backref" href="#fnref3-326" title="Jump back to footnote 326 in the text">↩</a><a class="footnote-backref" href="#fnref4-326" title="Jump back to footnote 326 in the text">↩</a></p>
+</li><li id="fn-327" value="327">
+<p>NIOSH Pocket Guide: Carbon Dioxide - <a href="https://www.cdc.gov/niosh/npg/npgd0103.html" rel="noopener" target="_blank">cdc.gov</a>&#160;<a class="footnote-backref" href="#fnref-327" title="Jump back to footnote 327 in the text">↩</a><a class="footnote-backref" href="#fnref2-327" title="Jump back to footnote 327 in the text">↩</a></p>
+</li><li id="fn-328" value="328">
+<p>Air Products: Safetygram - Liquid CO2 or N2 Injection Systems (PDF) - <a href="https://www.airproducts.com/-/media/files/en/900/900-22-007-gl-guidance-for-the-safe-operation-of-liquid-co2-or-n2-injection-systems.pdf" rel="noopener" target="_blank">airproducts.com</a>&#160;<a class="footnote-backref" href="#fnref-328" title="Jump back to footnote 328 in the text">↩</a></p>
+</li><li id="fn-329" value="329">
+<p>HSE Blog: Oxygen Depletion Risks from Cryogenic Liquids - <a href="https://www.hseblog.com/oxygen-depletion-risks-from-cryogenic-liquids/" rel="noopener" target="_blank">hseblog.com</a>&#160;<a class="footnote-backref" href="#fnref-329" title="Jump back to footnote 329 in the text">↩</a></p>
+</li><li id="fn-330" value="330">
+<p>Huss Licht und Ton: MagicFX Electric Confetti Cannon PRO - <a href="https://www.huss-licht-ton.de/print_product_info.php/en/products_id/58499" rel="noopener" target="_blank">huss-licht-ton.de</a>&#160;<a class="footnote-backref" href="#fnref-330" title="Jump back to footnote 330 in the text">↩</a></p>
+</li><li id="fn-331" value="331">
+<p>Artistry in Motion: Materials - <a href="https://www.artistryinmotion.com/pages/materials" rel="noopener" target="_blank">artistryinmotion.com</a>&#160;<a class="footnote-backref" href="#fnref-331" title="Jump back to footnote 331 in the text">↩</a></p>
+</li><li id="fn-332" value="332">
+<p>MagicFX: Stage Flame Manual (PDF) - <a href="https://finale3d.com/wp-content/uploads/2021/05/MAGICFX_STAGE-FLAME_MANUAL.pdf" rel="noopener" target="_blank">finale3d.com</a>&#160;<a class="footnote-backref" href="#fnref-332" title="Jump back to footnote 332 in the text">↩</a><a class="footnote-backref" href="#fnref2-332" title="Jump back to footnote 332 in the text">↩</a><a class="footnote-backref" href="#fnref3-332" title="Jump back to footnote 332 in the text">↩</a><a class="footnote-backref" href="#fnref4-332" title="Jump back to footnote 332 in the text">↩</a></p>
+</li><li id="fn-333" value="333">
+<p>Blue Room Forum: Hybrid Firing of Effects and Pyro - <a href="https://www.blue-room.org.uk/topic/71139-hybrid-firing-of-effects-and-pyro/page/2/" rel="noopener" target="_blank">blue-room.org.uk</a>&#160;<a class="footnote-backref" href="#fnref-333" title="Jump back to footnote 333 in the text">↩</a><a class="footnote-backref" href="#fnref2-333" title="Jump back to footnote 333 in the text">↩</a><a class="footnote-backref" href="#fnref3-333" title="Jump back to footnote 333 in the text">↩</a></p>
+</li><li id="fn-334" value="334">
+<p>NFPA 1126-2026 Listing (reseller summary) - <a href="https://www.fire-police-ems.com/NFPA1126-2026.shtml" rel="noopener" target="_blank">fire-police-ems.com</a>&#160;<a class="footnote-backref" href="#fnref-334" title="Jump back to footnote 334 in the text">↩</a><a class="footnote-backref" href="#fnref2-334" title="Jump back to footnote 334 in the text">↩</a><a class="footnote-backref" href="#fnref3-334" title="Jump back to footnote 334 in the text">↩</a></p>
+</li><li id="fn-335" value="335">
+<p>NFPA 160-2026 Listing (reseller summary) - <a href="https://www.fire-police-ems.com/NFPA160-2026.shtml" rel="noopener" target="_blank">fire-police-ems.com</a>&#160;<a class="footnote-backref" href="#fnref-335" title="Jump back to footnote 335 in the text">↩</a></p>
+</li><li id="fn-336" value="336">
+<p>Cornell LII: 675 IAC 22-2.2-26 - <a href="https://www.law.cornell.edu/regulations/indiana/675-IAC-22-2.2-26" rel="noopener" target="_blank">law.cornell.edu</a>&#160;<a class="footnote-backref" href="#fnref-336" title="Jump back to footnote 336 in the text">↩</a></p>
+</li><li id="fn-337" value="337">
+<p>Santa Fe County Fire Department: Pyrotechnics Before a Proximate Audience Permit Application (2025) - <a href="https://www.santafecountynm.gov/uploads/documents/2025_SFCFD_Pyrotechnics_Before_a_Proximate_Audience_Operational_Permit_Application.pdf" rel="noopener" target="_blank">santafecountynm.gov</a>&#160;<a class="footnote-backref" href="#fnref-337" title="Jump back to footnote 337 in the text">↩</a></p>
+</li><li id="fn-338" value="338">
+<p>eCFR: 27 CFR 555.11 (Definitions) - <a href="https://www.ecfr.gov/current/title-27/chapter-II/subchapter-C/part-555/subpart-A/section-555.11" rel="noopener" target="_blank">ecfr.gov</a>&#160;<a class="footnote-backref" href="#fnref-338" title="Jump back to footnote 338 in the text">↩</a></p>
+</li><li id="fn-339" value="339">
+<p>NC Office of State Fire Marshal: 1.4G Pyrotechnic License - <a href="https://www.ncosfm.gov/licensing-cert/pyrotechnics/types-pyrotechnic-license/14g-pyrotechnic" rel="noopener" target="_blank">ncosfm.gov</a>&#160;<a class="footnote-backref" href="#fnref-339" title="Jump back to footnote 339 in the text">↩</a><a class="footnote-backref" href="#fnref2-339" title="Jump back to footnote 339 in the text">↩</a></p>
+</li><li id="fn-340" value="340">
+<p>Justia: US Patent 10,852,105 (cold spark machine) - <a href="https://patents.justia.com/patent/10852105" rel="noopener" target="_blank">patents.justia.com</a>&#160;<a class="footnote-backref" href="#fnref-340" title="Jump back to footnote 340 in the text">↩</a></p>
+</li><li id="fn-341" value="341">
+<p>City of Mesa Fire: Cold Spark Devices - <a href="https://mesaaz.gov/home/showpublisheddocument/48452/638566485869200000" rel="noopener" target="_blank">mesaaz.gov</a>&#160;<a class="footnote-backref" href="#fnref-341" title="Jump back to footnote 341 in the text">↩</a><a class="footnote-backref" href="#fnref2-341" title="Jump back to footnote 341 in the text">↩</a></p>
+</li><li id="fn-342" value="342">
+<p>West Milford Fire Marshal: Cold Spark Requirements (PDF) - <a href="https://www.westmilford.org/FCpdf/Cold%20Spark%20Req%2Epdf" rel="noopener" target="_blank">westmilford.org</a>&#160;<a class="footnote-backref" href="#fnref-342" title="Jump back to footnote 342 in the text">↩</a></p>
+</li><li id="fn-343" value="343">
+<p>LSi Online: Electro Kabuki from Magnet Schultz (2007) - <a href="https://lsionline.co.uk/news/electro-kabuki-from-magnet-schultz--4br554" rel="noopener" target="_blank">lsionline.co.uk</a>&#160;<a class="footnote-backref" href="#fnref-343" title="Jump back to footnote 343 in the text">↩</a></p>
+</li><li id="fn-344" value="344">
+<p>Wikipedia: The Station nightclub fire - <a href="https://en.wikipedia.org/wiki/The_Station_nightclub_fire" rel="noopener" target="_blank">en.wikipedia.org</a>&#160;<a class="footnote-backref" href="#fnref-344" title="Jump back to footnote 344 in the text">↩</a><a class="footnote-backref" href="#fnref2-344" title="Jump back to footnote 344 in the text">↩</a></p>
+</li><li id="fn-345" value="345">
+<p>NIST NCSTAR 2: Report of the Technical Investigation of The Station Nightclub Fire (PDF) - <a href="https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=100988" rel="noopener" target="_blank">tsapps.nist.gov</a>&#160;<a class="footnote-backref" href="#fnref-345" title="Jump back to footnote 345 in the text">↩</a><a class="footnote-backref" href="#fnref2-345" title="Jump back to footnote 345 in the text">↩</a><a class="footnote-backref" href="#fnref3-345" title="Jump back to footnote 345 in the text">↩</a></p>
+</li><li id="fn-346" value="346">
+<p>Channels TV: What We Know About North Macedonia&#x27;s Fatal Nightclub Fire (2025) - <a href="https://www.channelstv.com/2025/03/17/what-we-know-about-north-macedonias-fatal-nightclub-fire/" rel="noopener" target="_blank">channelstv.com</a>&#160;<a class="footnote-backref" href="#fnref-346" title="Jump back to footnote 346 in the text">↩</a><a class="footnote-backref" href="#fnref2-346" title="Jump back to footnote 346 in the text">↩</a></p>
+</li><li id="fn-347" value="347">
+<p>Wikipedia: Kočani nightclub fire - <a href="https://en.wikipedia.org/wiki/Ko%C4%8Dani_nightclub_fire" rel="noopener" target="_blank">en.wikipedia.org</a>&#160;<a class="footnote-backref" href="#fnref-347" title="Jump back to footnote 347 in the text">↩</a></p>
+</li><li id="fn-348" value="348">
+<p>FPA Fire &amp; Risk Management Journal: 40 Dead and 119 Injured in Swiss New Year Party Fire - <a href="https://www.thefpa.co.uk/fire-and-risk-management-journal/news/40-dead-and-119-injured-in-swiss-new-year-party-fire" rel="noopener" target="_blank">thefpa.co.uk</a>&#160;<a class="footnote-backref" href="#fnref-348" title="Jump back to footnote 348 in the text">↩</a><a class="footnote-backref" href="#fnref2-348" title="Jump back to footnote 348 in the text">↩</a></p>
+</li><li id="fn-349" value="349">
+<p>L&#x27;Unione Sarda: Crans-Montana death toll rises to 41 (1 Feb 2026) - <a href="https://www.unionesarda.it/en/world/crans-montana-death-toll-rises-to-41-18-year-old-swiss-man-dies-isl712zh" rel="noopener" target="_blank">unionesarda.it</a>&#160;<a class="footnote-backref" href="#fnref-349" title="Jump back to footnote 349 in the text">↩</a></p>
+</li><li id="fn-350" value="350">
+<p>Wikipedia: Formosa Fun Coast explosion - <a href="https://en.wikipedia.org/wiki/Formosa_Fun_Coast_explosion" rel="noopener" target="_blank">en.wikipedia.org</a>&#160;<a class="footnote-backref" href="#fnref-350" title="Jump back to footnote 350 in the text">↩</a></p>
+</li><li id="fn-351" value="351">
+<p>DJ Mag: Tomorrowland 2025 Mainstage Fire Reportedly Caused by Ethanol Spill (2026) - <a href="https://djmag.com/news/tomorrowland-2025-mainstage-fire-reportedly-caused-ethanol-spill-during-testing" rel="noopener" target="_blank">djmag.com</a>&#160;<a class="footnote-backref" href="#fnref-351" title="Jump back to footnote 351 in the text">↩</a></p>
+</li></ol></div></section><aside class="sisters" aria-labelledby="sis-h"><h2 id="sis-h">Also at cold.fyi</h2><ul><li><a href="https://penamnesty.cold.fyi">The Pens Went Away</a> <span>- deep dive No. 1, on pharma swag</span></li><li><a href="https://permit.cold.fyi">Bureau of Effects Regulation</a> <span>- the RMX-1000 operator's permit</span></li><li><a href="https://citations.cold.fyi">Department of Public Courtesy</a> <span>- citations for sidewalk crimes</span></li></ul></aside><footer><span>made with &lt;3 in boston</span><span>Corrections: <span style="user-select:all">hello@thirdpolararch.com</span> · <a href="/corrections/">corrections log</a> · <a href="https://thirdpolararch.com/terms">terms</a> · <a href="https://thirdpolararch.com/privacy">privacy</a></span></footer></article></div></div><details class="mtoc"><summary>Contents</summary><nav aria-label="Sections"><a href="/"><span class="n">00</span>Start here</a><a href="/primer/"><span class="n">01</span>How music came to need production</a><a href="/scenes/"><span class="n">02</span>The scenes that built it</a><a href="/lineage/"><span class="n">03</span>The lineage of excess</a><a href="/booth/"><span class="n">04</span>The booth</a><a href="/technique/"><span class="n">05</span>What you&#x27;re watching in the booth</a><a href="/network/"><span class="n">06</span>Why your CDJs are on a network</a><a href="/light/"><span class="n">07</span>Light</a><a href="/lasers/"><span class="n">08</span>Lasers</a><a href="/video/"><span class="n">09</span>Video and LED walls</a><a href="/showcontrol/"><span class="n">10</span>Who presses go: show control and timecode</a><a href="/sound/"><span class="n">11</span>Sound</a><a href="/power/"><span class="n">12</span>Power</a><a href="/sfx/" class=on><span class="n">13</span>Fire, air and confetti</a><a href="/stage/"><span class="n">14</span>The stage itself</a><a href="/newtech/"><span class="n">15</span>New toys: drones, spatial audio, wristbands and holograms</a><a href="/venues/"><span class="n">16</span>Clubs, festivals and the rooms that shaped the gear</a><a href="/artist/"><span class="n">17</span>The artist&#x27;s rig, the stream and the rights</a><a href="/crew/"><span class="n">18</span>Who does what</a><a href="/paperwork/"><span class="n">19</span>The paperwork</a><a href="/rigging/"><span class="n">20</span>Rigging</a><a href="/safety/"><span class="n">21</span>Safety, and what it cost to learn it</a><a href="/money/"><span class="n">22</span>The money</a><a href="/access/"><span class="n">23</span>Access, health and harm reduction</a><a href="/green/"><span class="n">24</span>Greener shows</a><a href="/careers/"><span class="n">25</span>Getting into the work, and lasting in it</a><a href="/toolbox/"><span class="n">26</span>The toolbox</a><a href="/glossary/"><span class="n">27</span>The glossary</a><a href="/next/"><span class="n">28</span>Where to go next</a><a href="/open/"><span class="n">29</span>Open questions and known gaps</a><a href="/corrections/"><span class="n">30</span>Corrections and updates</a><a href="/all/"><span class="n">··</span>Everything on one page</a></nav></details></div><script>(function () {
+  "use strict";
+  var $ = function (id) { return document.getElementById(id); };
+  var inFrame = false;
+  try { inFrame = window.self !== window.top; } catch (e) { inFrame = true; }
+  if (inFrame) document.documentElement.classList.add("in-frame");
+  function esc(s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+  function readJSON(id) { try { return JSON.parse($(id).textContent); } catch (e) { return []; } }
+  function store(k, v) { try { if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); } catch (e) { return null; } }
+
+  /* theme toggle: system by default, remembered per viewer */
+  var root = document.documentElement, tb = $("theme-btn");
+  var saved = store("sf-theme"); if (saved) root.setAttribute("data-theme", saved);
+  function label() {
+    var t = root.getAttribute("data-theme");
+    var dark = t ? t === "dark" : !window.matchMedia("(prefers-color-scheme: light)").matches;
+    if (tb) tb.textContent = dark ? "Lights up" : "Lights down";
+  }
+  if (tb) tb.addEventListener("click", function () {
+    var t = root.getAttribute("data-theme");
+    var dark = t ? t === "dark" : !window.matchMedia("(prefers-color-scheme: light)").matches;
+    var next = dark ? "light" : "dark"; root.setAttribute("data-theme", next); store("sf-theme", next); label();
+  });
+  label();
+
+  /* reading progress */
+  var bar = $("progress");
+  if (bar) {
+    var tick = false;
+    window.addEventListener("scroll", function () {
+      if (tick) return; tick = true;
+      requestAnimationFrame(function () {
+        var h = document.documentElement.scrollHeight - innerHeight;
+        bar.style.width = (h > 0 ? Math.min(100, scrollY / h * 100) : 0) + "%"; tick = false;
+      });
+    }, { passive: true });
+  }
+
+  /* figures: credit card when a remote image will not load */
+  Array.prototype.forEach.call(document.querySelectorAll(".fig .frame img"), function (img) {
+    function broke() { img.parentNode.classList.add("broken"); }
+    img.addEventListener("error", broke);
+    if (img.complete && img.naturalWidth === 0) broke();
+  });
+
+  /* footnote previews: hover or focus shows the source title */
+  var notes = {};
+  Array.prototype.forEach.call(document.querySelectorAll(".refs li[id]"), function (li) {
+    notes[li.id] = li.textContent.replace("↩", "").replace(/\s+/g, " ").trim();
+  });
+  Array.prototype.forEach.call(document.querySelectorAll("a.footnote-ref"), function (a) {
+    var id = (a.getAttribute("href") || "").slice(1);
+    if (notes[id]) a.title = notes[id];
+  });
+
+  /* contents rail: highlight the section in view */
+  var railLinks = document.querySelectorAll(".rail a[href^='#']");
+  if (railLinks.length && "IntersectionObserver" in window) {
+    var map = {};
+    Array.prototype.forEach.call(railLinks, function (a) { map[a.getAttribute("href").slice(1)] = a; });
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting && map[en.target.id]) {
+          Array.prototype.forEach.call(railLinks, function (a) { a.classList.remove("on"); });
+          map[en.target.id].classList.add("on");
+        }
+      });
+    }, { rootMargin: "-10% 0px -80% 0px" });
+    Object.keys(map).forEach(function (id) { var el = $(id); if (el) io.observe(el); });
+  }
+
+  /* timeline */
+  (function () {
+    var data = readJSON("tl-data"), list = $("tl-list"); if (!list) return;
+    var eraColor = { "Before electricity": "var(--s6)", "Recording and amplification": "var(--s5)", "Electronic instruments": "var(--s3)",
+      "Clubs and DJs": "var(--s1)", "Rave and festival": "var(--s4)", "Digital booth": "var(--s2)", "Spectacle era": "var(--s3)", "Rules and safety": "var(--hot)" };
+    var era = "";
+    function fmt(d) {
+      var m = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"], p = String(d).split("-");
+      if (p.length === 3) return m[+p[1] - 1] + " " + (+p[2]) + ", " + p[0];
+      if (p.length === 2) return m[+p[1] - 1] + " " + p[0];
+      return p[0];
+    }
+    function render() {
+      var rows = data.filter(function (e) { return !era || e.era === era; });
+      list.innerHTML = rows.map(function (e) {
+        var u = /^https?:/.test(e.source_url || "") ? e.source_url : "";
+        return '<li style="--ec:' + (eraColor[e.era] || "var(--tape)") + '"><div class="d">' + esc(fmt(e.date)) + '</div><div><div class="l">' + esc(e.label) +
+          '</div><div class="x">' + esc(e.detail) + (u ? ' <a href="' + esc(u) + '" target="_blank" rel="noopener">source</a>' : "") + "</div></div></li>";
+      }).join("");
+      $("tl-count").textContent = rows.length + " of " + data.length + " events";
+    }
+    var seg = $("tl-eras");
+    var ORDER = ["Before electricity","Recording and amplification","Electronic instruments","Clubs and DJs","Rave and festival","Digital booth","Spectacle era","Rules and safety"];
+    var eras = ORDER.filter(function (o) { return data.some(function (e) { return e.era === o; }); });
+    data.forEach(function (e) { if (eras.indexOf(e.era) < 0) eras.push(e.era); });
+    seg.innerHTML = '<button type="button" aria-pressed="true" data-e="">All</button>' + eras.map(function (e) { return '<button type="button" aria-pressed="false" data-e="' + esc(e) + '">' + esc(e) + "</button>"; }).join("");
+    seg.addEventListener("click", function (ev) {
+      var b = ev.target.closest("button"); if (!b) return; era = b.getAttribute("data-e");
+      Array.prototype.forEach.call(seg.querySelectorAll("button"), function (x) { x.setAttribute("aria-pressed", x === b ? "true" : "false"); });
+      render();
+    });
+    var tg = $("tl-toggle");
+    tg.addEventListener("click", function () { var open = $("tl-box").classList.toggle("open"); tg.textContent = open ? "Collapse" : "Show every event"; tg.setAttribute("aria-expanded", open); });
+    render();
+  })();
+
+  /* glossary */
+  (function () {
+    var data = readJSON("gl-data"), list = $("gl-list"); if (!list) return;
+    var catColor = { Booth: "var(--s1)", Network: "var(--s2)", Lighting: "var(--s3)", Laser: "var(--s4)", Video: "var(--s5)", Sound: "var(--s6)", Power: "var(--s1)",
+      SFX: "var(--s5)", Staging: "var(--s2)", Rigging: "var(--s6)", Crew: "var(--s4)", Paperwork: "var(--s3)", Safety: "var(--s5)", Venue: "var(--s2)", History: "var(--s6)", Broadcast: "var(--s3)", Scenes: "var(--s1)", Money: "var(--s4)", Access: "var(--s2)", Sustainability: "var(--s4)", Careers: "var(--s5)" };
+    var cat = "", q = $("gl-q"), shown = 18, more = $("gl-more");
+    var cats = []; data.forEach(function (d) { if (cats.indexOf(d.category) < 0) cats.push(d.category); }); cats.sort();
+    var seg = $("gl-cats");
+    seg.innerHTML = '<button type="button" aria-pressed="true" data-c="">All</button>' + cats.map(function (c) { return '<button type="button" aria-pressed="false" data-c="' + esc(c) + '">' + esc(c) + "</button>"; }).join("");
+    function render() {
+      var s = q.value.trim().toLowerCase();
+      var rows = data.filter(function (d) {
+        if (cat && d.category !== cat) return false;
+        if (s) return (d.term + " " + (d.aka || "") + " " + d.definition).toLowerCase().indexOf(s) >= 0;
+        return true;
+      });
+      if (s) rows.sort(function (a, b) { var at = a.term.toLowerCase().indexOf(s) === 0 ? 0 : 1, bt = b.term.toLowerCase().indexOf(s) === 0 ? 0 : 1; return at - bt || a.term.localeCompare(b.term); });
+      $("gl-count").textContent = rows.length + " of " + data.length + " terms";
+      if (!rows.length) { list.innerHTML = '<li><p>No match. Try a shorter word, or clear the category.</p></li>'; more.hidden = true; return; }
+      var all = rows.length; rows = rows.slice(0, shown);
+      more.hidden = all <= shown; more.textContent = "Show " + Math.min(36, all - shown) + " more (" + (all - shown) + " left)";
+      list.innerHTML = rows.map(function (d) {
+        var u = /^https?:/.test(d.source_url || "") ? d.source_url : "";
+        return '<li id="term-' + esc(d.term.toLowerCase().replace(/[^a-z0-9]+/g, "-")) + '"><span class="cat" style="--gc:' + (catColor[d.category] || "var(--tape)") + '">' + esc(d.category) + "</span><br><dfn>" + esc(d.term) + "</dfn>" +
+          (d.aka ? '<span class="aka">' + esc(d.aka) + "</span>" : "") + "<p>" + esc(d.definition) + "</p>" +
+          (d.section ? '<a class="more" href="' + (document.getElementById("sec-" + d.section) ? "#sec-" + esc(d.section) : "/" + esc(d.section) + "/") + '">read the section</a> ' : "") +
+          (u ? '<a class="more" href="' + esc(u) + '" target="_blank" rel="noopener">source</a>' : "") + "</li>";
+      }).join("");
+    }
+    more.addEventListener("click", function () { shown += 36; render(); });
+    seg.addEventListener("click", function (ev) {
+      var b = ev.target.closest("button"); if (!b) return; cat = b.getAttribute("data-c"); shown = 18;
+      Array.prototype.forEach.call(seg.querySelectorAll("button"), function (x) { x.setAttribute("aria-pressed", x === b ? "true" : "false"); });
+      render();
+    });
+    q.addEventListener("input", function () { shown = 18; render(); });
+    var h = (location.hash || "").replace("#", "");
+    if (h.indexOf("term-") === 0) { q.value = h.slice(5).replace(/-/g, " "); }
+    if (list.getAttribute("data-all") === "1") shown = 9999;
+    render();
+  })();
+
+  /* resources */
+  (function () {
+    var data = readJSON("res-data"), list = $("res-list"); if (!list) return;
+    var topic = "", seg = $("res-topics"), rshown = 10, rmore = $("res-more");
+    var topics = []; data.forEach(function (d) { if (topics.indexOf(d.topic) < 0) topics.push(d.topic); });
+    seg.innerHTML = '<button type="button" aria-pressed="true" data-t="">All</button>' + topics.map(function (t) { return '<button type="button" aria-pressed="false" data-t="' + esc(t) + '">' + esc(t) + "</button>"; }).join("");
+    function render() {
+      var rows = data.filter(function (d) { return !topic || d.topic === topic; });
+      var all = rows.length; $("res-count").textContent = all + " of " + data.length;
+      rmore.hidden = all <= rshown; rmore.textContent = "Show all " + all;
+      rows = rows.slice(0, rshown);
+      list.innerHTML = rows.map(function (d) {
+        var u = /^https?:/.test(d.url || "") ? d.url : "#";
+        return '<li><div class="ty">' + esc(d.type) + '</div><div><a href="' + esc(u) + '" target="_blank" rel="noopener">' + esc(d.title) + "</a><p>" + esc(d.why) + "</p></div></li>";
+      }).join("");
+    }
+    rmore.addEventListener("click", function () { rshown = 9999; render(); });
+    seg.addEventListener("click", function (ev) {
+      var b = ev.target.closest("button"); if (!b) return; topic = b.getAttribute("data-t"); rshown = 10;
+      Array.prototype.forEach.call(seg.querySelectorAll("button"), function (x) { x.setAttribute("aria-pressed", x === b ? "true" : "false"); });
+      render();
+    });
+    render();
+  })();
+
+  /* toolbox */
+  function num(id) { var v = parseFloat($(id).value); return isFinite(v) ? v : NaN; }
+  function fmtH(h) { if (!isFinite(h)) return "-"; if (h >= 1) return (Math.round(h * 10) / 10) + " h"; var m = h * 60; if (m >= 1) return Math.round(m) + " min"; return Math.round(m * 60) + " s"; }
+  (function pitch() {
+    if (!$("px-p")) return;
+    function run() {
+      var p = num("px-p");
+      if (!(p > 0)) { $("px-out").innerHTML = '<p class="warn">Enter a pixel pitch in millimetres, like 3.9.</p>'; return; }
+      var ft = p * 10, m = ft * 0.3048, acuity = p * 3.438;
+      $("px-out").innerHTML = '<div class="big">' + (Math.round(m * 10) / 10) + " m <small>(" + Math.round(ft) + " ft)</small></div>" +
+        "<p>Comfortable closest viewing by the common 10x rule of thumb.</p>" +
+        "<p>Beyond about <b>" + (Math.round(acuity * 10) / 10) + " m</b>, a viewer with 20/20 vision cannot resolve individual pixels.</p>" +
+        "<p>Vendors' rules disagree by several metres for the same pitch; treat these as a starting point.</p>";
+    }
+    ["px-p"].forEach(function (id) { $(id).addEventListener("input", run); }); run();
+  })();
+  (function dmx() {
+    if (!$("dmx-n")) return;
+    function run() {
+      var n = Math.floor(num("dmx-n")), c = Math.floor(num("dmx-c")), start = Math.floor(num("dmx-s")) || 1;
+      if (!(n > 0) || !(c > 0) || c > 512 || start < 1 || start > 512) { $("dmx-out").innerHTML = '<p class="warn">Fixtures and channels must be positive; a footprint can\'t exceed 512 channels.</p>'; return; }
+      var firstFit = Math.floor((512 - start + 1) / c), per = Math.floor(512 / c);
+      var uni = n <= firstFit ? 1 : 1 + Math.ceil((n - firstFit) / per);
+      var addrs = []; for (var i = 0; i < Math.min(n, firstFit, 6); i++) addrs.push(start + i * c);
+      $("dmx-out").innerHTML = '<div class="big">' + uni + " universe" + (uni > 1 ? "s" : "") + "</div>" +
+        "<p>" + per + " fixtures fit per universe at " + c + " channels each, without splitting a fixture across universes.</p>" +
+        "<p>Start addresses: " + addrs.join(", ") + (n > addrs.length ? ", ..." : "") + "</p>";
+    }
+    ["dmx-n", "dmx-c", "dmx-s"].forEach(function (id) { $(id).addEventListener("input", run); }); run();
+  })();
+  (function noise() {
+    if (!$("nz-l")) return;
+    function run() {
+      var L = num("nz-l");
+      if (!(L > 0)) { $("nz-out").innerHTML = '<p class="warn">Enter a level in dBA, like 100.</p>'; return; }
+      var osha = 8 / Math.pow(2, (L - 90) / 5), niosh = 8 / Math.pow(2, (L - 85) / 3);
+      $("nz-out").innerHTML = '<div class="big">' + fmtH(niosh) + "</div>" +
+        "<p>Daily exposure before NIOSH's recommended limit (85 dBA over 8 h, 3 dB exchange).</p>" +
+        "<p>OSHA's legal limit for workers allows " + fmtH(osha) + " (90 dBA, 5 dB exchange).</p>" +
+        "<p>" + (L > 100 ? '<span class="warn">Above WHO\'s 100 dB LAeq (15 min) guideline for venues and events.</span>' : "At or under WHO's 100 dB LAeq (15 min) venue guideline, if that's a 15-minute average.") + "</p>";
+    }
+    $("nz-l").addEventListener("input", run); run();
+  })();
+  (function power() {
+    if (!$("pw-w")) return;
+    function run() {
+      var W = num("pw-w"), V = num("pw-v"), ph = $("pw-ph").value, cb = num("pw-cb");
+      if (!(W > 0) || !(V > 0)) { $("pw-out").innerHTML = '<p class="warn">Enter total watts and the supply voltage.</p>'; return; }
+      var A = ph === "3" ? W / (Math.sqrt(3) * V) : W / V;
+      var usable = cb > 0 ? cb * 0.8 : NaN;
+      var circuits = ph === "3" ? NaN : (usable > 0 ? Math.ceil(A / usable) : NaN);
+      $("pw-out").innerHTML = '<div class="big">' + (Math.round(A * 10) / 10) + " A" + (ph === "3" ? " per phase" : "") + "</div>" +
+        (ph === "3" ? "<p>Balanced three-phase load at " + V + " V line-to-line.</p>" :
+          (isFinite(circuits) ? "<p>About <b>" + circuits + "</b> × " + cb + " A circuit" + (circuits > 1 ? "s" : "") + " if each is kept to 80% (" + (Math.round(usable * 10) / 10) + " A).</p>" : "")) +
+        "<p>Add 20-30% headroom for peaks and inrush. A licensed electrician makes the real connections.</p>";
+    }
+    ["pw-w", "pw-v", "pw-cb"].forEach(function (id) { $(id).addEventListener("input", run); });
+    $("pw-ph").addEventListener("change", run); run();
+  })();
+
+  /* advance checklist, remembered in this browser only */
+  (function () {
+    var box = $("adv-list"); if (!box) return;
+    var key = "sf-advance", state = {};
+    try { state = JSON.parse(store(key) || "{}") || {}; } catch (e) { state = {}; }
+    Array.prototype.forEach.call(box.querySelectorAll("input[type=checkbox]"), function (cb) {
+      if (state[cb.id]) { cb.checked = true; cb.closest("li").classList.add("done"); }
+      cb.addEventListener("change", function () {
+        state[cb.id] = cb.checked; cb.closest("li").classList.toggle("done", cb.checked); store(key, JSON.stringify(state)); tally();
+      });
+    });
+    function tally() {
+      var all = box.querySelectorAll("input[type=checkbox]"), d = box.querySelectorAll("input:checked");
+      $("adv-count").textContent = d.length + " of " + all.length + " confirmed";
+    }
+    $("adv-reset").addEventListener("click", function () {
+      state = {}; store(key, "{}");
+      Array.prototype.forEach.call(box.querySelectorAll("input[type=checkbox]"), function (cb) { cb.checked = false; cb.closest("li").classList.remove("done"); });
+      tally();
+    });
+    tally();
+  })();
+
+  /* copy citation */
+  var cbtn = $("cite-copy");
+  if (cbtn) cbtn.addEventListener("click", function () {
+    var t = $("cite-text").textContent;
+    function sel() { var r = document.createRange(); r.selectNodeContents($("cite-text")); var w = window.getSelection(); w.removeAllRanges(); w.addRange(r); }
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(t).then(function () { cbtn.textContent = "Copied"; }, sel); else sel();
+  });
+})();
+</script></body></html>
