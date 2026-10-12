@@ -70,11 +70,32 @@
     "era": "Recording and amplification"
   },
   {
+    "date": "1957",
+    "label": "A sound clash at Forrester's Hall",
+    "detail": "Prince Buster breaks Duke Reid's stylus at a late-1957 clash in Kingston. Jamaican sound systems date from the 1940s or the late 1940s (date disputed), and by the mid-1950s they were more popular than live bands at parties.",
+    "source_url": "https://daily.redbullmusicacademy.com/2013/02/duke-reid-sir-coxsone-dodd-beef-patty",
+    "era": "Recording and amplification"
+  },
+  {
     "date": "1958",
     "label": "Poème électronique plays through 400 speakers",
     "detail": "Edgard Varèse's piece plays through 400 loudspeakers at the Brussels World's Fair, an early multi-speaker spatial sound installation.",
     "source_url": "https://www.britannica.com/art/musique-concrete",
     "era": "Electronic instruments"
+  },
+  {
+    "date": "1958",
+    "label": "King Tubby's Hometown Hi-Fi",
+    "detail": "Osbourne Ruddock, King Tubby, founds Hometown Hi-Fi, the first sound system to bring reverb to the general public.",
+    "source_url": "https://factmag.com/2015/05/19/king-tubby-beginners-guide-dub-reggae",
+    "era": "Recording and amplification"
+  },
+  {
+    "date": "1959-01-30",
+    "label": "Caribbean carnival at St Pancras",
+    "detail": "Claudia Jones organizes the first Caribbean carnival in London, indoors at St Pancras Town Hall. Rhaune Laslett starts the Notting Hill street festival in 1966, and static sound systems arrive in the 1970s.",
+    "source_url": "https://londonmuseum.org.uk/collections/london-stories/origins-notting-hill-carnival",
+    "era": "Clubs and DJs"
   },
   {
     "date": "1964",
@@ -105,6 +126,13 @@
     "era": "Clubs and DJs"
   },
   {
+    "date": "1971",
+    "label": "King Tubby makes dub",
+    "detail": "In his front room at 18 Dromilly Avenue, Kingston, King Tubby makes dub on a used MCI desk by stripping out vocals, adding delay and reverb and sweeping the high-pass filter.",
+    "source_url": "https://factmag.com/2015/05/19/king-tubby-beginners-guide-dub-reggae",
+    "era": "Clubs and DJs"
+  },
+  {
     "date": "1972-10",
     "label": "Technics SL-1200 launches",
     "detail": "The SL-1200 arrives as a hi-fi direct-drive turntable; its DJ career comes later.",
@@ -117,6 +145,13 @@
     "detail": "A preliminary Grateful Dead Wall of Sound debuts at Stanford's Maples Pavilion, and every tweeter blows during the first song.",
     "source_url": "https://www.mixonline.com/live-sound/grateful-deads-wall-of-sound-pa-to-be-auctioned",
     "era": "Spectacle era"
+  },
+  {
+    "date": "1973-06",
+    "label": "Pacha Ibiza opens",
+    "detail": "Ricardo Urgell opens Pacha Ibiza.",
+    "source_url": "https://en.wikipedia.org/wiki/The_Pacha_Group",
+    "era": "Clubs and DJs"
   },
   {
     "date": "1973-08-11",
@@ -133,17 +168,31 @@
     "era": "Spectacle era"
   },
   {
+    "date": "1975",
+    "label": "New York lets private parties continue",
+    "detail": "A Department of Consumer Affairs ruling lets private, alcohol-free parties continue, which benefits the Paradise Garage and other private clubs that run past bar hours.",
+    "source_url": "https://en.wikipedia.org/wiki/The_Loft_(New_York_City)",
+    "era": "Rules and safety"
+  },
+  {
     "date": "1976",
     "label": "The Mothership lands",
-    "detail": "Parliament-Funkadelic's aluminium Mothership starts delivering Dr. Funkenstein to the stage, used at the end of concerts until 1981.",
+    "detail": "Parliament-Funkadelic's aluminum Mothership starts delivering Dr. Funkenstein to the stage, used at the end of concerts until 1981.",
     "source_url": "https://music.si.edu/video/what-mothership-and-why-it-national-museum-african-american-history-and-culture",
     "era": "Spectacle era"
   },
   {
     "date": "1977",
-    "label": "Paradise Garage and the Warehouse open",
-    "detail": "Michael Brody's Paradise Garage opens in New York with Richard Long's sound system, and Chicago's Warehouse, which gave house music its name, opens the same year.",
-    "source_url": "https://en.wikipedia.org/wiki/Paradise_Garage",
+    "label": "The Warehouse opens in Chicago",
+    "detail": "Robert Williams's members-only Warehouse opens at 206 South Jefferson Street with a Richard Long sound system, and Frankie Knuckles becomes resident in March on Larry Levan's recommendation. In New York, the Paradise Garage holds construction parties during its renovation.",
+    "source_url": "https://www.chicago.gov/content/dam/city/depts/zlup/Historic_Preservation/Publications/The_Warehouse_Report.pdf",
+    "era": "Clubs and DJs"
+  },
+  {
+    "date": "1978-01-28",
+    "label": "Paradise Garage officially opens",
+    "detail": "After construction parties during its renovation, the members-only Paradise Garage at 84 King Street officially opens. It serves no alcohol so it can run until noon, and its sound is designed by Richard Long with Larry Levan.",
+    "source_url": "https://www.nyclgbtsites.org/site/paradise-garage/",
     "era": "Clubs and DJs"
   },
   {
@@ -151,6 +200,13 @@
     "label": "SL-1200MK2 built for discos",
     "detail": "Technics releases the MK2, with a vertical pitch fader, which it calls the first turntable developed specifically for discos.",
     "source_url": "https://www.technics.com/global/home/60th-anniversary/technics-brand-story/history-of-the-sl-1200.html",
+    "era": "Clubs and DJs"
+  },
+  {
+    "date": "1979-07-12",
+    "label": "Disco Demolition",
+    "detail": "A crate of disco records is blown up at Chicago's Comiskey Park; fans riot, 39 people are arrested and the second game is forfeited. Many records brought were by Black artists and were not disco.",
+    "source_url": "https://aeon.co/ideas/the-night-when-straight-white-males-tried-to-kill-disco",
     "era": "Clubs and DJs"
   },
   {
@@ -175,6 +231,13 @@
     "era": "Electronic instruments"
   },
   {
+    "date": "1981",
+    "label": "Hot Mix 5 on WBMX",
+    "detail": "Chicago's WBMX starts broadcasting the Hot Mix 5's live DJ mixes, which reach a reported million listeners a week.",
+    "source_url": "https://en.wikipedia.org/wiki/Chicago_house",
+    "era": "Clubs and DJs"
+  },
+  {
     "date": "1981-09-25",
     "label": "Vari-Lite debuts with Genesis",
     "detail": "The first Vari-Lite moving lights premiere at a Barcelona bullring on the opening night of Genesis' Abacab tour.",
@@ -189,9 +252,23 @@
     "era": "Clubs and DJs"
   },
   {
+    "date": "1983",
+    "label": "Alfredo at Amnesia",
+    "detail": "Alfredo Fiorito first plays Amnesia, then an outdoor terrace club on Ibiza, where his eclectic \"Balearic beat\" sets take shape.",
+    "source_url": "https://en.wikipedia.org/wiki/Alfredo_Fiorito",
+    "era": "Clubs and DJs"
+  },
+  {
+    "date": "1984",
+    "label": "Jesse Saunders' \"On and On\"",
+    "detail": "Jesse Saunders and Vince Lawrence's \"On and On\" uses a TR-808, a Korg Poly-61 and a TB-303. Its title as the first house record is contested by other Chicago and New York claims.",
+    "source_url": "https://en.wikipedia.org/wiki/Chicago_house",
+    "era": "Clubs and DJs"
+  },
+  {
     "date": "1985",
     "label": "JumboTron at Expo '85",
-    "detail": "Sony's JumboTron debuts in Tsukuba, Japan, with about 450,000 pixels of cathode-ray tube, years before full-colour LED screens were possible.",
+    "detail": "Sony's JumboTron debuts in Tsukuba, Japan, with about 450,000 pixels of cathode-ray tube, years before full-color LED screens were possible.",
     "source_url": "https://en.wikipedia.org/wiki/Jumbotron",
     "era": "Spectacle era"
   },
@@ -203,10 +280,73 @@
     "era": "Spectacle era"
   },
   {
+    "date": "1987",
+    "label": "Four London DJs in Ibiza",
+    "detail": "Danny Rampling, Nicky Holloway, Johnny Walker and Paul Oakenfold hear Alfredo at Amnesia; back in London, Shoom, Future, Spectrum and The Trip follow.",
+    "source_url": "https://shoom.london/shoom-summer-of-love/",
+    "era": "Rave and festival"
+  },
+  {
+    "date": "1987",
+    "label": "Trax releases \"Acid Tracks\"",
+    "detail": "Phuture's \"Acid Tracks\", which Ron Hardy had already broken at Chicago's Music Box from a tape, is released by Trax.",
+    "source_url": "https://en.wikipedia.org/wiki/Acid_Tracks",
+    "era": "Clubs and DJs"
+  },
+  {
+    "date": "1987",
+    "label": "Belgian new beat",
+    "detail": "New beat emerges in Belgium; the story of a 45 played at 33 rpm with the pitch at +8 credits different DJs and clubs.",
+    "source_url": "https://en.wikipedia.org/wiki/New_beat",
+    "era": "Rave and festival"
+  },
+  {
+    "date": "1987-05",
+    "label": "\"Strings of Life\"",
+    "detail": "Derrick May's \"Strings of Life\" is released in Detroit.",
+    "source_url": "https://en.wikipedia.org/wiki/Detroit_techno",
+    "era": "Clubs and DJs"
+  },
+  {
+    "date": "1987-09-26",
+    "label": "Paradise Garage closes",
+    "detail": "The NYC LGBT Historic Sites Project gives 26 September 1987 as the closing date; the lease ended on 1 October 1987 (date disputed).",
+    "source_url": "https://www.nyclgbtsites.org/site/paradise-garage/",
+    "era": "Clubs and DJs"
+  },
+  {
     "date": "1988",
     "label": "Second Summer of Love",
     "detail": "UK acid house explodes from clubs like Shoom to orbital raves around the M25, peaking in 1989.",
     "source_url": "https://en.wikipedia.org/wiki/Second_Summer_of_Love",
+    "era": "Rave and festival"
+  },
+  {
+    "date": "1988",
+    "label": "Techno gets its name",
+    "detail": "The UK compilation Techno! The New Dance Sound of Detroit, working title The House Sound of Detroit, fixes the genre's name; compiler Neil Rushton says the four of them chose it together.",
+    "source_url": "https://en.wikipedia.org/wiki/Techno!_The_New_Dance_Sound_of_Detroit",
+    "era": "Rave and festival"
+  },
+  {
+    "date": "1988-10-19",
+    "label": "The tabloids turn on acid house",
+    "detail": "A week after calling acid house \"cool and groovy\" on 12 October, tabloid coverage switches to \"Evils of Ecstasy\".",
+    "source_url": "https://en.wikipedia.org/wiki/Second_Summer_of_Love",
+    "era": "Rave and festival"
+  },
+  {
+    "date": "1989",
+    "label": "Underground Resistance forms",
+    "detail": "\"Mad\" Mike Banks and Jeff Mills form Underground Resistance in Detroit, with anonymity against the superstar-DJ model.",
+    "source_url": "https://en.wikipedia.org/wiki/Underground_Resistance_(band)",
+    "era": "Rave and festival"
+  },
+  {
+    "date": "1989-07",
+    "label": "The first Love Parade",
+    "detail": "Dr. Motte and Danielle de Picciotto start the Love Parade in West Berlin with about 150 people; it tops a million attendees a year from 1997 to 2000.",
+    "source_url": "https://en.wikipedia.org/wiki/Love_Parade",
     "era": "Rave and festival"
   },
   {
@@ -222,6 +362,13 @@
     "detail": "Denon shows its rack-mounted dual CD controller at NAMM, reaching booths in 1992; Wikipedia dates a Denon dual-deck to 1993, possibly a different model (date disputed).",
     "source_url": "https://edmislife.com/?p=45776",
     "era": "Digital booth"
+  },
+  {
+    "date": "1991-03",
+    "label": "Tresor opens",
+    "detail": "Dimitri Hegemann opens Tresor in the vaults of the former Wertheim department store in Berlin; Tresor Records follows in October and releases Detroit artists.",
+    "source_url": "https://en.wikipedia.org/wiki/Tresor_(club)",
+    "era": "Rave and festival"
   },
   {
     "date": "1991-09-21",
@@ -243,6 +390,13 @@
     "detail": "Zoo TV runs 157 shows synced almost entirely to pre-programmed video and audio, at 125,000 dollars a day.",
     "source_url": "https://en.wikipedia.org/wiki/Zoo_TV_Tour",
     "era": "Spectacle era"
+  },
+  {
+    "date": "1992-05-22",
+    "label": "Castlemorton Common",
+    "detail": "A week-long free party begins with an estimated 20,000 to 40,000 people and sound systems including Spiral Tribe; it is usually credited with prompting the 1994 Act.",
+    "source_url": "https://en.wikipedia.org/wiki/Castlemorton_Common_Festival",
+    "era": "Rave and festival"
   },
   {
     "date": "1994",
@@ -273,6 +427,13 @@
     "era": "Rave and festival"
   },
   {
+    "date": "1997-08",
+    "label": "The first Boom Festival",
+    "detail": "Boom is first held in Portugal; it becomes biennial from 1998 and the flagship of psytrance.",
+    "source_url": "https://en.wikipedia.org/wiki/Boom_Festival",
+    "era": "Rave and festival"
+  },
+  {
     "date": "1999-03-13",
     "label": "First Ultra Music Festival",
     "detail": "Ultra debuts on Miami Beach for about 10,000 people.",
@@ -284,6 +445,20 @@
     "label": "Fabric opens",
     "detail": "London's Fabric opens with three rooms of independent sound and a bodysonic floor of 400 bass transducers.",
     "source_url": "https://en.wikipedia.org/wiki/Fabric_(club)",
+    "era": "Rave and festival"
+  },
+  {
+    "date": "2000",
+    "label": "Detroit Electronic Music Festival",
+    "detail": "The free festival opens at Hart Plaza; Paxahau has produced it as Movement since 2006.",
+    "source_url": "https://en.wikipedia.org/wiki/Movement_(music_festival)",
+    "era": "Rave and festival"
+  },
+  {
+    "date": "2001",
+    "label": "FWD>> starts",
+    "detail": "FWD>>, the first night dedicated to dubstep, is founded at the Velvet Rooms and then moves to Plastic People in Shoreditch.",
+    "source_url": "https://en.wikipedia.org/wiki/Dubstep",
     "era": "Rave and festival"
   },
   {
@@ -315,11 +490,25 @@
     "era": "Rave and festival"
   },
   {
+    "date": "2005",
+    "label": "Form 696",
+    "detail": "London's Metropolitan Police create Form 696, a club risk-assessment form later used to shut grime events.",
+    "source_url": "https://en.wikipedia.org/wiki/Grime_music",
+    "era": "Rules and safety"
+  },
+  {
     "date": "2005-08",
     "label": "First Tomorrowland",
     "detail": "Tomorrowland debuts in Boom, Belgium, for about 10,000 people.",
     "source_url": "https://en.wikipedia.org/wiki/Tomorrowland_(festival)",
     "era": "Rave and festival"
+  },
+  {
+    "date": "2006-03-25",
+    "label": "Mixed In Key released",
+    "detail": "Key-detection software Mixed In Key is first released and makes harmonic mixing mainstream.",
+    "source_url": "https://en.wikipedia.org/wiki/Mixed_In_Key",
+    "era": "Digital booth"
   },
   {
     "date": "2006-04-29",
@@ -352,7 +541,7 @@
   {
     "date": "2010-07-24",
     "label": "Love Parade disaster",
-    "detail": "Twenty-one people die and 652 are injured in a crowd crush at a single entrance ramp in Duisburg; the Love Parade is cancelled for good.",
+    "detail": "Twenty-one people die and 652 are injured in a crowd crush at a single entrance ramp in Duisburg; the Love Parade is canceled for good.",
     "source_url": "https://en.wikipedia.org/wiki/Love_Parade_disaster",
     "era": "Rules and safety"
   },
@@ -373,16 +562,23 @@
   {
     "date": "2011-08-18",
     "label": "Pukkelpop storm",
-    "detail": "A sudden storm brings down a stage, a tent and screens at the Belgian festival, which is cancelled; five deaths is the commonly cited toll, unverified from an official source.",
+    "detail": "A sudden storm brings down a stage, a tent and screens at the Belgian festival, which is canceled; five deaths is the commonly cited toll, unverified from an official source.",
     "source_url": "https://iol.co.za/news/world/2011-08-19-storm-kills-five-at-belgian-rock-fest/",
     "era": "Rules and safety"
   },
   {
     "date": "2012-04",
     "label": "Event Safety Alliance debuts",
-    "detail": "Formed in response to Indiana and led by Jim Digby, the ESA debuts at the Indiana Statehouse, modelled on the UK's Purple Guide.",
+    "detail": "Formed in response to Indiana and led by Jim Digby, the ESA debuts at the Indiana Statehouse, modeled on the UK's Purple Guide.",
     "source_url": "https://eventsafetyalliance.org/about-1",
     "era": "Rules and safety"
+  },
+  {
+    "date": "2012-04",
+    "label": "The \"Tupac hologram\"",
+    "detail": "Coachella's Tupac performance uses Pepper's ghost, a flat image reflected off angled film, not a true hologram.",
+    "source_url": "https://www.controlgeek.net/blog/2012/4/17/its-not-a-fcking-hologram-part-ii.html",
+    "era": "Spectacle era"
   },
   {
     "date": "2012-06",
@@ -392,10 +588,59 @@
     "era": "Digital booth"
   },
   {
+    "date": "2013-06-19",
+    "label": "Live Nation and Insomniac",
+    "detail": "Pasquale Rotella announces a \"creative partnership\" with Live Nation, terms undisclosed; it is usually described as a 50% stake.",
+    "source_url": "https://news.pollstar.com/2013/06/20/insomniac-hooks-up-with-ln/",
+    "era": "Rave and festival"
+  },
+  {
     "date": "2014-09",
     "label": "Pioneer sells its DJ business to KKR",
     "detail": "Pioneer agrees to sell 86% of its DJ business to KKR for about 59 billion yen, creating Pioneer DJ Corporation.",
     "source_url": "https://www.reuters.com/article/us-pioneer-asset/pioneer-to-spin-off-dj-audio-unit-to-kkr-in-550-million-deal-idUSKBN0HB0G820140916",
+    "era": "Digital booth"
+  },
+  {
+    "date": "2015",
+    "label": "The Show Must Go On",
+    "detail": "Powerful Thinking estimates UK festivals emit about 100,000 metric tons of CO2 equivalent a year, with audience travel up to 80%.",
+    "source_url": "https://www.powerful-thinking.org.uk/resources/the-show-must-go-on-report/",
+    "era": "Rules and safety"
+  },
+  {
+    "date": "2016",
+    "label": "Dolby Atmos at Ministry of Sound",
+    "detail": "The Box gets an object-based Dolby Atmos system of more than 60 speakers on 22 channels, playing specially prepared tracks.",
+    "source_url": "https://www.whathifi.com/features/behind-scenes-dolby-atmos-ministry-sound",
+    "era": "Spectacle era"
+  },
+  {
+    "date": "2016",
+    "label": "The Loop's first UK drug checking",
+    "detail": "The Loop runs the UK's first event-based drug checking at Secret Garden Party and Kendal Calling.",
+    "source_url": "https://www.wearetheloop.org/our-history",
+    "era": "Rules and safety"
+  },
+  {
+    "date": "2016-02-01",
+    "label": "SFX files for bankruptcy",
+    "detail": "SFX Entertainment files for Chapter 11 with about $300 million of debt swapped for equity, and ousts its founder, Robert F.X. Sillerman.",
+    "source_url": "https://factmag.com/2016/02/01/sfx-entertainment-files-for-bankruptcy",
+    "era": "Rave and festival"
+  },
+  {
+    "date": "2017-02-05",
+    "label": "Drones at the Super Bowl",
+    "detail": "Intel's 300 Shooting Star drones appear in the halftime show, filmed days earlier because of flight restrictions around the stadium.",
+    "source_url": "https://www.thedrive.com/tech/7390/lady-gagas-super-bowl-drones-werent-performing-live",
+    "era": "Spectacle era"
+  },
+  {
+    "date": "2017-10",
+    "label": "CDJs talk to ShowKontrol",
+    "detail": "CDJs can send real-time waveforms and track data over PRO DJ LINK to ShowKontrol, which generates timecode from whatever is playing.",
+    "source_url": "https://djtechtools.com/2017/10/12/cdjs-will-send-track-data-visualslighting-techs-showkontrol/",
     "era": "Digital booth"
   },
   {
@@ -411,6 +656,20 @@
     "detail": "Pioneer DJ announces the CDJ-3000, with a 9-inch touchscreen, eight hot cues, gigabit link for six players and no disc drive.",
     "source_url": "https://www.pioneerdj.com/en-us/news/2020/cdj-3000-professional-dj-multi-player/",
     "era": "Digital booth"
+  },
+  {
+    "date": "2020-09-01",
+    "label": "#RedAlertRESTART",
+    "detail": "More than 1,500 US venues, landmarks and homes are lit red for #WeMakeEvents, calling for aid to small businesses and freelance 1099 workers.",
+    "source_url": "https://www.mixonline.com/live-sound/live-events-industry-set-for-redalertrestart-tonight",
+    "era": "Rules and safety"
+  },
+  {
+    "date": "2021",
+    "label": "Last Night a DJ Took a Flight",
+    "detail": "Clean Scene estimates the top 1,000 DJs took more than 51,000 flights in 2019, producing about 35,000 metric tons of CO2.",
+    "source_url": "https://mixmag.net/read/touring-djs-51-000-flights-2019-clean-scene-report-news",
+    "era": "Rules and safety"
   },
   {
     "date": "2021-11-05",
@@ -448,9 +707,16 @@
     "era": "Spectacle era"
   },
   {
+    "date": "2024-03",
+    "label": "Berlin techno on a heritage list",
+    "detail": "\"Techno culture in Berlin\" enters Germany's National Inventory of Intangible Cultural Heritage, often misreported as UNESCO's international list.",
+    "source_url": "https://www.ravetheplanet.com/en/techno-culture-in-berlin-unesco-heritage/",
+    "era": "Rave and festival"
+  },
+  {
     "date": "2024-05",
     "label": "UK drug checking licensed",
-    "detail": "The Loop receives the first Home Office licence for on-site drug checking after a 2023 licensing requirement halted it.",
+    "detail": "The Loop receives the first Home Office license for on-site drug checking after a 2023 licensing requirement halted it.",
     "source_url": "https://djmag.com/news/uk-festival-drug-testing-resume-summer-following-home-office-licence-debacle",
     "era": "Rules and safety"
   },
@@ -460,6 +726,13 @@
     "detail": "Twitch announces a label-licensed program for live DJ streaming; the DJ category launches on 8 August 2024.",
     "source_url": "https://blog.twitch.tv/en/2024/06/06/introducing-the-twitch-dj-program/",
     "era": "Digital booth"
+  },
+  {
+    "date": "2024-08",
+    "label": "ACT 1.5 in Bristol",
+    "detail": "Massive Attack play a battery-powered, plant-based, rail-first show for more than 32,000 people; the Tyndall Centre reports power emissions cut 81-98% against a modeled typical concert.",
+    "source_url": "https://www.manchester.ac.uk/about/news/tyndall-centre-roadmap-helps-deliver-lowest-carbon-live-music-event-of-its-kind/",
+    "era": "Rules and safety"
   },
   {
     "date": "2024-12-27",
@@ -476,11 +749,39 @@
     "era": "Rules and safety"
   },
   {
+    "date": "2025-04-23",
+    "label": "UK SORA for drones",
+    "detail": "The UK Civil Aviation Authority starts assessing Specific-category drone authorizations, including swarms and flights near crowds, under the UK SORA method.",
+    "source_url": "https://caa.co.uk/drones/specific-category/specific-category-overview",
+    "era": "Rules and safety"
+  },
+  {
+    "date": "2025-04-28",
+    "label": "10,518 drones in Vietnam",
+    "detail": "Guinness recognizes 10,518 drones from DAMODA as the largest drone light show by number flying at once; later public shows are canceled.",
+    "source_url": "https://www.techradar.com/pro/watch-more-than-10-000-drones-fly-as-one-in-a-record-breaking-and-controversial-light-show",
+    "era": "Spectacle era"
+  },
+  {
+    "date": "2025-05",
+    "label": "US all-in ticket pricing",
+    "detail": "The FTC rule takes effect requiring live-event ticket sellers to show the total price, including mandatory fees, wherever a price is shown.",
+    "source_url": "https://www.ftc.gov/news-events/news/press-releases/2024/12/federal-trade-commission-announces-bipartisan-rule-banning-junk-ticket-hotel-fees",
+    "era": "Rules and safety"
+  },
+  {
     "date": "2025-07-16",
     "label": "Tomorrowland mainstage burns",
     "detail": "The Orbyz mainstage burns during a final pyro rehearsal less than 48 hours before opening; a smaller replacement, partly built from Metallica's touring rig, goes up within roughly 24 to 48 hours, depending on the source.",
     "source_url": "https://www.tpimagazine.com/?p=82176",
     "era": "Spectacle era"
+  },
+  {
+    "date": "2025-09",
+    "label": "Queensland bans pill testing",
+    "detail": "Queensland, which closed its sites in April 2025, becomes the first Australian state to ban pill testing.",
+    "source_url": "https://adf.org.au/insights/pill-testing-australia/",
+    "era": "Rules and safety"
   },
   {
     "date": "2025-09-09",
@@ -504,6 +805,20 @@
     "era": "Rules and safety"
   },
   {
+    "date": "2026-02",
+    "label": "NSW funds continued festival drug checking",
+    "detail": "New South Wales ends its festival trial after testing more than 1,500 samples and commits A$4.3 million to continue testing at up to 15 festivals a year; it is funded continuation, not legislation.",
+    "source_url": "https://www.bordermail.com.au/story/9341983/festival-pill-testing-to-become-permanent-after-trial/",
+    "era": "Rules and safety"
+  },
+  {
+    "date": "2026-04-22",
+    "label": "A $15.1 billion business",
+    "detail": "The IMS Business Report values the global electronic music industry at a record $15.1 billion for 2025, up 7%.",
+    "source_url": "https://djmag.com/news/global-electronic-music-industry-value-hits-record-151-billion-ims-business-report-reveals",
+    "era": "Rave and festival"
+  },
+  {
     "date": "2026-05",
     "label": "inMusic agrees to buy Native Instruments",
     "detail": "inMusic, owner of Denon DJ and Rane, agrees to buy Traktor's maker after it entered preliminary insolvency; completion was not confirmed as of June 2026.",
@@ -513,7 +828,7 @@
   {
     "date": "2026-05-21",
     "label": "AlphaTheta acquires DJ Monitor technology",
-    "detail": "AlphaTheta buys DJ Monitor's technology and assets to make KUVO a hub for club performance data for rights organisations.",
+    "detail": "AlphaTheta buys DJ Monitor's technology and assets to make KUVO a hub for club performance data for rights organizations.",
     "source_url": "https://alphatheta.com/en/information/kuvo-technology-b-v/",
     "era": "Digital booth"
   },

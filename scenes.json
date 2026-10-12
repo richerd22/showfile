@@ -1,0 +1,164 @@
+[
+  {
+    "scene": "Sound systems",
+    "place": "Kingston, Jamaica",
+    "years": "1940s onward (start date disputed)",
+    "rooms": "Street dances in neighborhoods with no dancehalls or concert spaces",
+    "sound": "Truck-borne rigs with generators and wardrobe-sized speaker cabinets; a selector on the records, a DJ toasting, and one-off dubplates as the draw.",
+    "credit": "Working-class Kingston crews, among them Tom the Great Sebastian (Tom Wong), Duke Reid's Trojan, Coxsone Dodd's Downbeat and King Tubby's Hometown Hi-Fi.",
+    "source_url": "https://en.wikipedia.org/wiki/Sound_system_(Jamaican)"
+  },
+  {
+    "scene": "Notting Hill Carnival sound systems",
+    "place": "London, UK",
+    "years": "1959 onward; static systems from the 1970s",
+    "rooms": "Carnival street corners, such as Channel One's at Leamington Road Villas since 1983",
+    "sound": "Static sound systems played in the street, which the 1973 organizer Leslie Palmer called \"the voice of the youth\".",
+    "credit": "London's Caribbean community: Claudia Jones, Rhaune Laslett and Leslie Palmer as organizers, Linett Kamala as carnival's first female DJ, and Mellotone as its first all-female sound system.",
+    "source_url": "https://londonmuseum.org.uk/collections/london-stories/origins-notting-hill-carnival"
+  },
+  {
+    "scene": "Disco and the private club",
+    "place": "New York, US",
+    "years": "1970-1987",
+    "rooms": "The Loft, Paradise Garage",
+    "sound": "Sound designed first: Alex Rosner at the Loft, Richard Long with Larry Levan at the Garage; no alcohol, so parties ran until noon.",
+    "credit": "Black and Latino, largely gay dancers; David Mancuso, Larry Levan and the Garage's members, a crowd the NYC LGBT Historic Sites Project describes as \"primarily African-American gay men\".",
+    "source_url": "https://www.nyclgbtsites.org/site/paradise-garage/"
+  },
+  {
+    "scene": "House",
+    "place": "Chicago, US",
+    "years": "1977 to the late 1980s",
+    "rooms": "The Warehouse, the Music Box, the Power Plant",
+    "sound": "A Richard Long system you could hear from the street, the booth on the loading dock, a dark room with fog, then cheap Roland drum machines and WBMX radio mixes.",
+    "credit": "Black gay men and women and Latino dancers first; Robert Williams, Frankie Knuckles, Ron Hardy, the Hot Mix 5 and producers such as Phuture.",
+    "source_url": "https://www.chicago.gov/content/dam/city/depts/zlup/Historic_Preservation/Publications/The_Warehouse_Report.pdf"
+  },
+  {
+    "scene": "Techno",
+    "place": "Detroit, US",
+    "years": "1981 onward",
+    "rooms": "High-school \"prep\" party circuit, the Music Institute at 1315 Broadway",
+    "sound": "Machine-made tracks on artist-run labels such as Metroplex, later with Underground Resistance's anonymity and anti-corporate stance.",
+    "credit": "Young Black musicians from the Detroit area, led by Juan Atkins, Derrick May and Kevin Saunderson, then \"Mad\" Mike Banks and Jeff Mills.",
+    "source_url": "https://en.wikipedia.org/wiki/Detroit_techno"
+  },
+  {
+    "scene": "Acid house and orbital raves",
+    "place": "London and the M25, UK",
+    "years": "1987-1989",
+    "rooms": "Shoom, Future, Spectrum, The Trip, then warehouses and fields",
+    "sound": "Warehouse and field parties promoted by flyer, word of mouth and pager, playing Chicago and Detroit records.",
+    "credit": "Danny and Jenni Rampling, Paul Oakenfold, Nicky Holloway and Johnny Walker after hearing Alfredo on Ibiza, and raves such as Sunrise, Energy and Biology.",
+    "source_url": "https://en.wikipedia.org/wiki/Second_Summer_of_Love"
+  },
+  {
+    "scene": "Free parties",
+    "place": "England, UK",
+    "years": "Early 1990s, peaking in May 1992",
+    "rooms": "Commons and fields, most famously Castlemorton Common",
+    "sound": "Collective-run sound systems at multi-day unlicensed gatherings.",
+    "credit": "Sound system collectives including Spiral Tribe, Bedlam, Circus Warp and DiY.",
+    "source_url": "https://en.wikipedia.org/wiki/Castlemorton_Common_Festival"
+  },
+  {
+    "scene": "Jungle and drum and bass",
+    "place": "London, UK",
+    "years": "About 1990-1998",
+    "rooms": "AWOL, Roast, Telepathy; pirate station Kool FM",
+    "sound": "Breakbeats under ragga basslines and sound system samples, carried by MCs, pirates and sub-bass rigs.",
+    "credit": "Black British sound system culture and the scene's DJs, MCs and pirate broadcasters.",
+    "source_url": "https://en.wikipedia.org/wiki/Jungle_music"
+  },
+  {
+    "scene": "Grime",
+    "place": "East London, UK",
+    "years": "Early 2000s onward",
+    "rooms": "Pirate stations such as Rinse FM and Deja Vu",
+    "sound": "MCs and pirate radio, working under pressure from the police risk-assessment Form 696.",
+    "credit": "East London MCs and producers, with Dizzee Rascal's Mercury Prize in 2003.",
+    "source_url": "https://en.wikipedia.org/wiki/Grime_music"
+  },
+  {
+    "scene": "Dubstep",
+    "place": "London, UK",
+    "years": "2001 onward",
+    "rooms": "FWD>> at the Velvet Rooms and Plastic People; DMZ in Brixton",
+    "sound": "Sub-bass weight traced to the Jamaican sound system party scene.",
+    "credit": "FWD>>, Croydon's Big Apple Records, Digital Mystikz and Loefah.",
+    "source_url": "https://en.wikipedia.org/wiki/Dubstep"
+  },
+  {
+    "scene": "Berlin techno",
+    "place": "Berlin, Germany",
+    "years": "1988 onward",
+    "rooms": "Ufo, Tresor, Ostgut, Berghain",
+    "sound": "Repurposed vaults and power plants, phone and photo policies as atmosphere, and close ties to Detroit through Tresor Records.",
+    "credit": "Dimitri Hegemann and the Tresor team, Detroit artists on the label, and the queer fetish party culture behind Berghain.",
+    "source_url": "https://en.wikipedia.org/wiki/Tresor_(club)"
+  },
+  {
+    "scene": "Balearic",
+    "place": "Ibiza, Spain",
+    "years": "1983 onward",
+    "rooms": "Amnesia, Pacha, Space",
+    "sound": "Open-air terrace clubs and eclectic all-night sets mixing house with disco, rock, jazz, funk, soul and synth pop.",
+    "credit": "Alfredo Fiorito, born in Rosario, Argentina, the resident who defined Balearic beat.",
+    "source_url": "https://en.wikipedia.org/wiki/Alfredo_Fiorito"
+  },
+  {
+    "scene": "Goa trance and psytrance",
+    "place": "Goa, India, then worldwide",
+    "years": "1980s onward; Goa trance from about 1991",
+    "rooms": "Beach and forest parties; later Boom in Portugal",
+    "sound": "Two tape decks, then DAT, at outdoor parties; later decor-led, multi-day stages with sunrise sets and harm-reduction spaces.",
+    "credit": "DJs such as Goa Gil, Fred Disko and Laurent, then London nights such as Return to the Source.",
+    "source_url": "https://en.wikipedia.org/wiki/Goa_trance"
+  },
+  {
+    "scene": "New beat",
+    "place": "Antwerp and Belgium",
+    "years": "1987 onward",
+    "rooms": "Clubs including the Ancienne Belgique and Boccaccio, depending on the account",
+    "sound": "Records slowed down on the deck, by the usual story a 45 played at 33 rpm with the pitch at +8.",
+    "credit": "Belgian club DJs; accounts credit Dikke Ronny or Marc Grouls, and the origin story is unverified.",
+    "source_url": "https://en.wikipedia.org/wiki/New_beat"
+  },
+  {
+    "scene": "Gabber",
+    "place": "Rotterdam, Netherlands",
+    "years": "Early 1990s onward",
+    "rooms": "Hardcore parties in Rotterdam",
+    "sound": "Hardcore records with an explicit anti-racist stance against far-right attempts to claim the scene.",
+    "credit": "Rotterdam's hardcore scene, including Paul Elstak, DJ Chosen Few and Party Animals.",
+    "source_url": "https://en.wikipedia.org/wiki/Gabber"
+  },
+  {
+    "scene": "The US EDM era",
+    "place": "United States",
+    "years": "About 2010-2016",
+    "rooms": "Stadium-scale festivals such as Electric Daisy Carnival",
+    "sound": "Rave-derived festivals repackaged as rock-style shows with a pop-oriented, big-room sound.",
+    "credit": "The US music industry and festival promoters, building on decades of earlier scenes.",
+    "source_url": "https://cambridgeblog.org/2026/03/the-cambridge-companion-to-electronic-dance-music/"
+  },
+  {
+    "scene": "Amapiano",
+    "place": "Gauteng, South Africa",
+    "years": "Mid-2010s onward",
+    "rooms": "Township and Pretoria parties (origin disputed)",
+    "sound": "The log drum, linked to the kwaito pioneer M'du Masilela.",
+    "credit": "Gauteng's DJs and producers, with no single founder.",
+    "source_url": "https://en.wikipedia.org/wiki/Amapiano"
+  },
+  {
+    "scene": "Sonideros",
+    "place": "Mexico City, then the US",
+    "years": "Mid-20th century onward",
+    "rooms": "Neighborhood parties in areas such as Tepito",
+    "sound": "Sound systems playing cumbia, salsa and guaracha while the sonidero sends saludos over the music.",
+    "credit": "Mexico City's sonidero crews and the migrant communities who carried the culture north.",
+    "source_url": "https://en.wikipedia.org/wiki/Sonidero"
+  }
+]

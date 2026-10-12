@@ -227,9 +227,73 @@
   {
     "role": "Harm reduction team",
     "short": "Keeps people who use drugs safer.",
-    "does": "Provides drug information, free water, earplugs and, where licensed, drug checking. DanceSafe has worked on site at US festivals, and The Loop received the UK's first Home Office licence in 2024.",
+    "does": "Provides drug information, free water, earplugs and, where licensed, drug checking. DanceSafe has worked on site at US festivals, and The Loop received the UK's first Home Office license in 2024.",
     "answers_to": "Promoter, with medical and local authorities",
     "when": "Doors through close",
     "source_url": "https://drugpolicy.org/?p=4493"
+  },
+  {
+    "role": "Show director",
+    "short": "Calls the big moments live.",
+    "does": "On a live-operated show, calls the big moments and coordinates lighting, video, lasers, effects and automation over comms. On Swedish House Mafia's 2022 Paradise Again tour the show director triggered automation cues manually from Resolume.",
+    "answers_to": "Production manager",
+    "when": "Rehearsals and every show",
+    "source_url": "https://plsn.com/?p=359843"
+  },
+  {
+    "role": "Timecode and playback operator",
+    "short": "Runs the clock a timecoded show follows.",
+    "does": "Plays the show audio that carries SMPTE timecode and keeps a backup timecode path and audio interface ready, so lighting, video, lasers and effects chase the same clock. On electronic shows this work is usually shared among department programmers; \"playback engineer\" did not appear in any electronic production profile this guide found.",
+    "answers_to": "Production manager or show director",
+    "when": "Programming sessions and every show",
+    "source_url": "https://plsn.com/?p=320050"
+  },
+  {
+    "role": "Drone show remote pilot",
+    "short": "Flies the swarm under aviation rules.",
+    "does": "Plans and flies a drone show under FAA Part 107 waivers in the US, where one pilot normally may fly only one aircraft, or under a Civil Aviation Authority Specific-category authorization in the UK. Manages airspace, crowd overflight, wind and the risk of falling aircraft.",
+    "answers_to": "Production manager, within the aviation authority's approval conditions",
+    "when": "About 90 days ahead for a US waiver decision, then show night",
+    "source_url": "https://www.faa.gov/uas/commercial_operators/part_107_waivers"
+  },
+  {
+    "role": "Sign language interpreter",
+    "short": "Interprets performances for Deaf audiences.",
+    "does": "Interprets lyrics and spoken content for Deaf and hard-of-hearing fans. At big US festivals interpreters are usually booked on request and study past setlists and artist interviews; instrumental DJ sets often go uninterpreted.",
+    "answers_to": "Accessibility coordinator or promoter",
+    "when": "Preparation in the weeks before, then the requested sets",
+    "source_url": "https://stereogum.com/1994773/how-sign-language-interpreters-prepare-for-festival-performances/news"
+  },
+  {
+    "role": "Accessibility coordinator",
+    "short": "Makes sure disabled guests can get in, see and get help.",
+    "does": "Runs access arrangements such as viewing platforms, companion wristbands, accessible entrances and shuttles, and interpreter requests, and keeps ticketing within the law: in the US, accessible seats at the same price and through the same channels as other seats; in Great Britain, reasonable adjustments under the Equality Act.",
+    "answers_to": "Promoter or festival operations",
+    "when": "From on-sale through show day",
+    "source_url": "https://lasvegas.edc.com/guide/accessibility/"
+  },
+  {
+    "role": "Welfare and peer-support worker",
+    "short": "Looks after people having a hard time.",
+    "does": "Supports attendees who are distressed, unwell or having a difficult psychedelic experience, separately from security. The Zendo Project works by principles such as \"Sitting, Not Guiding\"; Boom's Kosmicare is staffed by psychologists, psychiatrists, nurses and volunteers next to the medical services. No reputable source sets staffing levels.",
+    "answers_to": "Welfare or medical lead",
+    "when": "Doors through close",
+    "source_url": "https://zendoproject.org/"
+  },
+  {
+    "role": "Sustainability lead",
+    "short": "Measures and cuts a show's footprint.",
+    "does": "Meters power so generators are sized to the real load, plans fuel such as HVO and battery systems, works on haulage, catering and waste, and reports the footprint including audience and artist travel, usually the biggest slices. Most festival green figures are self-reported, so clear reporting matters as much as the cuts.",
+    "answers_to": "Production manager and promoter",
+    "when": "Planning, show days and post-event reporting",
+    "source_url": "https://www.powerful-thinking.org.uk/casestudy/glastonbury-festival/"
+  },
+  {
+    "role": "Mental health first aider",
+    "short": "Trained first responder for people in crisis.",
+    "does": "Staff trained in Mental Health First Aid, as at Music Support's Festival Safe Hubs, backstage spaces at UK festivals. Surveys of touring professionals report substantially higher rates of depression, anxiety and suicide risk than in the general population.",
+    "answers_to": "Production office or welfare lead",
+    "when": "Show days, backstage",
+    "source_url": "https://www.musicsupport.org/"
   }
 ]
